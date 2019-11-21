@@ -25,6 +25,7 @@
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
+* [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
