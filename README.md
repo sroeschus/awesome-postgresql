@@ -61,6 +61,7 @@
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
+* [postgresql-perf-tools](https://github.com/virtuozzo/postgresql-perf-tools) - Performance Monitoring Tools
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
@@ -68,7 +69,9 @@
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
+* [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
+* [pgloader](https://pgloader.io/) - Data loader
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
@@ -82,6 +85,7 @@
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
 
 # Development
+* [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
