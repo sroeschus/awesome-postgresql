@@ -18,16 +18,19 @@
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
+* [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
+* [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
@@ -39,6 +42,7 @@
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
+* [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 
@@ -52,6 +56,7 @@
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+* [pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
