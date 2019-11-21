@@ -11,6 +11,7 @@
 # Extensions
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
@@ -50,9 +51,11 @@
 # Tools
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
+* [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
+* [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 
