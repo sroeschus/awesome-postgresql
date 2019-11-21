@@ -2,6 +2,7 @@
 
 # GUI
 * [Jailer database tool](https://github.com/Wisser/Jailer)
+* [migra](https://github.com/djrobstep/migra) - Schema diff
 
 # Commands
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
@@ -10,6 +11,7 @@
 * [first_last](https://gitlab.com/depesz/first_last) - PostgreSQL Aggregates to return first or last values/rows
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
@@ -24,6 +26,7 @@
 
 # Tools
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
+* [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 
 # Development
