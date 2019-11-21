@@ -19,6 +19,7 @@
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
@@ -59,6 +60,7 @@
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 * [pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
+* [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
@@ -66,9 +68,11 @@
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
+* [condenser](https://github.com/TonicAI/condenser) - Database subsetting tool
 * [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
+* [odyssey](https://github.com/yandex/odyssey) - Scalable connection pooler
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
