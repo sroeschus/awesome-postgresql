@@ -17,8 +17,10 @@
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
+* [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
+* [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
@@ -46,9 +48,12 @@
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
+* [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
+* [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
+* [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 
 # Forks
