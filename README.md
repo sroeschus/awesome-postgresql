@@ -4,8 +4,9 @@
 * [Jailer database tool](https://github.com/Wisser/Jailer)
 * [migra](https://github.com/djrobstep/migra) - Schema diff
 
-# Commands
+# Commands / Functions
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
+* [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 
 # Extensions
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
@@ -22,7 +23,7 @@
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 
-# Performance
+# Monitoring / Performance
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
