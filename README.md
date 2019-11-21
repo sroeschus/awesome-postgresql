@@ -17,18 +17,22 @@
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
+* [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
+* [vops](https://github.com/postgrespro/vops) - Columnar store
 
 # Libraries
 * [asyncpg](https://github.com/MagicStack/asyncpg/) - A fast PostgreSQL Database Client Library for Python/asyncio
+* [pg_parallizator](https://github.com/postgrespro/pg_parallizator) - Building indexes in parallel.
 
 # Monitoring / Performance
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
