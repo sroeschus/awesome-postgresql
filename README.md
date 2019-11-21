@@ -11,6 +11,7 @@
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 
 # Extensions
+* [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
