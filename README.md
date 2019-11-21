@@ -35,6 +35,7 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
+* [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
@@ -51,6 +52,8 @@
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+* [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
+* [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
@@ -61,6 +64,7 @@
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
+* [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
