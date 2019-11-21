@@ -17,6 +17,7 @@
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
+* [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
@@ -43,6 +44,7 @@
 * [pg_parallizator](https://github.com/postgrespro/pg_parallizator) - Building indexes in parallel.
 
 # Monitoring / Performance
+* [benchmarksql](https://github.com/petergeoghegan/benchmarksql) - TPCC
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
@@ -50,8 +52,10 @@
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
+* [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
+* [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
