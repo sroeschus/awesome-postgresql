@@ -72,6 +72,7 @@
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgloader](https://pgloader.io/) - Data loader
+* [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
