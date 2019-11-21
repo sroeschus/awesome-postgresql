@@ -54,6 +54,7 @@
 
 # Tools
 * [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
+* [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
@@ -63,7 +64,6 @@
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
-* [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 
 # Forks
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
