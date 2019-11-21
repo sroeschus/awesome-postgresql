@@ -11,9 +11,11 @@
 # Extensions
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
@@ -27,11 +29,13 @@
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
+* [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 
 # Libraries
 * [asyncpg](https://github.com/MagicStack/asyncpg/) - A fast PostgreSQL Database Client Library for Python/asyncio
+* [plantuner](https://github.com/postgrespro/plantuner) - Enable planner hints
 * [pg_parallizator](https://github.com/postgrespro/pg_parallizator) - Building indexes in parallel.
 
 # Monitoring / Performance
