@@ -7,6 +7,7 @@
 
 # Commands / Functions
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
+* [pglockanalyze](https://github.com/joyent/pglockanalyze) - Analyze locking behavior
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 
 # Extensions
