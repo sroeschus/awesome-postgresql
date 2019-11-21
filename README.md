@@ -17,7 +17,9 @@
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 
 # Performance
+* [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+* [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
@@ -27,3 +29,4 @@
 # Development
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
+* [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
