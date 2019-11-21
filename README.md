@@ -16,6 +16,7 @@
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
+* [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
@@ -31,6 +32,7 @@
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
+* [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
@@ -50,6 +52,7 @@
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
+* [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
@@ -61,6 +64,7 @@
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
+* [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
