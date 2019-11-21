@@ -1,4 +1,4 @@
-# awesome-postgresql
+# Awesome PostgreSQL
 
 # GUI
 * [Jailer database tool](https://github.com/Wisser/Jailer)
