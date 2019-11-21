@@ -14,6 +14,7 @@
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
+* [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
@@ -33,6 +34,7 @@
 # Tools
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
+* [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
 
 # Development
