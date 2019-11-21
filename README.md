@@ -3,6 +3,7 @@
 # GUI
 * [Jailer database tool](https://github.com/Wisser/Jailer)
 * [migra](https://github.com/djrobstep/migra) - Schema diff
+* [pgModeler](https://pgmodeler.io/) - Database modeler
 
 # Commands / Functions
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
