@@ -68,6 +68,7 @@
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
+* [bdr](https://github.com/2ndQuadrant/bdr) - Bi-Directional Multi-Master Replication (BDR)
 * [condenser](https://github.com/TonicAI/condenser) - Database subsetting tool
 * [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
@@ -85,6 +86,7 @@
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
+* [repmgr](https://repmgr.org/) - Replication manager
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 
 # Forks
