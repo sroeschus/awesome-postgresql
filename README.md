@@ -8,11 +8,17 @@
 
 # Extensions
 * [first_last](https://gitlab.com/depesz/first_last) - PostgreSQL Aggregates to return first or last values/rows
-* [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
+* [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
+* [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
+* [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
+* [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 
 # Performance
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+* [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
