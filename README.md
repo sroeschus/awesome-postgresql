@@ -192,7 +192,7 @@
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
-* [Postgres bugs](https://granicus.if.org/pgbugs/)
+* [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
