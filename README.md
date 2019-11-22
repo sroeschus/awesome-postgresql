@@ -41,6 +41,7 @@
 * [pg_bitcount](https://github.com/thehyve/pg_bitcount) - Bitcount function
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
+* [pg_crasher](https://github.com/davidcrawford/pg_crasher) - Crash database backend
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
 * [pg_dbms_stats](https://github.com/ossc-db/pg_dbms_stats) - Create execution plans using frozen statistics
@@ -77,6 +78,7 @@
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
 * [pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables with minimal locks
 * [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
+* [pg_rlimit](https://github.com/harukat/pg_rlimit) - Interfaces for setrlimit and getrlimit
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
