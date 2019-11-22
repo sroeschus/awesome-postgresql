@@ -45,11 +45,13 @@
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
+* [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
+* [pg_xid](https://github.com/iCyberon/pg_xid) - Globally unique id generator
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
@@ -66,6 +68,7 @@
 
 # Monitoring / Performance
 * [benchmarksql](https://github.com/petergeoghegan/benchmarksql) - TPCC
+* [gensort](https://github.com/petergeoghegan/gensort) - Gensort tool for benchmarking sort performance 
 * [iops](https://github.com/benschweizer/iops) - Benchmark disk I/O
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
