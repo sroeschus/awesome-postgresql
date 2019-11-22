@@ -25,6 +25,8 @@
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
+* [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
@@ -33,6 +35,7 @@
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
+* [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
 * [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
@@ -48,9 +51,11 @@
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
+* [pq_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
+* [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
@@ -62,6 +67,7 @@
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [pg_xid](https://github.com/iCyberon/pg_xid) - Globally unique id generator
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
+* [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
