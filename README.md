@@ -38,11 +38,14 @@
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
+* [pg_dbms_stats](https://github.com/ossc-db/pg_dbms_stats) - Create execution plans using frozen statistics
+* [pg_dirtyread](https://github.com/df7cb/pg_dirtyread) - Read dead but unvacuumed tuples
 * [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
+* [pg_hint_plan](https://github.com/ossc-db/pg_hint_plan) - Manually force some decisions in execution plans
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
@@ -51,6 +54,7 @@
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
+* [pg_plan_advsr](https://github.com/ossc-db/pg_plan_advsr) - Automated execution plan tuning
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
@@ -64,7 +68,8 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
-* [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
+* [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up\
+* [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_trgm_pro](https://github.com/postgrespro/pg_trgm_pro) - Text similarity measurement and index searching based on trigrams
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
@@ -117,10 +122,13 @@
 * [pgloader](https://pgloader.io/) - Data loader
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
+* [pg_filedump](https://github.com/df7cb/pg_filedump) - Low-level examination of tables and indexes
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_probackup](https://github.com/postgrespro/pg_probackup) - Backup and recovery manager
+* [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
+* [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
