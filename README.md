@@ -44,6 +44,7 @@
 * [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
 * [pg_dbms_stats](https://github.com/ossc-db/pg_dbms_stats) - Create execution plans using frozen statistics
 * [pg_dirtyread](https://github.com/df7cb/pg_dirtyread) - Read dead but unvacuumed tuples
+* [pg_dropcache](https://github.com/zilder/pg_dropcache) - Invalidate the shared_buffers cache
 * [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
@@ -91,6 +92,7 @@
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
+* [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 * [wildspeed](https://github.com/postgrespro/wildspeed) - Fast wildcard search for like operator
