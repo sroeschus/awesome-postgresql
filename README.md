@@ -22,6 +22,7 @@
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
+* [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
@@ -29,6 +30,7 @@
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
+* [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
@@ -41,6 +43,7 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
+* [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
