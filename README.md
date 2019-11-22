@@ -13,6 +13,7 @@
 * [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
 # Extensions
+* [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
@@ -24,6 +25,7 @@
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
+* [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
@@ -34,6 +36,8 @@
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
+* [pg_badplan](https://github.com/trustly/pg_badplan) - Logging queries where the expected / actual rows ratio exceeds a defined value
+* [pg_bitcount](https://github.com/thehyve/pg_bitcount) - Bitcount function
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
@@ -46,6 +50,7 @@
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
 * [pg_hint_plan](https://github.com/ossc-db/pg_hint_plan) - Manually force some decisions in execution plans
+* [pg_idx_advisor](https://github.com/cohenjo/pg_idx_advisor) - Analyze queries and give indexing advice
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
@@ -68,7 +73,10 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
-* [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up\
+* [pg_sortstats](https://github.com/powa-team/pg_sortstats) - Collecting statistics about sorts
+* [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
+* [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
+* [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) - Gather statistics about physical disk access and CPU consumption
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_trgm_pro](https://github.com/postgrespro/pg_trgm_pro) - Text similarity measurement and index searching based on trigrams
@@ -144,5 +152,6 @@
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
+* [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
