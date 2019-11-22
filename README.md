@@ -10,6 +10,7 @@
 * [pglockanalyze](https://github.com/joyent/pglockanalyze) - Analyze locking behavior
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 * [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
+* [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
 # Extensions
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
@@ -17,6 +18,7 @@
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
+* [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
 * [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
@@ -50,11 +52,13 @@
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
+* [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
 * [pq_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
 * [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
+* [pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables with minimal locks
 * [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
@@ -71,6 +75,7 @@
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
+* [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
