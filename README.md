@@ -33,9 +33,11 @@
 * [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
+* [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
+* [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
@@ -133,6 +135,7 @@
 * [benchmarksql](https://github.com/petergeoghegan/benchmarksql) - TPCC
 * [gensort](https://github.com/petergeoghegan/gensort) - Gensort tool for benchmarking sort performance 
 * [iops](https://github.com/benschweizer/iops) - Benchmark disk I/O
+* [mamosu](https://github.com/postgrespro/mamonsu) - Monitoring agent
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [pgcheetah](https://github.com/anayrat/pgcheetah) - Tool to replay workload randomly
@@ -180,6 +183,7 @@
 * [stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
+* [yoke](https://github.com/nanopack/yoke) - High-availability cluster with auto-failover and automated cluster recovery
 
 # Forks
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
