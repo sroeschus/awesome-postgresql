@@ -17,13 +17,17 @@
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
+* [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
+* [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
+* [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
+* [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
@@ -120,5 +124,6 @@
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
+* [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
