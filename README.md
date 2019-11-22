@@ -9,11 +9,13 @@
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
 * [pglockanalyze](https://github.com/joyent/pglockanalyze) - Analyze locking behavior
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
+* [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
 
 # Extensions
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
@@ -27,6 +29,7 @@
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
+* [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
@@ -50,6 +53,7 @@
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [pg_trgm_pro](https://github.com/postgrespro/pg_trgm_pro) - Text similarity measurement and index searching based on trigrams
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [pg_xid](https://github.com/iCyberon/pg_xid) - Globally unique id generator
@@ -61,6 +65,7 @@
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
+* [wildspeed](https://github.com/postgrespro/wildspeed) - Fast wildcard search for like operator
 
 # Libraries
 * [asyncpg](https://github.com/MagicStack/asyncpg/) - A fast PostgreSQL Database Client Library for Python/asyncio
