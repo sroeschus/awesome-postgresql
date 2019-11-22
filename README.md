@@ -42,6 +42,7 @@
 * [pg_backtrace](https://github.com/postgrespro/pg_backtrace) - Show backtrace for errors and signals
 * [pg_badplan](https://github.com/trustly/pg_badplan) - Logging queries where the expected / actual rows ratio exceeds a defined value
 * [pg_bitcount](https://github.com/thehyve/pg_bitcount) - Bitcount function
+* [pg_cgroups](https://github.com/cybertec-postgresql/pg_cgroups) - Manger linux control groups
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_crasher](https://github.com/davidcrawford/pg_crasher) - Crash database backend
@@ -171,6 +172,7 @@
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
+* [stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
 
