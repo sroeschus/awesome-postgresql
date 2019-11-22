@@ -22,7 +22,9 @@
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
 * [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
+* [log_functions](https://github.com/gleu/log_functions) - Logs each function executed
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
+* [mods_since_analyze](https://github.com/gleu/mods_since_analyze) - Estimation of number of changed tuples since last analyze
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
@@ -135,6 +137,7 @@
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
 * [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
+* [pgstats](https://github.com/gleu/pgstats) - Collects PostgreSQL statistics, and either saves them in CSV files or print them on the stdout
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [pg_ycsb](https://github.com/postgrespro/pg_ycsb) - YCSB-like benchmark for pgbench
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
@@ -185,3 +188,4 @@
 # Patches
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
+* [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
