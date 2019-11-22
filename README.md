@@ -48,6 +48,7 @@
 * [pg_dropcache](https://github.com/zilder/pg_dropcache) - Invalidate the shared_buffers cache
 * [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_eyes](https://github.com/alexandersamoylov/pg_eyes) - Functions and views for monitoring database state
+* [pg_fiu](https://github.com/jasonmp85/pg_fiu) - Fault injection in userspace
 * [pg_get_page_tuple](https://github.com/sangli00/pg_get_page_tuple) - Get relation block tuple
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
 * [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
@@ -58,7 +59,9 @@
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
+* [pg_log_disconnections_during_tx](https://github.com/MasaoFujii/pg_log_disconnections_during_tx) - Log disconnection during transaction
 * [pg_lz4](https://github.com/zilder/pg_lz4) - LZ4 compression
+* [pg_memorycontext](https://github.com/mutex73/pg_memorycontext) - Report memory context information
 * [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
@@ -78,6 +81,7 @@
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
+* [pg_sleep](https://github.com/samber/pg_sleep) - Add pg_sleep and pg_usleep function
 * [pg_sortstats](https://github.com/powa-team/pg_sortstats) - Collecting statistics about sorts
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
@@ -90,6 +94,7 @@
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [pg_xid](https://github.com/iCyberon/pg_xid) - Globally unique id generator
+* [planfix](https://github.com/srutz/planfix) - Force specific indices
 * [planscape_postgres_module](https://github.com/mejedi/planscape-postgresql-module) - Insight into the planning process
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
@@ -103,6 +108,7 @@
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
+* [walreader](https://github.com/moritetu/walreader) - Read WAL records with sql functions
 * [wildspeed](https://github.com/postgrespro/wildspeed) - Fast wildcard search for like operator
 
 # Libraries
@@ -160,8 +166,12 @@
 
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
+* [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
+
+# Patches
+* [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
