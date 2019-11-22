@@ -28,8 +28,10 @@
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_grab_statement](https://github.com/postgrespro/pg_grab_statement) - Record successfully committed transactions
+* [pg_hashids](https://github.com/iCyberon/pg_hashids) - Short unique id generator using hashids
 * [pg_healer](https://github.com/turnstep/pg_healer) - Repair data corruptions automatically
 * [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
+* [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
@@ -46,6 +48,7 @@
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
