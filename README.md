@@ -33,6 +33,7 @@
 * [pg_hibernator](https://github.com/gurjeet/pg_hibernator) - Save and Restore Postgres Cache
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
+* [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
 * [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
@@ -78,6 +79,7 @@
 * [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
+* [pg_ycsb](https://github.com/postgrespro/pg_ycsb) - YCSB-like benchmark for pgbench
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
 * [postgresql-perf-tools](https://github.com/virtuozzo/postgresql-perf-tools) - Performance Monitoring Tools
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
@@ -98,6 +100,7 @@
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
+* [pg_probackup](https://github.com/postgrespro/pg_probackup) - Backup and recovery manager
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
