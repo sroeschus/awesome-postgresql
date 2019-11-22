@@ -46,6 +46,7 @@
 * [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
 * [pg_dbms_stats](https://github.com/ossc-db/pg_dbms_stats) - Create execution plans using frozen statistics
 * [pg_dirtyread](https://github.com/df7cb/pg_dirtyread) - Read dead but unvacuumed tuples
+* [pg_dropbuffers](https://github.com/rjuju/pg_dropbuffers) - Drop buffers from shared_buffers without needing to restart the cluster
 * [pg_dropcache](https://github.com/zilder/pg_dropcache) - Invalidate the shared_buffers cache
 * [pg_dtm](https://github.com/postgrespro/pg_dtm) - Distributed transaction manager
 * [pg_eyes](https://github.com/alexandersamoylov/pg_eyes) - Functions and views for monitoring database state
@@ -61,8 +62,10 @@
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
 * [pg_log_disconnections_during_tx](https://github.com/MasaoFujii/pg_log_disconnections_during_tx) - Log disconnection during transaction
+* [pg_log_userqueries](https://github.com/gleu/pg_log_userqueries) - Log queries done by specific user types
 * [pg_lz4](https://github.com/zilder/pg_lz4) - LZ4 compression
 * [pg_memorycontext](https://github.com/mutex73/pg_memorycontext) - Report memory context information
+* [pg_mem_counters](https://github.com/topharley/pg_mem_counters) - Keep total and rpm named counters in shared memory
 * [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
@@ -91,6 +94,7 @@
 * [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [pg_track_settings](https://github.com/rjuju/pg_track_settings) - Keep track of configuration changes
 * [pg_track_slow_queries](https://github.com/julmon/pg_track_slow_queries) - Slow query tracking
 * [pg_trgm_pro](https://github.com/postgrespro/pg_trgm_pro) - Text similarity measurement and index searching based on trigrams
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
@@ -106,6 +110,7 @@
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
+* [stat_record](https://github.com/asotolongo/stat_record) - Record database statistics
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
@@ -124,6 +129,7 @@
 * [iops](https://github.com/benschweizer/iops) - Benchmark disk I/O
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
+* [pgcheetah](https://github.com/anayrat/pgcheetah) - Tool to replay workload randomly
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 * [pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
@@ -162,6 +168,7 @@
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
+* [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
 
 # Forks
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
@@ -173,6 +180,7 @@
 * [Postgres bugs](https://granicus.if.org/pgbugs/)
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
+* [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 
 # Patches
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
