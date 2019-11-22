@@ -13,6 +13,7 @@
 * [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
 # Extensions
+* [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
