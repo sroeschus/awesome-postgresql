@@ -59,6 +59,7 @@
 
 # Monitoring / Performance
 * [benchmarksql](https://github.com/petergeoghegan/benchmarksql) - TPCC
+* [iops](https://github.com/benschweizer/iops) - Benchmark disk I/O
 * [pgbench-tools](https://github.com/gregs1104/pgbench-tools) - Benchmarking toolset
 * [pgcenter](https://github.com/lesovsky/pgcenter) - Command-line admin tool for observing and troubleshooting postgres
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
@@ -84,9 +85,11 @@
 * [pgloader](https://pgloader.io/) - Data loader
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
+* [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
+* [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
