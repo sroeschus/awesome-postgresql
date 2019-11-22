@@ -9,6 +9,7 @@
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
 * [pglockanalyze](https://github.com/joyent/pglockanalyze) - Analyze locking behavior
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
+* [pg-utils](https://github.com/dataegret/pg-utils) - Useful utilities
 * [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
 * [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
@@ -95,6 +96,7 @@
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
 * [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) - Gather statistics about physical disk access and CPU consumption
+* [pq_stat_plans](https://github.com/2ndQuadrant/pg_stat_plans) - pg_stat_statements variant that differentiates between query plans
 * [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
@@ -151,13 +153,16 @@
 * [condenser](https://github.com/TonicAI/condenser) - Database subsetting tool
 * [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
 * [Depesz explain tool](https://explain.depesz.com/) - Online explain plan tool
+* [dexter](https://github.com/ankane/dexter) - Automatic indexer
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [odyssey](https://github.com/yandex/odyssey) - Scalable connection pooler
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
+* [pgbouncer](http://www.pgbouncer.org/) - Lightweight connection pooler
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgloader](https://pgloader.io/) - Data loader
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
+* [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_filedump](https://github.com/df7cb/pg_filedump) - Low-level examination of tables and indexes
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
