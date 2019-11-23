@@ -75,6 +75,7 @@
 * [pg_mem_counters](https://github.com/topharley/pg_mem_counters) - Keep total and rpm named counters in shared memory
 * [pg_octopus](https://github.com/citusdata/pg_octopus) - Health checker
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
+* [pg_outrider](https://github.com/meistervonperf/pg_outrider) - Background worker to automatically extend relations
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
@@ -171,6 +172,7 @@
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
+* [pg_prefaulter](https://github.com/joyent/pg_prefaulter) - Faults pages into shared_buffers or filesystem caches in advance of WAL apply
 * [pg_probackup](https://github.com/postgrespro/pg_probackup) - Backup and recovery manager
 * [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
@@ -204,6 +206,7 @@
 * [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
 
 # Documentation
+[Postgres documentation](https://www.postgresql.org/docs/12/index.html)
 ## Analytics
 - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
 ## Authentication
@@ -225,6 +228,10 @@
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
 * generate_series
   * [Simple Monthly Reports in PostgreSQL Using generate_series](https://rob.conery.io/2018/08/01/simple-monthly-reports-in-postgresql-using-generate_series/)
+## Upgrade
+- [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
+- [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
+- [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)  
