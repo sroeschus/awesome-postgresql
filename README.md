@@ -15,6 +15,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
 * [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
+# Builtin-Extensions
+* [pstattuple](https://www.postgresql.org/docs/11/pgstattuple.html) - Obtain tuple-level statistics
+
 # Extensions
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
@@ -228,6 +231,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
+- [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
