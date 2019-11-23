@@ -213,6 +213,8 @@
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
 ## Analytics
 - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
+- Columnar store
+  - [In memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
 ## Authentication
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 ## Datatypes
