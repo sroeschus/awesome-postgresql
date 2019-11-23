@@ -1,5 +1,5 @@
 # Awesome PostgreSQL
-
+List of links with a focus on free and open source software for PostgreSQL.
 # GUI
 * [Jailer database tool](https://github.com/Wisser/Jailer) - Database subsetting and data browsing tool
 * [migra](https://github.com/djrobstep/migra) - Schema diff
