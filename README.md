@@ -162,6 +162,7 @@
 * [odyssey](https://github.com/yandex/odyssey) - Scalable connection pooler
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
+* [pgBadger](http://pgbadger.darold.net) - Log analyzer
 * [pgbouncer](http://www.pgbouncer.org/) - Lightweight connection pooler
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgloader](https://pgloader.io/) - Data loader
