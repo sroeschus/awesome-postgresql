@@ -155,6 +155,7 @@
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 
 # Tools
+* [apposha](https://apposha.io) - The Extension for Scalable File IO
 * [bdr](https://github.com/2ndQuadrant/bdr) - Bi-Directional Multi-Master Replication (BDR)
 * [condenser](https://github.com/TonicAI/condenser) - Database subsetting tool
 * [Configurator](http://pgconfigurator.cybertec.at/) - Config file configurator
