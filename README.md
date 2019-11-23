@@ -5,6 +5,7 @@
 * [migra](https://github.com/djrobstep/migra) - Schema diff
 * [pgAdmin](https://www.pgadmin.org/) -  Open Source administration and development platform
 * [pgModeler](https://pgmodeler.io/) - Database modeler
+* [SQL Developer](https://www.oracle.com/database/technologies/appdev/sql-developer.html) - Oracle SQL Developer (supports PostgreSQL)
 
 # Commands / Functions
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
