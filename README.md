@@ -36,7 +36,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
-* [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
@@ -170,6 +169,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgbouncer](http://www.pgbouncer.org/) - Lightweight connection pooler
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgloader](https://pgloader.io/) - Data loader
+* [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
+* [pgreplay-go](https://github.com/gocardless/pgreplay-go/) - Replay SQL statements at approximately the same rate
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
@@ -221,6 +222,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Datatypes
 * Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
+## Query Planer
+- [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 ## Partitioning
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 ## Performance
