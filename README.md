@@ -5,6 +5,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [migra](https://github.com/djrobstep/migra) - Schema diff
 * [pgAdmin](https://www.pgadmin.org/) -  Open Source administration and development platform
 * [pgModeler](https://pgmodeler.io/) - Database modeler
+* [Postico](https://eggerapps.at/postico/) - A modern PostgreSQL client for the mac
 * [SQL Developer](https://www.oracle.com/database/technologies/appdev/sql-developer.html) - Oracle SQL Developer (supports PostgreSQL)
 
 # Commands / Functions
@@ -13,6 +14,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 * [pg-utils](https://github.com/dataegret/pg-utils) - Useful utilities
 * [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
+* [pg_toolkit](https://github.com/bdrouvot/pg_toolkit) - Some scripts to compare pages in memory and on disk
 * [postgres-toolkit](https://github.com/uptimejp/postgres-toolkit) - Repository of SQL scripts
 
 # Builtin-Extensions
@@ -26,6 +28,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
 * [crunchy_check_access](https://github.com/CrunchyData/crunchy_check_access) - Functions and views for object access inspection
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
+* [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
@@ -41,6 +44,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
+* [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
@@ -194,8 +198,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
+* [piretry](https://dalibo.github.io/pitrery/) - Set of bash scripts to manage Point In Time Recovery (PITR) backups
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
+* [PostgeSQL Anonmyizer](https://gitlab.com/dalibo/postgresql_anonymizer) - Anonymization & Data Masking
+* [postgreSQL-Query-Lock-Explainer](https://github.com/AdmTal/PostgreSQL-Query-Lock-Explainer) - Query lock explainer
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
 * [stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
@@ -271,10 +278,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
+- [An Overview of various auxiliary plan nodes in PostgreSQL](https://severalnines.com/database-blog/overview-various-auxiliary-plan-nodes-postgresql?utm_campaign=Cloud_DR_Campaign_OCT19&utm_content=pg_plan_nodes&utm_medium=Social_Media&utm_source=Twitter)
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 ## Partitioning
+- [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
@@ -286,6 +295,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Tools
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
   - [Announcing pgio](https://kevinclosson.net/2019/09/21/announcing-pgio-the-slob-method-for-postgresql-is-released-under-apache-2-0-and-available-at-github/)
+  - [So pgio does not accurately report physical I/O in test results? Buffering buffers, and baffles](https://kevinclosson.net/2019/09/27/so-pgio-does-not-accurately-report-physical-i-o-in-test-results-buffering-buffers-and-baffles/)
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
   - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
 - Locks
@@ -297,10 +307,14 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
   - [Detecting performance problems easily in PostgreSQL](https://www.cybertec-postgresql.com/en/detecting-performance-problems-easily-in-postgresql/)
+  - [Avoiding “OR” for better query peformance](https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/)
+- Stored Procedures
+  - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
+- [Converting from asynchronous to synchronous replication in PostgreSQL](https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql?utm_campaign=Vendor_Lockin_Campaign_NOV19&utm_content=pg_async_sync&utm_medium=Social_Media&utm_source=Twitter)
 ## SQL
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
@@ -317,6 +331,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
+## Migration
+- [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
