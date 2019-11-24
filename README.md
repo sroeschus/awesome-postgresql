@@ -235,6 +235,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
+- [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 ## Sequence
 - [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
 ## HA
@@ -266,6 +267,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
+## Security
+- [Install PostgreSQL 9.6 with transparent data encyption](https://www.cybertec-postgresql.com/en/install-postgresql-9-6-with-transparent-data-encryption/)
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
