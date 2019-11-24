@@ -204,6 +204,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
+* [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
@@ -213,6 +214,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
+* [Zedstore - compressed in-core columnar storage](https://www.postgresql.org/message-id/flat/CALfoeiuF-m5jg51mJUPm5GN8u396o5sA2AF5N97vTRAEDYac7w%40mail.gmail.com)
 
 # Documentation
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
@@ -225,6 +227,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Datatypes
 * Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
+## Index
+- GIN index
+  - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 ## Partitioning
@@ -237,6 +242,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
+  - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
 ## SQL
@@ -244,6 +250,9 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
 * generate_series
   * [Simple Monthly Reports in PostgreSQL Using generate_series](https://rob.conery.io/2018/08/01/simple-monthly-reports-in-postgresql-using-generate_series/)
+* select
+  * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
+  * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)	](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
