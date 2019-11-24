@@ -218,7 +218,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
 * [Zedstore - compressed in-core columnar storage](https://www.postgresql.org/message-id/flat/CALfoeiuF-m5jg51mJUPm5GN8u396o5sA2AF5N97vTRAEDYac7w%40mail.gmail.com)
 
-# Documentation
+# Documentation / Blogs
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
 ## Analytics
 - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
