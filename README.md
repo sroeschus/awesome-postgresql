@@ -227,25 +227,36 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
+- [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 ## Connection pool
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 ## Datatypes
+- [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 * Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
+## ETL
+- [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
 ## Index
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
+- BRIN Index
+  - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
+- [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
 ## Sequence
 - [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
 - [The modern alternative to SERIAL columns](https://postgresweekly.com/issues/311)
+- [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
+## Transaction
+- [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
 ## HA
 - [Introducing pg_auto_failover: Open source extension for automated failover and high-availability in PostgreSQL](https://cloudblogs.microsoft.com/opensource/2019/05/06/introducing-pg_auto_failover-postgresql-open-source-extension-automated-failover-high-availability/)
+- [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 ## Partitioning
