@@ -176,6 +176,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgreplay-go](https://github.com/gocardless/pgreplay-go/) - Replay SQL statements at approximately the same rate
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
+* [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_filedump](https://github.com/df7cb/pg_filedump) - Low-level examination of tables and indexes
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
@@ -183,6 +184,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_page_verification](https://github.com/google/pg_page_verification) - Verify checksums on data pages
 * [pg_prefaulter](https://github.com/joyent/pg_prefaulter) - Faults pages into shared_buffers or filesystem caches in advance of WAL apply
 * [pg_probackup](https://github.com/postgrespro/pg_probackup) - Backup and recovery manager
+* [pg_reloaded](https://github.com/zikani03/pg_reloaded) - Restore databases periodically
 * [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
@@ -228,18 +230,29 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
 ## Index
+- Bloom Index
+  - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
+  - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
+## Sequence
+- [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
+## HA
+- [Introducing pg_auto_failover: Open source extension for automated failover and high-availability in PostgreSQL](https://cloudblogs.microsoft.com/opensource/2019/05/06/introducing-pg_auto_failover-postgresql-open-source-extension-automated-failover-high-availability/)
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 ## Partitioning
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
+## Sharding
+- [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
 - [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
+- Locks
+  - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
