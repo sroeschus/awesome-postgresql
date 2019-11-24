@@ -19,6 +19,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pstattuple](https://www.postgresql.org/docs/11/pgstattuple.html) - Obtain tuple-level statistics
 
 # Extensions
+* [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
+
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
@@ -120,6 +122,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
+* [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
@@ -283,7 +286,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
+  - [Announcing pgio](https://kevinclosson.net/2019/09/21/announcing-pgio-the-slob-method-for-postgresql-is-released-under-apache-2-0-and-available-at-github/)
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
+  - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
 - Locks
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
   - [When PostgreSQL blocks: 7 tips for dealing with locks](https://www.citusdata.com/blog/2018/02/22/seven-tips-for-dealing-with-postgres-locks/)
