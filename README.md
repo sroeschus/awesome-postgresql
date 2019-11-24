@@ -20,7 +20,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Extensions
 * [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
-
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
