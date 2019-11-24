@@ -266,6 +266,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
+- [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 ## Partitioning
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 ## Sharding
@@ -279,7 +280,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
 - Locks
+  - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
+  - [When PostgreSQL blocks: 7 tips for dealing with locks](https://www.citusdata.com/blog/2018/02/22/seven-tips-for-dealing-with-postgres-locks/)
   - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
+  - [Migrations and long transactions in PostgreSQL](https://www.fin.com/posts/migrations-and-long-transactions-in-postgres/)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
