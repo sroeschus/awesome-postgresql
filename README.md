@@ -166,6 +166,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [dexter](https://github.com/ankane/dexter) - Automatic indexer
 * [gocmdpev](https://github.com/simon-engledew/gocmdpev) - Command-line GO Postgres query visualizer
 * [odyssey](https://github.com/yandex/odyssey) - Scalable connection pooler
+* [paf](http://clusterlabs.github.io/PAF/) - PostgreSQL automatic failover
 * [patroni](https://github.com/zalando/patroni) - A template for High Availability with ZooKeeper, etcd, or Consul
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
