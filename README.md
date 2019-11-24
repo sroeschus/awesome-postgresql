@@ -225,7 +225,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Documentation / Blogs
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
 ## Analytics
-- [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
+- GPU
+  - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
+  - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
 - Columnar store
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
 ## Authentication
@@ -253,6 +255,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
+- [Indexing with PostgreSQL: When less is more](https://medium.com/plangrid-technology/indexing-with-postgres-when-less-is-more-7337d6f09048)
 ## Sequence
 - [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
 - [The modern alternative to SERIAL columns](https://postgresweekly.com/issues/311)
@@ -262,6 +265,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
 - [Introducing pg_auto_failover: Open source extension for automated failover and high-availability in PostgreSQL](https://cloudblogs.microsoft.com/opensource/2019/05/06/introducing-pg_auto_failover-postgresql-open-source-extension-automated-failover-high-availability/)
+- [Introduction to PostgreSQL automatic failover](https://pgstef.github.io/2018/02/07/introduction_to_postgresql_automatic_failover.html)
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
@@ -316,5 +320,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## OS
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
+## Limits
+- [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
