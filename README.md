@@ -235,6 +235,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Documentation / Blogs
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
+## Architecture
+- [Backend Flowchart](https://www.postgresql.org/developer/backend/)
+- [Life of a SQL query](https://numeracy.co/blog/life-of-a-sql-query)
 ## Analytics
 - GPU
   - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
@@ -284,6 +287,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
+- [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 ## Partitioning
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
@@ -314,6 +318,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
   - [Detecting performance problems easily in PostgreSQL](https://www.cybertec-postgresql.com/en/detecting-performance-problems-easily-in-postgresql/)
   - [Avoiding “OR” for better query peformance](https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/)
+  - [The most useful Postgres extension: pg_stat_statements](https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Statistics
@@ -343,6 +348,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
+## Foreign Data Wrapper
+- [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
 ## OS
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
