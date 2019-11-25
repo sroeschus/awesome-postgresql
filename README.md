@@ -357,7 +357,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## OS
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
-  - [Manager linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
+  - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
 ## Cloud
