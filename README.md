@@ -21,6 +21,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pstattuple](https://www.postgresql.org/docs/11/pgstattuple.html) - Obtain tuple-level statistics
 
 # Extensions
+* [pgxn](https://pgxn.org/) - PostgreSQL extension network
 * [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
@@ -328,6 +329,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
 - [Converting from asynchronous to synchronous replication in PostgreSQL](https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql?utm_campaign=Vendor_Lockin_Campaign_NOV19&utm_content=pg_async_sync&utm_medium=Social_Media&utm_source=Twitter)
+- [An overview of logical replication](https://severalnines.com/database-blog/overview-logical-replication-postgresql)
 ## SQL
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
@@ -355,6 +357,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## OS
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
+  - [Manager linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
 ## Cloud
