@@ -215,6 +215,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Forks
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
+* [zHeap](https://github.com/EnterpriseDB/zheap)
 
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
