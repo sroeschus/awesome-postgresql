@@ -206,6 +206,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
 * [stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
+* [stolon](https://github.com/sorintlab/stolon) - Cloud native high availability
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
 * [yoke](https://github.com/nanopack/yoke) - High-availability cluster with auto-failover and automated cluster recovery
@@ -296,6 +297,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL technical performance presentations](http://momjian.us/main/presentations/performance.html)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
+  - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
   - [Announcing pgio](https://kevinclosson.net/2019/09/21/announcing-pgio-the-slob-method-for-postgresql-is-released-under-apache-2-0-and-available-at-github/)
   - [So pgio does not accurately report physical I/O in test results? Buffering buffers, and baffles](https://kevinclosson.net/2019/09/27/so-pgio-does-not-accurately-report-physical-i-o-in-test-results-buffering-buffers-and-baffles/)
