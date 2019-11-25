@@ -376,6 +376,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
+## Pluggable storage
+- [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
 ## OS
