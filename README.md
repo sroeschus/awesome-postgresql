@@ -218,6 +218,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
+* [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
 * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
 * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
@@ -290,6 +291,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
 - [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
+- [Monitoring CPU and memory usage](https://aaronparecki.com/2015/02/19/8/monitoring-cpu-memory-usage-from-postgres)
+- [Monitoring cheatsheet](https://russ.garrett.co.uk/2015/10/02/postgres-monitoring-cheatsheet/)
 - [PostgreSQL technical performance presentations](http://momjian.us/main/presentations/performance.html)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
@@ -299,6 +302,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
   - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
 - Locks
+  - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
   - [When PostgreSQL blocks: 7 tips for dealing with locks](https://www.citusdata.com/blog/2018/02/22/seven-tips-for-dealing-with-postgres-locks/)
   - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
