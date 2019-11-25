@@ -251,6 +251,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 ## Connection pool
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
+- [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 * Date / Timestamp
@@ -304,6 +305,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
 - [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
 - [Key metrics for PostgreSQL monitoring](https://www.datadoghq.com/blog/postgresql-monitoring/)
+- [Collecting metrics with PostgreSQL monitoring tools](https://www.datadoghq.com/blog/postgresql-monitoring-tools/)
 - [Monitoring CPU and memory usage](https://aaronparecki.com/2015/02/19/8/monitoring-cpu-memory-usage-from-postgres)
 - [Monitoring cheatsheet](https://russ.garrett.co.uk/2015/10/02/postgres-monitoring-cheatsheet/)
 - [PostgreSQL technical performance presentations](http://momjian.us/main/presentations/performance.html)
