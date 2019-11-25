@@ -276,6 +276,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
+- [How to index your database](https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#1)
 - [Indexing with PostgreSQL: When less is more](https://medium.com/plangrid-technology/indexing-with-postgres-when-less-is-more-7337d6f09048)
 ## Sequence
 - [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
