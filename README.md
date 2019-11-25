@@ -284,6 +284,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 - [An Overview of various auxiliary plan nodes in PostgreSQL](https://severalnines.com/database-blog/overview-various-auxiliary-plan-nodes-postgresql?utm_campaign=Cloud_DR_Campaign_OCT19&utm_content=pg_plan_nodes&utm_medium=Social_Media&utm_source=Twitter)
+- [An Overview of Just-in-Time Compilation (JIT) for PostgreSQL](https://severalnines.com/database-blog/overview-just-time-compilation-jit-postgresql)
+- [Postgres execution plans — Field glossary](https://medium.com/pgmustard/postgres-execution-plans-field-glossary-bc588340b0db)
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
