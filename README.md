@@ -262,6 +262,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
 ## Table
 - [Heap only table (HOT)](https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.HOT)
+- [PostgreSQL and heap-only-tuples updates - part 1](https://blog.anayrat.info/en/2018/11/12/postgresql-and-heap-only-tuples-updates-part-1/)
+- [PostgreSQL and heap-only-tuples updates - part 2](https://blog.anayrat.info/en/2018/11/19/postgresql-and-heap-only-tuples-updates-part-2/)
+- [PostgreSQL and heap-only-tuples updates - part 3](https://blog.anayrat.info/en/2018/11/26/postgresql-and-heap-only-tuples-updates-part-3/)
 ## Index
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
