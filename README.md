@@ -336,6 +336,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [When PostgreSQL blocks: 7 tips for dealing with locks](https://www.citusdata.com/blog/2018/02/22/seven-tips-for-dealing-with-postgres-locks/)
   - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
   - [Migrations and long transactions in PostgreSQL](https://www.fin.com/posts/migrations-and-long-transactions-in-postgres/)
+  - [Understanding deadlocks in MySQL & PostgreSQL](https://severalnines.com/database-blog/understanding-deadlocks-mysql-postgresql)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
@@ -344,6 +345,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [The most useful Postgres extension: pg_stat_statements](https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
+- Trigger
+  - [Are trigger really that slow in PostgreSQL?](https://www.cybertec-postgresql.com/en/are-triggers-really-that-slow-in-postgres/)
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
 ## Recovery
@@ -360,6 +363,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## SQL
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
+  * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
 * first_value / last_value
   * [Advanced SQL: Why first_value and last_value are no bugs](https://www.cybertec-postgresql.com/en/advanced-sql-why-first_value-and-last_value-are-no-bugs/)
 * generate_series
