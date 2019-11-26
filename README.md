@@ -289,6 +289,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [The modern alternative to SERIAL columns](https://postgresweekly.com/issues/311)
 - [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
 ## Transaction
+- [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
 - [idle_in_transaction_session_timeout: Terminating idle transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/idle_in_transaction_session_timeout-terminating-idle-transactions-in-postgresql/)
 ## HA
@@ -308,6 +309,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Partitioning
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
+- [Partition Elimination in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/partition-elimination-postgresql-11/)
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 ## Performance
@@ -350,6 +352,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An overview of logical replication](https://severalnines.com/database-blog/overview-logical-replication-postgresql)
 - [PostgreSQL Replication with easy failback](https://www.scalingpostgres.com/tutorials/postgresql-replication-easy-failback/)
 - [PostgreSQL Replication failback with pg_rewind](https://www.scalingpostgres.com/tutorials/postgresql-replication-failback-pg-rewind/)
+- [PostgreSQL Replication Monitoring](https://www.scalingpostgres.com/tutorials/postgresql-replication-monitoring/)
 ## SQL
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
@@ -360,6 +363,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
+## PGSQL
+- [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
@@ -383,6 +388,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
+## I/O
+- [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
 ## Pluggable storage
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 ## Foreign Data Wrapper
