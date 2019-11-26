@@ -253,6 +253,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Connection pool
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
+- [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
+- [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 * Date / Timestamp
@@ -340,6 +342,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
+## Recovery
+- [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
 - [Converting from asynchronous to synchronous replication in PostgreSQL](https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql?utm_campaign=Vendor_Lockin_Campaign_NOV19&utm_content=pg_async_sync&utm_medium=Social_Media&utm_source=Twitter)
