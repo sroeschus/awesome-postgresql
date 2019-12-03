@@ -94,8 +94,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
-* [pq_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
-* [pq_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
+* [pg_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
+* [pg_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
 * [pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables with minimal locks
