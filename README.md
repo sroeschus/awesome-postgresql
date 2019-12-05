@@ -226,6 +226,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
+* [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 
@@ -330,6 +331,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [So pgio does not accurately report physical I/O in test results? Buffering buffers, and baffles](https://kevinclosson.net/2019/09/27/so-pgio-does-not-accurately-report-physical-i-o-in-test-results-buffering-buffers-and-baffles/)
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
   - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
+  - [pg_sampletolog: An extension to log a sample of statements](https://blog.anayrat.info/en/2019/01/28/pg_sampletolog-an-extension-to-log-a-sample-of-statements/)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -343,6 +345,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Detecting performance problems easily in PostgreSQL](https://www.cybertec-postgresql.com/en/detecting-performance-problems-easily-in-postgresql/)
   - [Avoiding “OR” for better query peformance](https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/)
   - [The most useful Postgres extension: pg_stat_statements](https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/)
+  - [PostgreSQL Running Slow? Tips & Tricks to get to the source](https://severalnines.com/database-blog/postgresql-running-slow-tips-tricks-get-source)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Trigger
@@ -359,6 +362,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Replication failback with pg_rewind](https://www.scalingpostgres.com/tutorials/postgresql-replication-failback-pg-rewind/)
 - [PostgreSQL Replication Monitoring](https://www.scalingpostgres.com/tutorials/postgresql-replication-monitoring/)
 - [PostgreSQL replication](https://thebuild.com//presentations/replication-perconalive-2018.pdf)
+- [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 ## SQL
 * CTE
@@ -371,8 +375,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 * select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
+  * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
+
+## Fulltext Search (FTS)
+- [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
