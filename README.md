@@ -306,6 +306,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An Overview of various auxiliary plan nodes in PostgreSQL](https://severalnines.com/database-blog/overview-various-auxiliary-plan-nodes-postgresql?utm_campaign=Cloud_DR_Campaign_OCT19&utm_content=pg_plan_nodes&utm_medium=Social_Media&utm_source=Twitter)
 - [An Overview of Just-in-Time Compilation (JIT) for PostgreSQL](https://severalnines.com/database-blog/overview-just-time-compilation-jit-postgresql)
 - [Postgres execution plans — Field glossary](https://medium.com/pgmustard/postgres-execution-plans-field-glossary-bc588340b0db)
+- [Bruce Momjian on the Postgres Query Planner](http://www.se-radio.net/2018/06/se-radio-episode-328-bruce-momjian-on-the-postgres-query-planner/)
+- [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
@@ -334,6 +336,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
   - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
   - [pg_sampletolog: An extension to log a sample of statements](https://blog.anayrat.info/en/2019/01/28/pg_sampletolog-an-extension-to-log-a-sample-of-statements/)
+- Memory
+  - [Architecture and Tuning of Memory in PostgreSQL Databases](https://severalnines.com/database-blog/architecture-and-tuning-memory-postgresql-databases)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -379,6 +383,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
   * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
+  * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 
