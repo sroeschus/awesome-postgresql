@@ -247,27 +247,34 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
 - Columnar store
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
+ 
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
 - [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
+
 ## Connection pool
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
 - [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
+
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 * Date / Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   * [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+  
 ## ETL
 - [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
+
 ## Table
 - [Heap only table (HOT)](https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.HOT)
 - [PostgreSQL and heap-only-tuples updates - part 1](https://blog.anayrat.info/en/2018/11/12/postgresql-and-heap-only-tuples-updates-part-1/)
 - [PostgreSQL and heap-only-tuples updates - part 2](https://blog.anayrat.info/en/2018/11/19/postgresql-and-heap-only-tuples-updates-part-2/)
 - [PostgreSQL and heap-only-tuples updates - part 3](https://blog.anayrat.info/en/2018/11/26/postgresql-and-heap-only-tuples-updates-part-3/)
+- [Postgresql block internals](https://fritshoogland.wordpress.com/2017/07/01/postgresql-block-internals/)
+
 ## Index
 - General
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
@@ -287,20 +294,24 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
 - [How to index your database](https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#1)
 - [Indexing with PostgreSQL: When less is more](https://medium.com/plangrid-technology/indexing-with-postgres-when-less-is-more-7337d6f09048)
+
 ## Sequence
 - [Checking the sequences status on a single pass](https://fluca1978.github.io/2019/06/11/SequenceCheck.html)
 - [The modern alternative to SERIAL columns](https://postgresweekly.com/issues/311)
 - [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
 - [An Overview of the Serial Pseudo-Datatype for PostgreSQL](https://severalnines.com/database-blog/overview-serial-pseudo-datatype-postgresql)
+
 ## Transaction
 - [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
 - [idle_in_transaction_session_timeout: Terminating idle transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/idle_in_transaction_session_timeout-terminating-idle-transactions-in-postgresql/)
+
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
 - [Introducing pg_auto_failover: Open source extension for automated failover and high-availability in PostgreSQL](https://cloudblogs.microsoft.com/opensource/2019/05/06/introducing-pg_auto_failover-postgresql-open-source-extension-automated-failover-high-availability/)
 - [Introduction to PostgreSQL automatic failover](https://pgstef.github.io/2018/02/07/introduction_to_postgresql_automatic_failover.html)
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
+
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 - [An Overview of various auxiliary plan nodes in PostgreSQL](https://severalnines.com/database-blog/overview-various-auxiliary-plan-nodes-postgresql?utm_campaign=Cloud_DR_Campaign_OCT19&utm_content=pg_plan_nodes&utm_medium=Social_Media&utm_source=Twitter)
@@ -309,18 +320,22 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Bruce Momjian on the Postgres Query Planner](http://www.se-radio.net/2018/06/se-radio-episode-328-bruce-momjian-on-the-postgres-query-planner/)
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
+
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
+
 ## Partitioning
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 - [Partition Elimination in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/partition-elimination-postgresql-11/)
 - [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
+
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 - [Built-in Sharding for PostgreSQL](http://rhaas.blogspot.com/2018/05/built-in-sharding-for-postgresql.html)
+
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
 - [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
@@ -360,6 +375,13 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Are trigger really that slow in PostgreSQL?](https://www.cybertec-postgresql.com/en/are-triggers-really-that-slow-in-postgres/)
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
+- Dynamic tracing
+  - [PostgreSQL and SystemTap](https://simply.name/postgresql-and-systemtap.html)
+  - [SystemTap for PostgreSQL Toolkit](https://bdrouvot.wordpress.com/2017/11/01/systemtap-for-postgresql-toolkit/)
+  - [Dynamic tracing with Postgres](https://paquier.xyz/postgresql-2/postgres-dynamic-tracing/)
+  - [Diagnose High-Latency I/O Operations Using SystemTap](https://db-blog.web.cern.ch/blog/luca-canali/2015-07-diagnose-high-latency-io-operations-using-systemtap)
+  - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
+  - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
 ## Recovery
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
