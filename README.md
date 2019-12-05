@@ -120,6 +120,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_ulid](https://github.com/iCyberon/pg_ulid) - Universally Unique Lexicographically Sortable Identifier (ULID)
 * [pg_wait_sampling](https://github.com/postgrespro/pg_wait_sampling) - Sampling based statistics of wait events
 * [pg_xid](https://github.com/iCyberon/pg_xid) - Globally unique id generator
+* [pipelinedb](https://github.com/pipelinedb/pipelinedb) - High-performance time-series aggregation for PostgreSQL
 * [planfix](https://github.com/srutz/planfix) - Force specific indices
 * [planscape_postgres_module](https://github.com/mejedi/planscape-postgresql-module) - Insight into the planning process
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
