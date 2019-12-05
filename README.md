@@ -308,6 +308,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres execution plans — Field glossary](https://medium.com/pgmustard/postgres-execution-plans-field-glossary-bc588340b0db)
 - [Bruce Momjian on the Postgres Query Planner](http://www.se-radio.net/2018/06/se-radio-episode-328-bruce-momjian-on-the-postgres-query-planner/)
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
+- [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
@@ -316,6 +317,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 - [Partition Elimination in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/partition-elimination-postgresql-11/)
+- [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 - [Built-in Sharding for PostgreSQL](http://rhaas.blogspot.com/2018/05/built-in-sharding-for-postgresql.html)
@@ -367,6 +369,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An overview of logical replication](https://severalnines.com/database-blog/overview-logical-replication-postgresql)
 - [PostgreSQL Replication with easy failback](https://www.scalingpostgres.com/tutorials/postgresql-replication-easy-failback/)
 - [PostgreSQL Replication failback with pg_rewind](https://www.scalingpostgres.com/tutorials/postgresql-replication-failback-pg-rewind/)
+- [pg_rewind and checkpoints: caution!](https://thebuild.com/blog/2018/07/18/pg_rewind-and-checkpoints-caution/)
 - [PostgreSQL Replication Monitoring](https://www.scalingpostgres.com/tutorials/postgresql-replication-monitoring/)
 - [PostgreSQL replication](https://thebuild.com//presentations/replication-perconalive-2018.pdf)
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
@@ -384,11 +387,14 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
   * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
+  * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 
 ## Fulltext Search (FTS)
 - [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
+## Logging
+- [Rules or triggers to log bulk updates?](https://www.cybertec-postgresql.com/en/rules-or-triggers-to-log-bulk-updates/)
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
@@ -424,6 +430,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
+  - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
 ## Cloud
