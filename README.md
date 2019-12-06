@@ -27,6 +27,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
+* [config_log](https://github.com/ibarwick/config_log) - Custom background worker (BGW) for monitoring configuration log changes
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
 * [count_distinct](https://github.com/tvondra/count_distinct) - Alternative to COUNT(DISTINCT ...) aggregate in PostgreSQL
 * [crunchy_check_access](https://github.com/CrunchyData/crunchy_check_access) - Functions and views for object access inspection
@@ -123,6 +124,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
 * [pg_sleep](https://github.com/samber/pg_sleep) - Add pg_sleep and pg_usleep function
+* [pg_snakeoil](https://github.com/credativ/pg_snakeoil) - The PostgreSQL Antivirus #pgSnakeOil
 * [pg_sortstats](https://github.com/powa-team/pg_sortstats) - Collecting statistics about sorts
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
 * [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
@@ -150,10 +152,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
+* [repl_mon](https://github.com/dev1ant/repl_mon) - Custom background worker for easy replication monitoring
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [session_exec](https://github.com/okbob/session_exec) - Introduce login function
 * [set_user](https://github.com/pgaudit/set_user) - Allowing privilege escalation with enhanced logging and control
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
+* [smlr](https://github.com/jirutka/smlar) - Effective similarity search
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
 * [stat_record](https://github.com/asotolongo/stat_record) - Record database statistics
@@ -183,9 +187,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [PgHero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 * [pgmetrics](https://github.com/rapidloop/pgmetrics) - Collect and display information and stats
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
+* [pgstats](https://github.com/gleu/pgstats) - Collects PostgreSQL statistics, and either saves them in CSV files or print them on the stdout
+* [pg-tpch](https://github.com/AXLEproject/pg-tpch) - PostgreSQL-compatible TPC-H benchmark, with wrapper scripts for populating data and evaluating performance
 * [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
-* [pgstats](https://github.com/gleu/pgstats) - Collects PostgreSQL statistics, and either saves them in CSV files or print them on the stdout
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [pg_ycsb](https://github.com/postgrespro/pg_ycsb) - YCSB-like benchmark for pgbench
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
