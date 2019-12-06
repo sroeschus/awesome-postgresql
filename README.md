@@ -33,8 +33,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [diskquota](https://github.com/greenplum-db/diskquota) - Disk usage enforcement for database objects in PostgreSQL
 * [distinct_estimators](https://github.com/tvondra/distinct_estimators) - Distinct counters and aggregate functions for distinct estimation in PostgreSQL
+* [elephant-worker](https://github.com/trax777/elephant-worker) - Background workers in PostgreSQL
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [hashtypes](https://github.com/pandrewhk/hashtypes) - SHA1, MD5 and other data types for PostgreSQL
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
@@ -56,8 +58,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
+* [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
+* [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
@@ -147,6 +151,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
+* [session_exec](https://github.com/okbob/session_exec) - Introduce login function
 * [set_user](https://github.com/pgaudit/set_user) - Allowing privilege escalation with enhanced logging and control
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
@@ -158,6 +163,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 * [walreader](https://github.com/moritetu/walreader) - Read WAL records with sql functions
+* [weighted_mean](https://github.com/Kozea/weighted_mean) - A simple weighted mean aggregate function for PostgreSQL
 * [wildspeed](https://github.com/postgrespro/wildspeed) - Fast wildcard search for like operator
 * [xlogminer](https://github.com/HighgoSoftware/XLogMiner) - Open-Source SQL miner on PostgreSQL WAL log
 
@@ -185,6 +191,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
 * [postgresql-perf-tools](https://github.com/virtuozzo/postgresql-perf-tools) - Performance Monitoring Tools
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
+* [sysbench](https://github.com/akopytov/sysbench) - Scriptable database and system performance benchmark
 
 # Tools
 * [apposha](https://apposha.io) - The Extension for Scalable File IO
@@ -236,6 +243,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
 * [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
 * [yoke](https://github.com/nanopack/yoke) - High-availability cluster with auto-failover and automated cluster recovery
+* [xlogdump](https://github.com/snaga/xlogdump) - A tool for extracting data from the PostgreSQL's write ahead logs
 
 # Forks
 * [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
