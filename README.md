@@ -24,6 +24,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgxn](https://pgxn.org/) - PostgreSQL extension network
 * [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
+* [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
@@ -31,11 +32,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [crunchy_check_access](https://github.com/CrunchyData/crunchy_check_access) - Functions and views for object access inspection
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
 * [diskquota](https://github.com/greenplum-db/diskquota) - Disk usage enforcement for database objects in PostgreSQL
+* [distinct_estimators](https://github.com/tvondra/distinct_estimators) - Distinct counters and aggregate functions for distinct estimation in PostgreSQL
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
+* [incubator-datasketches-postgresql](https://github.com/apache/incubator-datasketches-postgresql) - Approximate algorithms based on DataSketches
 * [kmeans-postgresql](https://github.com/umitanuki/kmeans-postgresql) - K-means function as a user-defined window function in PostgreSQL
 * [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
 * [log_functions](https://github.com/gleu/log_functions) - Logs each function executed
@@ -140,9 +143,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
+* [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
+* [set_user](https://github.com/pgaudit/set_user) - Allowing privilege escalation with enhanced logging and control
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
 * [sql_firewall](https://github.com/uptimejp/sql_firewall) - SQL firewall
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
@@ -154,6 +159,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 * [walreader](https://github.com/moritetu/walreader) - Read WAL records with sql functions
 * [wildspeed](https://github.com/postgrespro/wildspeed) - Fast wildcard search for like operator
+* [xlogminer](https://github.com/HighgoSoftware/XLogMiner) - Open-Source SQL miner on PostgreSQL WAL log
 
 # Libraries
 * [asyncpg](https://github.com/MagicStack/asyncpg/) - A fast PostgreSQL Database Client Library for Python/asyncio
@@ -235,6 +241,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
 * [hippo-postgresql](https://github.com/DataSystemsLab/hippo-postgresql) - Hippo is a fast, yet scalable, sparse database indexing approach
+* [postgrespro](https://github.com/postgrespro/postgrespro) - Postgres Professional fork of PostgreSQL
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
 * [postgresql.threads](https://github.com/postgrespro/postgresql.pthreads) - Port of postgresql for pthreads
 * [zHeap](https://github.com/EnterpriseDB/zheap)
