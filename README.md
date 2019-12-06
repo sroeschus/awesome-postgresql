@@ -37,12 +37,14 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [elephant-worker](https://github.com/trax777/elephant-worker) - Background workers in PostgreSQL
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [generic_scheduler](https://github.com/okbob/generic-scheduler) - Generic SQL statements scheduler without additional dependencies
 * [hashtypes](https://github.com/pandrewhk/hashtypes) - SHA1, MD5 and other data types for PostgreSQL
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
 * [incubator-datasketches-postgresql](https://github.com/apache/incubator-datasketches-postgresql) - Approximate algorithms based on DataSketches
 * [kmeans-postgresql](https://github.com/umitanuki/kmeans-postgresql) - K-means function as a user-defined window function in PostgreSQL
+* [libuuid](https://github.com/petere/pglibuuid) - Wrapper for libuuid
 * [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
 * [log_functions](https://github.com/gleu/log_functions) - Logs each function executed
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
@@ -127,6 +129,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_snakeoil](https://github.com/credativ/pg_snakeoil) - The PostgreSQL Antivirus #pgSnakeOil
 * [pg_sortstats](https://github.com/powa-team/pg_sortstats) - Collecting statistics about sorts
 * [pg_squeeze](https://github.com/cybertec-postgresql/pg_squeeze) - Automatic bloat clean up
+* [pg_sslstatus](https://github.com/mhagander/pg_sslstatus) - View of how SSL is used in the installation
 * [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
 * [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) - Gather statistics about physical disk access and CPU consumption
 * [pq_stat_plans](https://github.com/2ndQuadrant/pg_stat_plans) - pg_stat_statements variant that differentiates between query plans
@@ -163,6 +166,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [stat_record](https://github.com/asotolongo/stat_record) - Record database statistics
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [tinyint-postgresql](https://github.com/umitanuki/tinyint-postgresql) - A tiny int implementation as a data type of PostgreSQL
+* [trimmed_aggregates](https://github.com/tvondra/trimmed_aggregates) - Trimmed aggregates for PostgreSQL (average, variance, stddev)
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
@@ -274,6 +278,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
 
 # Patches
+* [buffer_replacement_policies](https://github.com/chen3593/PostgreSQL) - Adding Alternative buffer replacement policies including LRU, MRU, FIFO
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
