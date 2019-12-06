@@ -27,8 +27,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
+* [count_distinct](https://github.com/tvondra/count_distinct) - Alternative to COUNT(DISTINCT ...) aggregate in PostgreSQL
 * [crunchy_check_access](https://github.com/CrunchyData/crunchy_check_access) - Functions and views for object access inspection
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
+* [diskquota](https://github.com/greenplum-db/diskquota) - Disk usage enforcement for database objects in PostgreSQL
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
@@ -50,6 +52,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
+* [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
@@ -62,6 +65,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_bitcount](https://github.com/thehyve/pg_bitcount) - Bitcount function
 * [pg_cgroups](https://github.com/cybertec-postgresql/pg_cgroups) - Manger linux control groups
 * [pg_cheat_funcs](https://github.com/petergeoghegan/pg_cheat_funcs) - Useful functions
+* [pg_check](https://github.com/tvondra/pg_check) - Basic consistency checking functionality for tables and b-tree indexes
 * [pg_crash](https://github.com/cybertec-postgresql/pg_crash) - Crash database instance
 * [pg_crasher](https://github.com/davidcrawford/pg_crasher) - Crash database backend
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
@@ -82,6 +86,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_idx_advisor](https://github.com/cohenjo/pg_idx_advisor) - Analyze queries and give indexing advice
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
+* [pg_keeper](https://github.com/MasahikoSawada/pg_keeper) - Simplified clustering module for PostgreSQL
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
 * [pg_log_disconnections_during_tx](https://github.com/MasaoFujii/pg_log_disconnections_during_tx) - Log disconnection during transaction
 * [pg_log_userqueries](https://github.com/gleu/pg_log_userqueries) - Log queries done by specific user types
@@ -96,6 +101,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pg_plan_advsr](https://github.com/ossc-db/pg_plan_advsr) - Automated execution plan tuning
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
+* [pg_protobuf](https://github.com/afiskon/pg_protobuf) - Protobuf support for PostgreSQL
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
 * [pg_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
@@ -117,6 +123,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pq_stat_plans](https://github.com/2ndQuadrant/pg_stat_plans) - pg_stat_statements variant that differentiates between query plans
 * [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
+* [pg_strom](https://github.com/kaigai/pg_strom) - FDW module of PostgreSQL using GPU for Asynchronous Super-Parallel Query Execution
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_track_settings](https://github.com/rjuju/pg_track_settings) - Keep track of configuration changes
 * [pg_track_slow_queries](https://github.com/julmon/pg_track_slow_queries) - Slow query tracking
@@ -127,6 +134,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pipelinedb](https://github.com/pipelinedb/pipelinedb) - High-performance time-series aggregation for PostgreSQL
 * [planfix](https://github.com/srutz/planfix) - Force specific indices
 * [planscape_postgres_module](https://github.com/mejedi/planscape-postgresql-module) - Insight into the planning process
+* [plpgsql_check](https://github.com/okbob/plpgsql_check) - Linter tool for language PL/pgSQL
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
@@ -243,6 +251,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
+* [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
 
 # Patches
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
