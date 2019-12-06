@@ -59,6 +59,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
+* [pgora-osql](https://github.com/pgoracle/pgora-osql) - Procedural Language with Oracle PLSQL Compatibility
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
 * [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
@@ -122,9 +123,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
 * [pg_rlimit](https://github.com/harukat/pg_rlimit) - Interfaces for setrlimit and getrlimit
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
+* [pg_schedule](https://github.com/albertov/pg_schedule) - Cron-formatted schedule type for PostgreSQL
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
+* [pg_simula](https://github.com/MasahikoSawada/pg_simula) - A database system failure simulation tool for PostgreSQL
 * [pg_sleep](https://github.com/samber/pg_sleep) - Add pg_sleep and pg_usleep function
 * [pg_snakeoil](https://github.com/credativ/pg_snakeoil) - The PostgreSQL Antivirus #pgSnakeOil
 * [pg_sortstats](https://github.com/powa-team/pg_sortstats) - Collecting statistics about sorts
@@ -228,6 +231,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability
 * [pg_bulkload](https://github.com/ossc-db/pg_bulkload) - High speed data loading utility for PostgreSQL
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
+* [pg_dumpacl](https://github.com/dalibo/pg_dumpacl) - Dumping database creation options
 * [pg_filedump](https://github.com/df7cb/pg_filedump) - Low-level examination of tables and indexes
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
 * [pg_hexedit](https://github.com/petergeoghegan/pg_hexedit) - Open data files in a hex editor
