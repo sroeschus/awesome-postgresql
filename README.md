@@ -34,17 +34,21 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
 * [hypopg](https://github.com/HypoPG/hypopg) - Hypothetical Indexes
 * [imcs](https://github.com/knizhnik/imcs) - In-Memory Columnar Store
+* [kmeans-postgresql](https://github.com/umitanuki/kmeans-postgresql) - K-means function as a user-defined window function in PostgreSQL
 * [login_hook](https://github.com/splendiddata/login_hook) - Logon trigger
 * [log_functions](https://github.com/gleu/log_functions) - Logs each function executed
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [mods_since_analyze](https://github.com/gleu/mods_since_analyze) - Estimation of number of changed tuples since last analyze
+* [oracle_fdw](https://github.com/laurenz/oracle_fdw) - PostgreSQL Foreign Data Wrapper for Oracle
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
+* [pgextwhitelist](https://github.com/dimitri/pgextwlist) - PostgreSQL Extension Whitelisting
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
 * [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
+* [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
@@ -127,6 +131,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
+* [postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
+* [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
@@ -134,6 +140,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [sr_plan](https://github.com/postgrespro/sr_plan) - Save and restore query plans
 * [stat_record](https://github.com/asotolongo/stat_record) - Record database statistics
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
+* [tinyint-postgresql](https://github.com/umitanuki/tinyint-postgresql) - A tiny int implementation as a data type of PostgreSQL
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vops](https://github.com/postgrespro/vops) - Columnar store
@@ -183,11 +190,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgio](https://github.com/therealkevinc/pgio) - SLOB method tool
 * [pgloader](https://pgloader.io/) - Data loader
+* [pgquarrel](https://github.com/eulerto/pgquarrel) - Compares PostgreSQL database schemas (DDL))
 * [pgreplay](https://github.com/laurenz/pgreplay) - Replay statements from a log file
 * [pgreplay-go](https://github.com/gocardless/pgreplay-go/) - Replay SQL statements at approximately the same rate
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability
+* [pg_bulkload](https://github.com/ossc-db/pg_bulkload) - High speed data loading utility for PostgreSQL
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
 * [pg_filedump](https://github.com/df7cb/pg_filedump) - Low-level examination of tables and indexes
 * [pg_flame](https://github.com/mgartner/pg_flame) - Flamegraph generator for explain analyze output
@@ -207,6 +216,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgreSQL-Query-Lock-Explainer](https://github.com/AdmTal/PostgreSQL-Query-Lock-Explainer) - Query lock explainer
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
+* [slony](https://github.com/ssinger/slony1-engine) - Slony replication system for Postgresql
 * [stellar](https://github.com/fastmonkeys/stellar) - Fast database snapshot and restore tool for development
 * [stolon](https://github.com/sorintlab/stolon) - Cloud native high availability
 * [wal-e](https://github.com/wal-e/wal-e) - Continous archiving
@@ -214,8 +224,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [yoke](https://github.com/nanopack/yoke) - High-availability cluster with auto-failover and automated cluster recovery
 
 # Forks
+* [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
+* [hippo-postgresql](https://github.com/DataSystemsLab/hippo-postgresql) - Hippo is a fast, yet scalable, sparse database indexing approach
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
+* [postgresql.threads](https://github.com/postgrespro/postgresql.pthreads) - Port of postgresql for pthreads
 * [zHeap](https://github.com/EnterpriseDB/zheap)
 
 # Development
