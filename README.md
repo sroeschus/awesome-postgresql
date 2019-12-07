@@ -26,6 +26,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [ap_pgutils](https://github.com/Apsalar/ap_pgutils) - Functions for hostname, argon2 password hashing and TOTP based 2 factor authentication
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
+* [bitmap-postgresql](https://github.com/jiayuasu/bitmap-postgresql) - An on-disk bitmap index
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
 * [cms_topn](https://github.com/ozturkosu/cms_topn) - Use count-min sketch top-n algorithm
@@ -40,6 +41,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [elephant-worker](https://github.com/trax777/elephant-worker) - Background workers in PostgreSQL
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
+* [fnvhash](https://github.com/amutu/fnvhash) - FNV hash function for PostgreSQL
 * [generic_scheduler](https://github.com/okbob/generic-scheduler) - Generic SQL statements scheduler without additional dependencies
 * [hashtypes](https://github.com/pandrewhk/hashtypes) - SHA1, MD5 and other data types for PostgreSQL
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
@@ -55,6 +57,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [oracle_fdw](https://github.com/laurenz/oracle_fdw) - PostgreSQL Foreign Data Wrapper for Oracle
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
+* [pgbloom](https://github.com/saaros/pgbloom) - Bloom filters for PostgreSQL
 * [pgbucket](https://bitbucket.org/dineshopenscg/pgbucket/src/master) - Simple scheduler
 * [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
 * [pgextwhitelist](https://github.com/dimitri/pgextwlist) - PostgreSQL Extension Whitelisting
@@ -69,6 +72,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
 * [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
+* [pg-hash64](https://github.com/theory/pg-hash64) - Generate 64-bit hash integers from PostgreSQL strings
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
 * [pg-progress](https://github.com/wulczer/pg-progress) - Query progress estimation for PostgreSQL
 * [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
@@ -106,6 +110,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_keeper](https://github.com/MasahikoSawada/pg_keeper) - Simplified clustering module for PostgreSQL
 * [pg_linegazer](https://github.com/funbringer/pg_linegazer) - Transparent code coverage for PL/pgSQL
+* [pg_logfilter](https://github.com/ckh0618/pg_logfilter) - Filtering postgresql output log if it matches given patterns
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
 * [pg_log_disconnections_during_tx](https://github.com/MasaoFujii/pg_log_disconnections_during_tx) - Log disconnection during transaction
 * [pg_log_userqueries](https://github.com/gleu/pg_log_userqueries) - Log queries done by specific user types
@@ -144,6 +149,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_sslstatus](https://github.com/mhagander/pg_sslstatus) - View of how SSL is used in the installation
 * [pg_stats](https://github.com/s-hironobu/pg_stats) - Customized statistics views
 * [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) - Gather statistics about physical disk access and CPU consumption
+* [pg_stat_monitor](https://github.com/Percona-Lab/pg_stat_monitor) - Statistics collector for PostgreSQL
 * [pq_stat_plans](https://github.com/2ndQuadrant/pg_stat_plans) - pg_stat_statements variant that differentiates between query plans
 * [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
@@ -160,10 +166,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [planfix](https://github.com/srutz/planfix) - Force specific indices
 * [planscape_postgres_module](https://github.com/mejedi/planscape-postgresql-module) - Insight into the planning process
 * [plpgsql_check](https://github.com/okbob/plpgsql_check) - Linter tool for language PL/pgSQL
+* [postgresql-fast-guids](https://github.com/dyninc/postgresql-fast-guid) - Fast GUIDs for PostgreSQL
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
+* [postgresql-median](https://github.com/clime/postgresql-median) - Median aggregate function
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
+* [postgresql_track_renames](https://github.com/hollobon/postgresql_track_renames) - Tracking object renames in PostgreSQL 9.3+
 * [postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
 * [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
@@ -218,6 +227,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-perf-tools](https://github.com/virtuozzo/postgresql-perf-tools) - Performance Monitoring Tools
 * [Queries to monitor postgres](https://github.com/nilenso/postgresql-monitoring)
 * [sysbench](https://github.com/akopytov/sysbench) - Scriptable database and system performance benchmark
+* [tpch_benchmark](https://github.com/ictlyh/tpch_benchmark) - TPC-H benckmark on Cloudera Impala, PostgreSQL and Citus
 
 # Tools
 * [apposha](https://apposha.io) - The Extension for Scalable File IO
@@ -283,7 +293,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgrespro](https://github.com/postgrespro/postgrespro) - Postgres Professional fork of PostgreSQL
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
 * [postgresql.threads](https://github.com/postgrespro/postgresql.pthreads) - Port of postgresql for pthreads
+* [postgresql-directio](https://github.com/woonhak/postgresql-directio) - PosgreSQL 9.4.1 with O_DIRECT(DirectIO) support
 * [postgresql-NVM-logging](https://github.com/meistervonperf/postgresql-NVM-logging) - NVM logging implementation on postgresql-9.6.0
+* [postgres-xl](https://github.com/pharosnet/postgres-xl) - Scalable Open Source PostgreSQL-based Database Cluster
 * [zHeap](https://github.com/EnterpriseDB/zheap)
 
 # Development
