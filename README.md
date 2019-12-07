@@ -28,8 +28,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
 * [citus](https://github.com/citusdata/citus) - Scalable postgres for multi-tenant and real-time analytics workloads
+* [cms_topn](https://github.com/ozturkosu/cms_topn) - Use count-min sketch top-n algorithm
 * [config_log](https://github.com/ibarwick/config_log) - Custom background worker (BGW) for monitoring configuration log changes
 * [connection_limits](https://github.com/tvondra/connection_limits) - Set quotas on connections
+* [count_bits](https://github.com/sldab/count-bits) - Functions for counting bits
 * [count_distinct](https://github.com/tvondra/count_distinct) - Alternative to COUNT(DISTINCT ...) aggregate in PostgreSQL
 * [crunchy_check_access](https://github.com/CrunchyData/crunchy_check_access) - Functions and views for object access inspection
 * [cstore_fdw](https://github.com/citusdata/cstore_fdw) - Columnar store for analytics
@@ -57,7 +59,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
 * [pgextwhitelist](https://github.com/dimitri/pgextwlist) - PostgreSQL Extension Whitelisting
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
-* [pglocial](https://github.com/2ndQuadrant/pglogical) - Logical replication
+* [pgloggingfilter](https://github.com/ohmu/pgloggingfilter) - Filter module for postgresql logging
+* [pglogical](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgora-osql](https://github.com/pgoracle/pgora-osql) - Procedural Language with Oracle PLSQL Compatibility
@@ -71,6 +74,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
+* [pgzstd](https://github.com/grahamedgecombe/pgzstd) - Zstandard compression/decompression with preset dictionary support
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
@@ -228,8 +232,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [patroni](https://github.com/zalando/patroni) - A template for High Availability with ZooKeeper, etcd, or Consul
 * [pev](https://github.com/AlexTatiyants/pev) - Explain plan visualizer
 * [pev2](https://dalibo.github.io/pev2/#/) - Explain plan visualizer
+* [pgagroal](https://github.com/agroal/pgagroal) - High-performance connection pool for PostgreSQL
 * [pgBadger](http://pgbadger.darold.net) - Log analyzer
 * [pgbouncer](http://www.pgbouncer.org/) - Lightweight connection pooler
+* [pgcheck](https://github.com/leapking/pgcheck) - Check data file of PostgreSQL database
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
 * [pgio](https://github.com/therealkevinc/pgio) - SLOB method tool
 * [pgloader](https://pgloader.io/) - Data loader
@@ -238,6 +244,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgreplay-go](https://github.com/gocardless/pgreplay-go/) - Replay SQL statements at approximately the same rate
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
+* [PgSynchronizer](https://github.com/xba1k/PgSynchronizer) - Tool to synchronize data between PostgreSQL databases
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability
 * [pg_bulkload](https://github.com/ossc-db/pg_bulkload) - High speed data loading utility for PostgreSQL
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
@@ -251,6 +258,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_reloaded](https://github.com/zikani03/pg_reloaded) - Restore databases periodically
 * [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
+* [pg_stealback](https://github.com/stalkerg/pg_stealback) - Backup and recovery manager for PostgreSQL
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
 * [piretry](https://dalibo.github.io/pitrery/) - Set of bash scripts to manage Point In Time Recovery (PITR) backups
