@@ -11,6 +11,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Commands / Functions
 * [heroku-pg-extras](https://github.com/heroku/heroku-pg-extras) - A heroku plugin for awesome pg* commands
 * [pglockanalyze](https://github.com/joyent/pglockanalyze) - Analyze locking behavior
+* [pgsql-tweaks](https://github.com/sjstoelting/pgsql-tweaks) - Useful PostgreSQL functions
 * [pg-histogram](https://github.com/wolever/pg-histogram) - Functions for generating histograms
 * [pg-utils](https://github.com/dataegret/pg-utils) - Useful utilities
 * [pg_global_temp_tables](https://github.com/yallie/pg_global_temp_tables) - Global temporary tables
@@ -56,6 +57,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [memstat](https://github.com/postgrespro/memstat) - Report memory context information
 * [mods_since_analyze](https://github.com/gleu/mods_since_analyze) - Estimation of number of changed tuples since last analyze
 * [oracle_fdw](https://github.com/laurenz/oracle_fdw) - PostgreSQL Foreign Data Wrapper for Oracle
+* [pagevis](https://github.com/hollobon/pagevis) - PostgreSQL data page visualisation
 * [pgaudit](https://github.com/pgaudit/pgaudit) - Session and object audit logging
 * [pgbitmap](https://github.com/marcmunro/pgbitmap) - Space-optimized, non-sparse, bitmap type
 * [pgbloom](https://github.com/saaros/pgbloom) - Bloom filters for PostgreSQL
@@ -126,8 +128,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_oltp_bench](https://github.com/postgrespro/pg_oltp_bench) - OLTP benchmark
 * [pg_outrider](https://github.com/meistervonperf/pg_outrider) - Background worker to automatically extend relations
 * [pg_pageprep](https://github.com/postgrespro/pg_pageprep) - Help prepare heap pages for migration to 64bit XID page format
+* [pg_partman](https://github.com/pgpartman/pg_partman) - Partition management extension for PostgreSQL
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
+* [pg_permission](https://github.com/cybertec-postgresql/pg_permission) - Set of views to see ALL permissions in a PostgreSQL database
 * [pg_plan_advsr](https://github.com/ossc-db/pg_plan_advsr) - Automated execution plan tuning
 * [pg_popcount](https://github.com/yo1dog/pg_popcount) - popcount for PostgreSQL
 * [pg_prioritize](https://github.com/schmiddy/pg_prioritize) - Get and set the priority of PostgreSQL backends
@@ -135,7 +139,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_protobuf](https://github.com/afiskon/pg_protobuf) - Protobuf support for PostgreSQL
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
 * [pg_querylog](https://github.com/adjust/pg_querylog) - Show queries running on backends
-* [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
+* [pg_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
 * [pg_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
@@ -143,6 +147,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
 * [pg_retire](https://github.com/moritetu/pg_retire) - Simplified query canceler for PostgreSQL
 * [pg_rlimit](https://github.com/harukat/pg_rlimit) - Interfaces for setrlimit and getrlimit
+* [pg_roaringbitmap](https://github.com/ChenHuajun/pg_roaringbitmap) - Roaring bitmap data type
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_schedule](https://github.com/albertov/pg_schedule) - Cron-formatted schedule type for PostgreSQL
 * [pg_setpriority](https://github.com/sshutdownow/pg_setpriority) - Set the priority of PostgreSQL process
@@ -178,10 +183,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-median](https://github.com/clime/postgresql-median) - Median aggregate function
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
-* [postgres-shacrypt](https://github.com/dverite/postgres-shacrypt) - Generate SHA256-CRYPT and SHA512-CRYPT password hashes
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [postgresql_track_renames](https://github.com/hollobon/postgresql_track_renames) - Tracking object renames in PostgreSQL 9.3+
+* [postgres-decoderbufs](https://github.com/debezium/postgres-decoderbufs) - Logical decoder output plugin to deliver data as Protocol Buffers
+* [postgres-shacrypt](https://github.com/dverite/postgres-shacrypt) - Generate SHA256-CRYPT and SHA512-CRYPT password hashes
 * [postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
 * [pqc-master](https://github.com/dpaks/pqc-master) - PostgreSQL Query Cache
 * [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
@@ -201,8 +207,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [stat_record](https://github.com/asotolongo/stat_record) - Record database statistics
 * [timescaledb](https://github.com/timescale/timescaledb) - Time-series database
 * [tinyint-postgresql](https://github.com/umitanuki/tinyint-postgresql) - A tiny int implementation as a data type of PostgreSQL
+* [toastinfo](https://github.com/credativ/toastinfo) - Show storage structure of varlena datatypes in PostgreSQL
 * [trimmed_aggregates](https://github.com/tvondra/trimmed_aggregates) - Trimmed aggregates for PostgreSQL (average, variance, stddev)
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
+* [url_encode](https://github.com/okbob/url_encode) - url_encode, url_decode functions for PostgreSQL
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
 * [vgram](https://github.com/akorotkov/vgram) - Prototype of V-gram indexing for PostgreSQL
 * [vops](https://github.com/postgrespro/vops) - Columnar store
@@ -213,6 +221,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Libraries
 * [asyncpg](https://github.com/MagicStack/asyncpg/) - A fast PostgreSQL Database Client Library for Python/asyncio
+* [libpg_query](https://github.com/lfittl/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
 * [plantuner](https://github.com/postgrespro/plantuner) - Enable planner hints
 * [pg_parallizator](https://github.com/postgrespro/pg_parallizator) - Building indexes in parallel.
 
@@ -258,6 +267,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgbouncer](http://www.pgbouncer.org/) - Lightweight connection pooler
 * [pgcheck](https://github.com/leapking/pgcheck) - Check data file of PostgreSQL database
 * [pgcli](https://github.com/dbcli/pgcli) - CLI with autocompletion and syntax highlighting
+* [pgenv](https://github.com/vyegorov/pgenv) - Manage PostgreSQL environment
 * [pgio](https://github.com/therealkevinc/pgio) - SLOB method tool
 * [pgloader](https://pgloader.io/) - Data loader
 * [pgquarrel](https://github.com/eulerto/pgquarrel) - Compares PostgreSQL database schemas (DDL))
@@ -312,6 +322,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
+* [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
 * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
