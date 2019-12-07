@@ -61,6 +61,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgora-osql](https://github.com/pgoracle/pgora-osql) - Procedural Language with Oracle PLSQL Compatibility
+* [pgsampler](https://github.com/no0p/pgsampler) - Background worker for collecting status and performance metrics
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
 * [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
@@ -100,6 +101,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_inet_addr](https://github.com/eulerto/pg_inet_addr) - List network interfaces
 * [pg_intpair](https://github.com/citusdata/pg_intpair) - int64pair data type
 * [pg_keeper](https://github.com/MasahikoSawada/pg_keeper) - Simplified clustering module for PostgreSQL
+* [pg_linegazer](https://github.com/funbringer/pg_linegazer) - Transparent code coverage for PL/pgSQL
 * [pg_logging](https://github.com/postgrespro/pg_logging) - Read log file
 * [pg_log_disconnections_during_tx](https://github.com/MasaoFujii/pg_log_disconnections_during_tx) - Log disconnection during transaction
 * [pg_log_userqueries](https://github.com/gleu/pg_log_userqueries) - Log queries done by specific user types
@@ -113,6 +115,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pg_plan_advsr](https://github.com/ossc-db/pg_plan_advsr) - Automated execution plan tuning
+* [pg_prioritize](https://github.com/schmiddy/pg_prioritize) - Get and set the priority of PostgreSQL backends
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pg_protobuf](https://github.com/afiskon/pg_protobuf) - Protobuf support for PostgreSQL
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
@@ -161,8 +164,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
+* [query_histogram](https://github.com/tvondra/query_histogram) - Simple query execution time histogram for PostgreSQL
 * [repl_mon](https://github.com/dev1ant/repl_mon) - Custom background worker for easy replication monitoring
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
+* [saio](https://github.com/wulczer/saio) - Join optimisation with Simulated Annealing
 * [session_exec](https://github.com/okbob/session_exec) - Introduce login function
 * [set_user](https://github.com/pgaudit/set_user) - Allowing privilege escalation with enhanced logging and control
 * [short_ids](https://gitlab.com/depesz/short_ids) - Generate safely short, textual ids
@@ -175,6 +180,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [trimmed_aggregates](https://github.com/tvondra/trimmed_aggregates) - Trimmed aggregates for PostgreSQL (average, variance, stddev)
 * [tuple_fdw](https://github.com/zilder/tuple_fdw) - POC for a compressed binary file storage foreign data wrapper
 * [versioning](https://gitlab.com/depesz/Versioning) - Versioning of database changes
+* [vgram](https://github.com/akorotkov/vgram) - Prototype of V-gram indexing for PostgreSQL
 * [vops](https://github.com/postgrespro/vops) - Columnar store
 * [walreader](https://github.com/moritetu/walreader) - Read WAL records with sql functions
 * [weighted_mean](https://github.com/Kozea/weighted_mean) - A simple weighted mean aggregate function for PostgreSQL
@@ -199,6 +205,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgsqlstat](https://github.com/joyent/pgsqlstat) - Report top-level postgres stats
 * [pgstats](https://github.com/gleu/pgstats) - Collects PostgreSQL statistics, and either saves them in CSV files or print them on the stdout
 * [pg-tpch](https://github.com/AXLEproject/pg-tpch) - PostgreSQL-compatible TPC-H benchmark, with wrapper scripts for populating data and evaluating performance
+* [pg-tpch](https://github.com/sshtmc/pg-tpch) - PostgreSQL-compatible benchmark TPC-H, with some wrapper scripts
 * [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
@@ -268,6 +275,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgrespro](https://github.com/postgrespro/postgrespro) - Postgres Professional fork of PostgreSQL
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
 * [postgresql.threads](https://github.com/postgrespro/postgresql.pthreads) - Port of postgresql for pthreads
+* [postgresql-NVM-logging](https://github.com/meistervonperf/postgresql-NVM-logging) - NVM logging implementation on postgresql-9.6.0
 * [zHeap](https://github.com/EnterpriseDB/zheap)
 
 # Development
