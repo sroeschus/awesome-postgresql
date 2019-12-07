@@ -23,6 +23,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Extensions
 * [pgxn](https://pgxn.org/) - PostgreSQL extension network
 * [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
+* [ap_pgutils](https://github.com/Apsalar/ap_pgutils) - Functions for hostname, argon2 password hashing and TOTP based 2 factor authentication
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
 * [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
@@ -65,6 +66,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-movtbl](https://github.com/adjust/pg-mvtbl) - Easily move tables and tablespaces
+* [pg-progress](https://github.com/wulczer/pg-progress) - Query progress estimation for PostgreSQL
 * [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
@@ -139,6 +141,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_strom](https://github.com/kaigai/pg_strom) - FDW module of PostgreSQL using GPU for Asynchronous Super-Parallel Query Execution
+* [pg_sulog](https://github.com/nuko-yokohama/pg_sulog) - Superuser logging/blocking
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
 * [pg_track_settings](https://github.com/rjuju/pg_track_settings) - Keep track of configuration changes
 * [pg_track_slow_queries](https://github.com/julmon/pg_track_slow_queries) - Slow query tracking
