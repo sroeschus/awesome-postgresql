@@ -25,6 +25,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Supercharge your installation with extensions](http://leopard.in.ua/presentations/pgconf_2017/)
 * [ap_pgutils](https://github.com/Apsalar/ap_pgutils) - Functions for hostname, argon2 password hashing and TOTP based 2 factor authentication
 * [aqo](https://github.com/postgrespro/aqo) - Adaptive query optimization
+* [atree](https://github.com/XiaYingyin/atree) - Atree index implementation
 * [bg_mon](https://github.com/CyberDem0n/bg_mon) - Background worker for monitoring PostgreSQL
 * [bitmap-postgresql](https://github.com/jiayuasu/bitmap-postgresql) - An on-disk bitmap index
 * [call_graph](https://github.com/johto/call_graph) - Automatically creating function call graphs
@@ -65,11 +66,14 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgloggingfilter](https://github.com/ohmu/pgloggingfilter) - Filter module for postgresql logging
 * [pglogical](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
+* [pgmedian](https://github.com/sveljko/pgmedian) - Median aggregate for PostgreSQL
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgora-osql](https://github.com/pgoracle/pgora-osql) - Procedural Language with Oracle PLSQL Compatibility
 * [pgsampler](https://github.com/no0p/pgsampler) - Background worker for collecting status and performance metrics
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
+* [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
 * [pgtrashcan](https://github.com/petere/pgtrashcan) - PostgreSQL trash can
+* [pgzstd](https://github.com/grahamedgecombe/pgzstd) - Zstandard compression/decompression with preset dictionary support
 * [pg-bignum](https://github.com/beargiles/pg-bignum) - PostgreSQL extension for unlimited precision integers
 * [pg-biguint](https://github.com/craigbranscom/pg-biguint) - Unsigned 64-bit integers
 * [pg-hash64](https://github.com/theory/pg-hash64) - Generate 64-bit hash integers from PostgreSQL strings
@@ -77,8 +81,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-progress](https://github.com/wulczer/pg-progress) - Query progress estimation for PostgreSQL
 * [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
-* [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
-* [pgzstd](https://github.com/grahamedgecombe/pgzstd) - Zstandard compression/decompression with preset dictionary support
+* [pg-ulid](https://github.com/edoceo/pg-ulid) - ULID functions for PostgreSQL
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
@@ -170,14 +173,17 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-hll](https://github.com/citusdata/postgresql-hll) - HyperLogLog data structures as a native data type
 * [postgresql-median](https://github.com/clime/postgresql-median) - Median aggregate function
 * [postgresql-popcount](https://github.com/eschmar/postgresql-popcount) - Population count function for data type bit(n)
+* [postgres-shacrypt](https://github.com/dverite/postgres-shacrypt) - Generate SHA256-CRYPT and SHA512-CRYPT password hashes
 * [postgresql-similarity](https://github.com/urbic/postgresql-similarity) - Functions that calculate the similarity between two strings
 * [postgresql-topn](https://github.com/citusdata/postgresql-topn) - Returns the top values in a database according to some criteria
 * [postgresql_track_renames](https://github.com/hollobon/postgresql_track_renames) - Tracking object renames in PostgreSQL 9.3+
 * [postgres_vectorization_test](https://github.com/citusdata/postgres_vectorization_test) - Vectorized executor to speed up PostgreSQL
+* [pqc-master](https://github.com/dpaks/pqc-master) - PostgreSQL Query Cache
 * [preprepare](https://github.com/dimitri/preprepare) - PostgreSQL prepare statements made pooling friendly
 * [quantile](https://github.com/tvondra/quantile) - provides three simple aggregate functions to compute quantiles
 * [query_cache](https://github.com/thinkprojectgroup/query_cache) - Query cache to store the result set of queries
 * [query_histogram](https://github.com/tvondra/query_histogram) - Simple query execution time histogram for PostgreSQL
+* [repack_bgw](https://github.com/reorg/repack_bgw) - Repack background worker for PostgreSQL
 * [repl_mon](https://github.com/dev1ant/repl_mon) - Custom background worker for easy replication monitoring
 * [rum](https://github.com/postgrespro/rum) - RUM access method - inverted index with additional information in posting lists
 * [saio](https://github.com/wulczer/saio) - Join optimisation with Simulated Annealing
@@ -314,6 +320,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Patches
 * [buffer_replacement_policies](https://github.com/chen3593/PostgreSQL) - Adding Alternative buffer replacement policies including LRU, MRU, FIFO
+* [BufferReplacement-in-PostgreSQL](https://github.com/Neha34/BufferReplacement-in-PostgreSQL) - Different buffer replacement policies
 * [execplan](https://github.com/danolivo/execplan) - Raw query plan execution
 * [Extended Prefetching using Asynchronous IO](https://www.postgresql.org/message-id/BAY175-W45086073075CA064EFE9A0A33A0%40phx.gbl)
 * [stats_recorder](https://github.com/gleu/stats_recorder) - Background worker code that gets a periodic copy of activity statistics
