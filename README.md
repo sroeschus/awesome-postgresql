@@ -63,6 +63,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgcov](https://github.com/johto/pgcov) - PL/PgSQL test coverage analysis
 * [pgextwhitelist](https://github.com/dimitri/pgextwlist) - PostgreSQL Extension Whitelisting
 * [pghashlib](https://github.com/markokr/pghashlib) - Stable hash functions
+* [phgist](https://github.com/segasai/pg_hist) - Fast uni-variate and multivariate histograms in PostgreSQL
 * [pgloggingfilter](https://github.com/ohmu/pgloggingfilter) - Filter module for postgresql logging
 * [pglogical](https://github.com/2ndQuadrant/pglogical) - Logical replication
 * [pgmasq](https://github.com/citusdata/pgmasq) - Transparently forward transactions from a hot standby to a primary
@@ -82,6 +83,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-spgist_hamming](https://github.com/fake-name/pg-spgist_hamming) - Fast hamming-distance range searches via native GiST Indexing facility in PostgreSQL
 * [pg-strom](https://github.com/heterodb/pg-strom) - Accelerate batch and analytics workloads with utilization of GPU and NVME-SSD
 * [pg-ulid](https://github.com/edoceo/pg-ulid) - ULID functions for PostgreSQL
+* [pg-uuid-int32](https://github.com/ancoron/pg-uuid-int32) - UUID data type stored as 32-bit integers
 * [pg_adviser](https://github.com/gurjeet/pg_adviser) - Index adiviser
 * [pg_auth_mon](https://github.com/RafiaSabih/pg_auth_mon) - Monitor client authentication attempts
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability 
@@ -127,20 +129,23 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_pathman](https://github.com/postgrespro/pg_pathman) - Partitioning tool for your database
 * [pg_paxos](https://github.com/citusdata/pg_paxos) - Paxos and Paxos-based table replication for a cluster of PostgreSQL nodes
 * [pg_plan_advsr](https://github.com/ossc-db/pg_plan_advsr) - Automated execution plan tuning
+* [pg_popcount](https://github.com/yo1dog/pg_popcount) - popcount for PostgreSQL
 * [pg_prioritize](https://github.com/schmiddy/pg_prioritize) - Get and set the priority of PostgreSQL backends
 * [pg_profile](https://github.com/zubkov-andrei/pg_profile) - History of performance reports
 * [pg_protobuf](https://github.com/afiskon/pg_protobuf) - Protobuf support for PostgreSQL
 * [pg_qualstats](https://github.com/powa-team/pg_qualstats) - Collect statistics about predicates to find missing indices
+* [pg_querylog](https://github.com/adjust/pg_querylog) - Show queries running on backends
 * [pq_query_internals](https://github.com/petergeoghegan/pg_query_internals) - Query sql query internals with SQL
-* [pg_query_log](https://github.com/adjust/pg_querylog) - Show queries running on backends
 * [pg_query_state](https://github.com/postgrespro/pg_query_state) - Query progress monitoring
 * [pg_recall](https://github.com/mreithub/pg_recall) - Keep track of changes to certain tables
 * [pg_remote_exec](https://github.com/cybertec-postgresql/pg_remote_exec) - Execute shell commands over database connection
 * [pg_repack](https://github.com/reorg/pg_repack) - Reorganize tables with minimal locks
 * [pg_restrict](https://github.com/eulerto/pg_restrict) - Restrict execution of SQL commands
+* [pg_retire](https://github.com/moritetu/pg_retire) - Simplified query canceler for PostgreSQL
 * [pg_rlimit](https://github.com/harukat/pg_rlimit) - Interfaces for setrlimit and getrlimit
 * [pg_sampletolog](https://github.com/anayrat/pg_sampletolog) - Sample statements or transactions to logs
 * [pg_schedule](https://github.com/albertov/pg_schedule) - Cron-formatted schedule type for PostgreSQL
+* [pg_setpriority](https://github.com/sshutdownow/pg_setpriority) - Set the priority of PostgreSQL process
 * [pg_shard](https://github.com/citusdata/pg_shard) - Sharding (deprecated)
 * [pg_shardman](https://github.com/postgrespro/pg_shardman) - Sharding built on partitioning, postgres_fdw and logical replication 
 * [pg_similarity](https://github.com/eulerto/pg_similarity) - Support for similarity queries
@@ -154,7 +159,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_stat_kcache](https://github.com/powa-team/pg_stat_kcache) - Gather statistics about physical disk access and CPU consumption
 * [pg_stat_monitor](https://github.com/Percona-Lab/pg_stat_monitor) - Statistics collector for PostgreSQL
 * [pq_stat_plans](https://github.com/2ndQuadrant/pg_stat_plans) - pg_stat_statements variant that differentiates between query plans
-* [pq_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
+* [pg_stat_sql_plans](https://github.com/legrandlegrand/pg_stat_sql_plans) - Add plan_id column to pg_stat_statements
 * [pg_store_plans](https://github.com/ossc-db/pg_store_plans) - Store execution plans
 * [pg_strom](https://github.com/kaigai/pg_strom) - FDW module of PostgreSQL using GPU for Asynchronous Super-Parallel Query Execution
 * [pg_sulog](https://github.com/nuko-yokohama/pg_sulog) - Superuser logging/blocking
@@ -295,6 +300,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Forks
 * [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
+* [ecpg-readahead](https://github.com/zboszor/ecpg-readahead) - PostgreSQL ECPG client-side cursor caching
 * [hippo-postgresql](https://github.com/DataSystemsLab/hippo-postgresql) - Hippo is a fast, yet scalable, sparse database indexing approach
 * [postgrespro](https://github.com/postgrespro/postgrespro) - Postgres Professional fork of PostgreSQL
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
