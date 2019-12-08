@@ -337,6 +337,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
+* [PostgreSQL: how to add new keyword to SQL grammar](https://shaplov.livejournal.com/903924.html?utm_source=postgresweekly&utm_medium=email)
 
 # Patches
 * [buffer_replacement_policies](https://github.com/chen3593/PostgreSQL) - Adding Alternative buffer replacement policies including LRU, MRU, FIFO
@@ -449,6 +450,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 - [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL 9.6: Parallel Sequential Scan](https://www.2ndquadrant.com/en/blog/postgresql96-parallel-sequential-scan/?utm_source=postgresweekly&utm_medium=email)
 
 ## Distributed Processing
 - [High performance distributed DML in Citus](https://www.citusdata.com/blog/2018/07/25/high-performance-distributed-dml/)
@@ -473,6 +475,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Monitoring CPU and memory usage](https://aaronparecki.com/2015/02/19/8/monitoring-cpu-memory-usage-from-postgres)
 - [Monitoring cheatsheet](https://russ.garrett.co.uk/2015/10/02/postgres-monitoring-cheatsheet/)
 - [PostgreSQL technical performance presentations](http://momjian.us/main/presentations/performance.html)
+- [PostgreSQL Scalability: Towards millions TPS](http://akorotkov.github.io/blog/2016/05/09/scalability-towards-millions-tps/?utm_source=postgresweekly&utm_medium=email)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
@@ -484,6 +487,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [pg_sampletolog: An extension to log a sample of statements](https://blog.anayrat.info/en/2019/01/28/pg_sampletolog-an-extension-to-log-a-sample-of-statements/)
 - Memory
   - [Architecture and Tuning of Memory in PostgreSQL Databases](https://severalnines.com/database-blog/architecture-and-tuning-memory-postgresql-databases)
+  - [Understanding caching in PostgreSQL - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/?utm_source=postgresweekly&utm_medium=email)
+  - [Caching in PostgreSQL](https://raghavt.blogspot.com/2012/04/caching-in-postgresql.html)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -500,6 +505,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL Running Slow? Tips & Tricks to get to the source](https://severalnines.com/database-blog/postgresql-running-slow-tips-tricks-get-source)
   - [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/)
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
+  - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
+  - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Waits
@@ -538,6 +545,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
+
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
 * CTE
@@ -560,6 +568,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
   * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
+  * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Upsert
@@ -569,19 +578,29 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 
+## PSQL
+- [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
+
 ## Fulltext Search (FTS)
 - [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
+
 ## Logging
 - [Rules or triggers to log bulk updates?](https://www.cybertec-postgresql.com/en/rules-or-triggers-to-log-bulk-updates/)
+- [Analyzing PostgreSQL logs using pgBadger](https://blog.garage-coding.com/2016/07/16/analyzing-postgres-logs-with-pgbadger.html?utm_source=postgresweekly&utm_medium=email)
+
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
 - [Install PostgreSQL 9.6 with transparent data encyption](https://www.cybertec-postgresql.com/en/install-postgresql-9-6-with-transparent-data-encryption/)
+- [Using the CIS PostgreSQL Benchmark to Enhance Your Security](https://info.crunchydata.com/blog/using-the-cis-postgresql-benchmark-to-enhance-your-security)
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
+- [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
+
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
 - [PostgreSQL 10 upgrade](https://bricklen.github.io/2018-03-27-Postgres-10-upgrade/)
+- [Upgrading PostgreSQL on AWS RDS with minimum or zero downtime](https://medium.com/preply-engineering/postgres-multimaster-34f2446d5e14)
 
 ## Migration
 - [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
@@ -598,6 +617,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
 - [PostgreSQL Bloatbusters](https://blog.dataegret.com/2018/03/postgresql-bloatbusters.html)
+- [PostgreSQL Vacuuming: An introduction for busy devs](http://okigiveup.net/postgresql-vacuuming-an-introduction-for-busy-devs/?utm_source=postgresweekly&utm_medium=email)
+- [Postgres adores a Vacuum](https://begriffs.com/posts/2016-04-19-postgres-adores-vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
