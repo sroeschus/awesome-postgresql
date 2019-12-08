@@ -292,6 +292,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_stealback](https://github.com/stalkerg/pg_stealback) - Backup and recovery manager for PostgreSQL
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
+* [pg_tmp](http://eradman.com/ephemeralpg/) - Run tests on an isolated, temporary PostgreSQL database)
 * [piretry](https://dalibo.github.io/pitrery/) - Set of bash scripts to manage Point In Time Recovery (PITR) backups
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
@@ -333,6 +334,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
+* [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
 
@@ -346,10 +348,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Documentation / Blogs
 [Postgres documentation](https://www.postgresql.org/docs/12/index.html)
+
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
 - [Life of a SQL query](https://numeracy.co/blog/life-of-a-sql-query)
+
 ## Analytics
+- [A Billion Taxi Rides in PostgreSQL](https://tech.marksblogg.com/billion-nyc-taxi-rides-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - GPU
   - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
   - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
@@ -387,14 +392,18 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Index
 - General
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
+  - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
+  - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - BRIN Index
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
+- Hash index
+  - [Hash Indexes on PostgreSQL](http://blog.andrebarbosa.co/hash-indexes-on-postgres/?utm_source=postgresweekly&utm_medium=email)
 - Covering Indexes
   - [PostgreSQL 11 highlight - Covering Indexes](https://paquier.xyz/postgresql-2/postgres-11-covering-indexes/)
 - Combined Indexes
@@ -417,6 +426,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
 - [idle_in_transaction_session_timeout: Terminating idle transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/idle_in_transaction_session_timeout-terminating-idle-transactions-in-postgresql/)
+- [PostgreSQL and per-connection write consistency settings](https://www.compose.com/articles/postgresql-and-per-connection-write-consistency-settings/?utm_source=cooper&utm_medium=banner&utm_campaign=postgresweekly)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -438,7 +448,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
+- [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
+
+## Distributed Processing
 - [High performance distributed DML in Citus](https://www.citusdata.com/blog/2018/07/25/high-performance-distributed-dml/)
+- [Master-less distributed queue with PG Paxos](https://www.citusdata.com/blog/2016/04/13/masterless-distributed-queue/)
 
 ## Partitioning
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
@@ -452,6 +466,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
+- [What PostgreSQL tells you about its performance](http://okigiveup.net/what-postgresql-tells-you-about-its-performance/?utm_source=postgresweekly&utm_medium=email)
 - [Metrics to Monitor in Your PostgreSQL Database](https://www.influxdata.com/blog/metrics-to-monitor-in-your-postgresql-database/?utm_campaign=postgres&utm_medium=newsletter&utm_source=cooperpress)
 - [Key metrics for PostgreSQL monitoring](https://www.datadoghq.com/blog/postgresql-monitoring/)
 - [Collecting metrics with PostgreSQL monitoring tools](https://www.datadoghq.com/blog/postgresql-monitoring-tools/)
@@ -483,8 +498,13 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Avoiding “OR” for better query peformance](https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/)
   - [The most useful Postgres extension: pg_stat_statements](https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/)
   - [PostgreSQL Running Slow? Tips & Tricks to get to the source](https://severalnines.com/database-blog/postgresql-running-slow-tips-tricks-get-source)
+  - [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/)
+  - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
+- Waits
+  - [Troubleshooting waits in PostgreSQL](http://amitkapila16.blogspot.com/2016/03/troubleshooting-waits-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
+  - [Monitoring wait events in PostgreSQL 9.6](http://akorotkov.github.io/blog/2016/03/25/wait_monitoring_9_6/?utm_source=postgresweekly&utm_medium=email)
 - Trigger
   - [Are trigger really that slow in PostgreSQL?](https://www.cybertec-postgresql.com/en/are-triggers-really-that-slow-in-postgres/)
 - Statistics
@@ -503,6 +523,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
+- [Speeding up PostgreSQL restores](https://tech.gadventures.com/speeding-up-postgres-restores-de575149d17a#.55p72yhf7)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 
 ## Replication
@@ -537,6 +558,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
+  * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
+  * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
+* Regular expressions
+  * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Upsert
   * [UPSERT on Postgres 9.5](http://blog.andrebarbosa.co/upsert-on-postgres-9-5/?utm_source=postgresweekly&utm_medium=email)
   * [Upsert Records with PostgreSQL 9.5](https://hashrocket.com/blog/posts/upsert-records-with-postgresql-9-5?utm_source=postgresweekly&utm_medium=email)
