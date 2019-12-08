@@ -332,6 +332,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
 * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
+* [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
 
@@ -371,6 +372,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Date / Timestamp
   * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   * [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+- [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
   
 ## ETL
 - [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
@@ -408,6 +410,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
 - [An Overview of the Serial Pseudo-Datatype for PostgreSQL](https://severalnines.com/database-blog/overview-serial-pseudo-datatype-postgresql)
 
+## Concurrency
+- [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
+
 ## Transaction
 - [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
@@ -427,11 +432,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Bruce Momjian on the Postgres Query Planner](http://www.se-radio.net/2018/06/se-radio-episode-328-bruce-momjian-on-the-postgres-query-planner/)
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
+- [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
+- [High performance distributed DML in Citus](https://www.citusdata.com/blog/2018/07/25/high-performance-distributed-dml/)
 
 ## Partitioning
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
@@ -482,6 +489,9 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Are trigger really that slow in PostgreSQL?](https://www.cybertec-postgresql.com/en/are-triggers-really-that-slow-in-postgres/)
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
+  - [Always Do This #4: Put stats_temp_directory on a memory file system](https://thebuild.com/blog/2016/02/02/always-do-this-4-put-stats_temp_directory-on-a-memory-file-system/?utm_source=postgresweekly&utm_medium=email)
+- Checksum
+  - [Postgres checksum performance impact](https://www.endpoint.com/blog/2015/12/31/postgres-checksum-performance-impact?utm_source=postgresweekly&utm_medium=email)
 - Dynamic tracing
   - [PostgreSQL and SystemTap](https://simply.name/postgresql-and-systemtap.html)
   - [SystemTap for PostgreSQL Toolkit](https://bdrouvot.wordpress.com/2017/11/01/systemtap-for-postgresql-toolkit/)
@@ -490,9 +500,11 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
 ## Recovery
+- [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
+
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
 - [Converting from asynchronous to synchronous replication in PostgreSQL](https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql?utm_campaign=Vendor_Lockin_Campaign_NOV19&utm_content=pg_async_sync&utm_medium=Social_Media&utm_source=Twitter)
@@ -504,10 +516,17 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL replication](https://thebuild.com//presentations/replication-perconalive-2018.pdf)
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
+- [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
 ## SQL
+* [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
+  * [Using CTEs and Unions to Compute Running Totals](https://www.periscopedata.com/blog/using-ctes-and-unions-to-compute-running-totals)
+* distinct
+  * [The many faces of DISTINCT in PostgreSQL](https://medium.com/statuscode/the-many-faces-of-distinct-in-postgresql-c52490de5954)
+* filter
+  * [The FILTER clause in Postgres 9.4](https://medium.com/little-programming-joys/the-filter-clause-in-postgres-9-4-3dd327d3c852)
 * first_value / last_value
   * [Advanced SQL: Why first_value and last_value are no bugs](https://www.cybertec-postgresql.com/en/advanced-sql-why-first_value-and-last_value-are-no-bugs/)
 * generate_series
@@ -518,6 +537,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
+* Upsert
+  * [UPSERT on Postgres 9.5](http://blog.andrebarbosa.co/upsert-on-postgres-9-5/?utm_source=postgresweekly&utm_medium=email)
+  * [Upsert Records with PostgreSQL 9.5](https://hashrocket.com/blog/posts/upsert-records-with-postgresql-9-5?utm_source=postgresweekly&utm_medium=email)
+  
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 
@@ -534,13 +557,16 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
 - [PostgreSQL 10 upgrade](https://bricklen.github.io/2018-03-27-Postgres-10-upgrade/)
+
 ## Migration
 - [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
+
 ## MVCC
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
 - [Different approaches for MVCC used in well known databases](http://amitkapila16.blogspot.com/2015/03/different-approaches-for-mvcc-used-in.html)
 - [PostgreSQL concurrency with MVCC](https://devcenter.heroku.com/articles/postgresql-concurrency)
+
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
@@ -550,18 +576,29 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
+
 ## I/O
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
-## Pluggable storage
+
+## Storage
+- [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
+
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
+
+## Version news
+- [What's new in PostgreSQL 9.5](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.5?utm_source=postgresweekly&utm_medium=email)
+- [Postgres 9.5: three little things](https://www.endpoint.com/blog/2016/01/28/postgres-95-three-little-things?utm_source=postgresweekly&utm_medium=email)
+
 ## OS
 - Linux
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
+
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
+
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
