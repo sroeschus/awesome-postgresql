@@ -558,6 +558,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Statistics
   - [The PostgreSQL 10 feature you didn't know about: create statistics](https://www.citusdata.com/blog/2018/03/06/postgres-planner-and-its-usage-of-statistics/)
   - [Always Do This #4: Put stats_temp_directory on a memory file system](https://thebuild.com/blog/2016/02/02/always-do-this-4-put-stats_temp_directory-on-a-memory-file-system/?utm_source=postgresweekly&utm_medium=email)
+  - [Deep dive into PostgreSQL stats: Introduction](https://blog.dataegret.com/2017/02/deep-dive-into-postgres-stats.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
+  - [Deep dive into PostgreSQL stats: pg_stat_activity and pg_locks](https://blog.dataegret.com/2017/10/deep-dive-into-postgres-stats.html)
+  - [Deep dive into PostgreSQL stats: pg_stat_user_indexes](https://blog.dataegret.com/2017/05/deep-dive-into-postgres-stats.html)
+  - [Deep dive into PostgreSQL stats: pg_stat_all_tables](https://blog.dataegret.com/2017/04/deep-dive-into-postgres-stats_20.html)
 - Checksum
   - [Postgres checksum performance impact](https://www.endpoint.com/blog/2015/12/31/postgres-checksum-performance-impact?utm_source=postgresweekly&utm_medium=email)
 - Dynamic tracing
