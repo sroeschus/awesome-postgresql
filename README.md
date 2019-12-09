@@ -379,12 +379,17 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Customer
 - [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
 - [Re: Why we lost Uber as a user](https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com?utm_source=postgresweekly&utm_medium=email)
+- [Thoughts on Uber’s list of PostgreSQL limitations](https://www.2ndquadrant.com/en/blog/thoughts-on-ubers-list-of-postgres-limitations/?utm_source=postgresweekly&utm_medium=email)
 
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
-* Date / Timestamp
-  * [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
-  * [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+- Array
+  - [PostgreSQL, the good parts: Arrays](http://blog.ryankelly.us/2016/08/21/postgres-the-good-parts-arrays.html?utm_source=postgresweekly&utm_medium=email)
+- Date / Timestamp
+  - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
+  - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+- Timezone
+  - [Actually Understanding Timezones in PostgreSQL](http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
   
 ## ETL
@@ -401,6 +406,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Index
 - General
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
+  - [Index internals](https://www.pgcon.org/2016/schedule/attachments/434_Index-internals-PGCon2016.pdf)
   - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
