@@ -329,6 +329,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
+* [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
 * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
 * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
@@ -450,6 +451,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [The modern alternative to SERIAL columns](https://postgresweekly.com/issues/311)
 - [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
 - [An Overview of the Serial Pseudo-Datatype for PostgreSQL](https://severalnines.com/database-blog/overview-serial-pseudo-datatype-postgresql)
+- [UUID vs BIGSERIAL for primary keys](https://thebuild.com/blog/2015/10/08/uuid-vs-bigserial-for-primary-keys/?utm_source=postgresweekly&utm_medium=email)
 
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
@@ -484,10 +486,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 - [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 9.6: Parallel Sequential Scan](https://www.2ndquadrant.com/en/blog/postgresql96-parallel-sequential-scan/?utm_source=postgresweekly&utm_medium=email)
+- [Parallel Query v2](http://rhaas.blogspot.com/2017/03/parallel-query-v2.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Distributed Processing
 - [High performance distributed DML in Citus](https://www.citusdata.com/blog/2018/07/25/high-performance-distributed-dml/)
+- [Queues in PostgeSQL](https://www.pgcon.org/2016/schedule/attachments/414_queues-pgcon-2016.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Master-less distributed queue with PG Paxos](https://www.citusdata.com/blog/2016/04/13/masterless-distributed-queue/)
+- [Experimenting with scaling and full parallelism in PostgreSQL](https://www.cybertec-postgresql.com/en/experimenting-scaling-full-parallelism-postgresql/)
 
 ## Partitioning
 - [PostgreSQL 10 Built-in Partitioning](https://www.keithf4.com/postgresql-10-built-in-partitioning/?utm_source=postgresweekly&utm_medium=email)
@@ -618,6 +623,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
   * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
+  * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
@@ -651,6 +657,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Logging
 - [Rules or triggers to log bulk updates?](https://www.cybertec-postgresql.com/en/rules-or-triggers-to-log-bulk-updates/)
 - [Analyzing PostgreSQL logs using pgBadger](https://blog.garage-coding.com/2016/07/16/analyzing-postgres-logs-with-pgbadger.html?utm_source=postgresweekly&utm_medium=email)
+- [Logging transactions that dropped tables](https://blog.hagander.net/logging-transactions-that-dropped-tables-236/?utm_source=postgresweekly&utm_medium=email)
 
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
@@ -681,6 +688,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
+- [Autovacuum tuning basics](https://www.2ndquadrant.com/en/blog/autovacuum-tuning-basics/?utm_source=postgresweekly&utm_medium=email)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
@@ -718,6 +726,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
   - [PostgreSQL vs. Linux kernel versions](https://www.2ndquadrant.com/en/blog/postgresql-vs-kernel-versions/?utm_source=postgresweekly&utm_medium=email)
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
+  - [Improving Linux system performance with I/O scheduler tuning](https://blog.codeship.com/linux-io-scheduler-tuning/?utm_source=postgresweekly&utm_medium=email)
 
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
