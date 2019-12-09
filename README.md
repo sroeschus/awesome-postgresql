@@ -385,6 +385,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   
 ## ETL
 - [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
+- [Using COPY in Postgres for importing large CSVs](https://trineo.com/blog/2018/08/using-copy-in-postgres-for-importing-large-csvs)
 
 ## Table
 - [Heap only table (HOT)](https://github.com/postgres/postgres/blob/master/src/backend/access/heap/README.HOT)
@@ -579,12 +580,16 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Upsert
   * [UPSERT on Postgres 9.5](http://blog.andrebarbosa.co/upsert-on-postgres-9-5/?utm_source=postgresweekly&utm_medium=email)
   * [Upsert Records with PostgreSQL 9.5](https://hashrocket.com/blog/posts/upsert-records-with-postgresql-9-5?utm_source=postgresweekly&utm_medium=email)
-  
+
+## DDL
+- [A Missing Link in Postgres 11: Fast Column Creation with Defaults](https://brandur.org/postgres-default)
+
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
+- [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
 
 ## Fulltext Search (FTS)
 - [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
@@ -637,6 +642,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
+- [Foreign Data Wrappers in PostgreSQL and a closer look at postgres_fdw](https://www.percona.com/blog/2018/08/21/foreign-data-wrappers-postgresql-postgres_fdw/)
 
 ## Version news
 - [What's new in PostgreSQL 9.5](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.5?utm_source=postgresweekly&utm_medium=email)
