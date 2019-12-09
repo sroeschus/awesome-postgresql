@@ -338,6 +338,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
 * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
 * [PostgreSQL: how to add new keyword to SQL grammar](https://shaplov.livejournal.com/903924.html?utm_source=postgresweekly&utm_medium=email)
+* [Bug Squashing with SQLsmith](https://share.credativ.com/~ase/sqlsmith-talk.pdf?utm_source=postgresweekly&utm_medium=email)
 
 # Patches
 * [buffer_replacement_policies](https://github.com/chen3593/PostgreSQL) - Adding Alternative buffer replacement policies including LRU, MRU, FIFO
@@ -510,6 +511,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Architecture and Tuning of Memory in PostgreSQL Databases](https://severalnines.com/database-blog/architecture-and-tuning-memory-postgresql-databases)
   - [Understanding caching in PostgreSQL - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/?utm_source=postgresweekly&utm_medium=email)
   - [Caching in PostgreSQL](https://raghavt.blogspot.com/2012/04/caching-in-postgresql.html)
+  - [Locking PostgreSQL shared memory to physical RAM](https://theplateisbad.blogspot.com/2016/11/locking-postgresql-shared-memory-to.html?utm_source=postgresweekly&utm_medium=email)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -629,6 +631,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Using the CIS PostgreSQL Benchmark to Enhance Your Security](https://info.crunchydata.com/blog/using-the-cis-postgresql-benchmark-to-enhance-your-security)
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
+- [Securing PostgreSQL](https://thebuild.com/presentations/pgconfeu-2016-securing-postgresql.pdf?utm_source=postgresweekly&utm_medium=email)
 
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
@@ -655,6 +658,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres adores a Vacuum](https://begriffs.com/posts/2016-04-19-postgres-adores-vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
+- [Implement an early warning system for transaction ID wraparound in Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/implement-an-early-warning-system-for-transaction-id-wraparound-in-amazon-rds-for-postgresql/?adbsc=social_20161031_67402216&adbid=793131047848321024&adbpl=tw&adbpr=66780587&utm_source=postgresweekly&utm_medium=email)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
