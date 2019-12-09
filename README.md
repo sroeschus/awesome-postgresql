@@ -562,6 +562,9 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Deep dive into PostgreSQL stats: pg_stat_activity and pg_locks](https://blog.dataegret.com/2017/10/deep-dive-into-postgres-stats.html)
   - [Deep dive into PostgreSQL stats: pg_stat_user_indexes](https://blog.dataegret.com/2017/05/deep-dive-into-postgres-stats.html)
   - [Deep dive into PostgreSQL stats: pg_stat_all_tables](https://blog.dataegret.com/2017/04/deep-dive-into-postgres-stats_20.html)
+  - [Deep dive into postgreSQL stats: pg_stat_bgwriter reports](https://blog.dataegret.com/2017/03/deep-dive-into-postgres-stats_27.html)
+  - [Deep dive into PostgreSQL stats: pg_stat_database](https://blog.dataegret.com/2017/02/deep-dive-into-postgres-stats_28.html)
+  - [Introduction to pg_stat_activity](https://blog.dataegret.com/2015/11/introduction-to-pgstatactivity.html)
 - Checksum
   - [Postgres checksum performance impact](https://www.endpoint.com/blog/2015/12/31/postgres-checksum-performance-impact?utm_source=postgresweekly&utm_medium=email)
 - Dynamic tracing
@@ -633,10 +636,14 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
+- [PG Phriday: Getting assertive](http://bonesmoses.org/2017/02/17/pg-phriday-getting-assertive/?utm_source=postgresweekly&utm_medium=email)
 
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
+
+## Testing
+- [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Fulltext Search (FTS)
 - [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
