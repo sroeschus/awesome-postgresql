@@ -390,6 +390,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Date / Timestamp
   - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+  - [PostgreSQL Date Functions (and 7 ways to use them in business analysis)](https://mode.com/blog/postgres-sql-date-functions?utm_source=postgresweekly&utm_medium=email)
 - Timezone
   - [Actually Understanding Timezones in PostgreSQL](http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
@@ -622,6 +623,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Security
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
+- [pgAudit: Auditing database operations part 1](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-1)
+- [pgAudit: Auditing database operations part 2](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-2?utm_source=postgresweekly&utm_medium=email)
 - [Install PostgreSQL 9.6 with transparent data encyption](https://www.cybertec-postgresql.com/en/install-postgresql-9-6-with-transparent-data-encryption/)
 - [Using the CIS PostgreSQL Benchmark to Enhance Your Security](https://info.crunchydata.com/blog/using-the-cis-postgresql-benchmark-to-enhance-your-security)
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
@@ -651,6 +654,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Vacuuming: An introduction for busy devs](http://okigiveup.net/postgresql-vacuuming-an-introduction-for-busy-devs/?utm_source=postgresweekly&utm_medium=email)
 - [Postgres adores a Vacuum](https://begriffs.com/posts/2016-04-19-postgres-adores-vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
+- [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
@@ -665,6 +669,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
 - [Foreign Data Wrappers in PostgreSQL and a closer look at postgres_fdw](https://www.percona.com/blog/2018/08/21/foreign-data-wrappers-postgresql-postgres_fdw/)
+- [Waiting for PostgreSQL 10 – PostgreSQL_fdw: Push down aggregates to remote servers](https://www.depesz.com/2016/10/25/waiting-for-postgresql-10-postgres_fdw-push-down-aggregates-to-remote-servers/?utm_source=postgresweekly&utm_medium=email)
 
 ## Version news
 - [What's new in PostgreSQL 9.5](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.5?utm_source=postgresweekly&utm_medium=email)
