@@ -391,9 +391,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Why Uber Engineering Switched from Postgres to MySQL](https://eng.uber.com/mysql-migration/?utm_source=postgresweekly&utm_medium=email)
 
 ## Datatypes
+- [Tour de (PostgreSQL) data types](https://andreas.scherbaum.la/writings/Tour_de_Data_Types_-_FOSDEM_2017.pdf?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 - Array
   - [PostgreSQL, the good parts: Arrays](http://blog.ryankelly.us/2016/08/21/postgres-the-good-parts-arrays.html?utm_source=postgresweekly&utm_medium=email)
+  - [Array of LIKEs](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
 - Date / Timestamp
   - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
@@ -474,6 +476,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
+- [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
@@ -537,6 +540,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
   - [Detecting performance problems easily in PostgreSQL](https://www.cybertec-postgresql.com/en/detecting-performance-problems-easily-in-postgresql/)
   - [Avoiding “OR” for better query peformance](https://www.cybertec-postgresql.com/en/avoid-or-for-better-performance/)
+  - [Performance issues with ORed conditions](http://blog.rhodiumtoad.org.uk/2017/01/22/performance-issues-with-ored-conditions/?utm_source=postgresweekly&utm_medium=email)
   - [The most useful Postgres extension: pg_stat_statements](https://www.citusdata.com/blog/2019/02/08/the-most-useful-postgres-extension-pg-stat-statements/)
   - [PostgreSQL Running Slow? Tips & Tricks to get to the source](https://severalnines.com/database-blog/postgresql-running-slow-tips-tricks-get-source)
   - [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/)
@@ -647,6 +651,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
 - [Securing PostgreSQL](https://thebuild.com/presentations/pgconfeu-2016-securing-postgresql.pdf?utm_source=postgresweekly&utm_medium=email)
+- [One-time passwords with Google Authenticator PAM (and friends)](https://theplateisbad.blogspot.com/2016/12/one-time-passwords-with-google.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
