@@ -419,10 +419,14 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
 - Hash index
   - [Hash Indexes on PostgreSQL](http://blog.andrebarbosa.co/hash-indexes-on-postgres/?utm_source=postgresweekly&utm_medium=email)
-- Covering Indexes
+- "Like"
+  - [PgSQL Indexes and "LIKE"](http://blog.cleverelephant.ca/2016/08/pgsql-text-pattern-ops.html?utm_source=postgresweekly&utm_medium=email)
+- Covering Index
   - [PostgreSQL 11 highlight - Covering Indexes](https://paquier.xyz/postgresql-2/postgres-11-covering-indexes/)
-- Combined Indexes
+- Combined Index
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
+- Partial index
+  - [Unique partial indexes with PostgreSQL](https://medium.com/little-programming-joys/unique-partial-indexes-with-postgresql-86e137905c12)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
 - [How to index your database](https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#1)
@@ -547,6 +551,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
 - [Speeding up PostgreSQL restores](https://tech.gadventures.com/speeding-up-postgres-restores-de575149d17a#.55p72yhf7)
+- [Recovering PostgreSQL database from disk level corruption](http://www.pateldenish.com/2016/09/recovering-corrupted-postgres-database.html?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 
 ## Replication
