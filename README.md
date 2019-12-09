@@ -367,6 +367,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 
+## Configuration
+- [PostgreSQL configuration for humans](https://www.slideshare.net/profyclub_ru/postgresql-configuration-for-humans-alvaro-hernandez-ongres)
+
 ## Connection pool
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
@@ -507,6 +510,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
   - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
+  - [PostrgreSQL: Improving sort performance](https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Waits
@@ -569,6 +573,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
   * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
+  * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Upsert
