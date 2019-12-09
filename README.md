@@ -576,6 +576,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
+* Development
+  * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
