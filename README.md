@@ -452,6 +452,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Generate primary keys (almost) automatically](https://fluca1978.github.io/2019/07/09/GeneratePrimaryKeys.html)
 - [An Overview of the Serial Pseudo-Datatype for PostgreSQL](https://severalnines.com/database-blog/overview-serial-pseudo-datatype-postgresql)
 - [UUID vs BIGSERIAL for primary keys](https://thebuild.com/blog/2015/10/08/uuid-vs-bigserial-for-primary-keys/?utm_source=postgresweekly&utm_medium=email)
+- [FAQ: Using Sequences in PostgreSQL](http://www.neilconway.org/docs/sequences/?utm_source=postgresweekly&utm_medium=email)
 
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
@@ -486,6 +487,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 - [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 9.6: Parallel Sequential Scan](https://www.2ndquadrant.com/en/blog/postgresql96-parallel-sequential-scan/?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL 9.6: Parallel queries](https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html?utm_source=postgresweekly&utm_medium=email)
 - [Parallel Query v2](http://rhaas.blogspot.com/2017/03/parallel-query-v2.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Distributed Processing
@@ -540,6 +542,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Migrations and long transactions in PostgreSQL](https://www.fin.com/posts/migrations-and-long-transactions-in-postgres/)
   - [Understanding deadlocks in MySQL & PostgreSQL](https://severalnines.com/database-blog/understanding-deadlocks-mysql-postgresql)
   - [Don’t LOCK tables. Just don’t](https://thebuild.com/blog/2018/08/28/dont-lock-tables-just-dont/)
+  - [How do PostgreSQL advisory locks work](https://vladmihalcea.com/how-do-postgresql-advisory-locks-work/?utm_source=postgresweekly&utm_medium=email/)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
@@ -699,6 +702,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Implement an early warning system for transaction ID wraparound in Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/implement-an-early-warning-system-for-transaction-id-wraparound-in-amazon-rds-for-postgresql/?adbsc=social_20161031_67402216&adbid=793131047848321024&adbpl=tw&adbpr=66780587&utm_source=postgresweekly&utm_medium=email)
+- [When autovacuum does not vacuum](https://www.2ndquadrant.com/en/blog/when-autovacuum-does-not-vacuum/?utm_source=postgresweekly&utm_medium=email)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
