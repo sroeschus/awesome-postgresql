@@ -276,6 +276,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgrouter](https://github.com/jhunt/pgrouter) - A router for postgres HA
 * [pgsync](https://github.com/ankane/pgsync) - Sync data between databases
 * [PgSynchronizer](https://github.com/xba1k/PgSynchronizer) - Tool to synchronize data between PostgreSQL databases
+* [pgtransform](https://github.com/facetoe/pgtransform?utm_source=postgresweekly&utm_medium=email) - Tools for comparing and modifying Postgresql databases at scale
 * [pg_auto_failover](https://github.com/citusdata/pg_auto_failover) - Service for automated failover and high-availability
 * [pg_bulkload](https://github.com/ossc-db/pg_bulkload) - High speed data loading utility for PostgreSQL
 * [pg_catcheck](https://github.com/EnterpriseDB/pg_catcheck) - Catalog checker
@@ -379,10 +380,14 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
 - [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
 
+## Constraints
+- [Protect your data with PostgreSQL constraints](http://nathanmlong.com/2016/01/protect-your-data-with-postgresql-constraints/?utm_source=postgresweekly&utm_medium=email)
+
 ## Customer
 - [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
 - [Re: Why we lost Uber as a user](https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com?utm_source=postgresweekly&utm_medium=email)
 - [Thoughts on Uber’s list of PostgreSQL limitations](https://www.2ndquadrant.com/en/blog/thoughts-on-ubers-list-of-postgres-limitations/?utm_source=postgresweekly&utm_medium=email)
+- [Why Uber Engineering Switched from Postgres to MySQL](https://eng.uber.com/mysql-migration/?utm_source=postgresweekly&utm_medium=email)
 
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
@@ -479,10 +484,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Master-less distributed queue with PG Paxos](https://www.citusdata.com/blog/2016/04/13/masterless-distributed-queue/)
 
 ## Partitioning
+- [PostgreSQL 10 Built-in Partitioning](https://www.keithf4.com/postgresql-10-built-in-partitioning/?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 - [Partition Elimination in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/partition-elimination-postgresql-11/)
 - [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
+- [Getting time zones right when setting up PostgreSQL monthly partitioning](https://blog.ondevice.io/2016/11/postgres-partitioning/)
 
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
@@ -667,6 +674,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## I/O
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
+- [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
