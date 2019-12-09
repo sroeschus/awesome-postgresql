@@ -639,6 +639,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## DDL
 - [A Missing Link in Postgres 11: Fast Column Creation with Defaults](https://brandur.org/postgres-default)
+- [Safe and unsafe operations for high volume PostgreSQL](https://leopard.in.ua/2016/09/20/safe-and-unsafe-operations-postgresql?utm_source=postgresweekly&utm_medium=email#.Xe3gCZNKh-j)
 
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
