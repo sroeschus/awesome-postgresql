@@ -361,6 +361,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
 - Columnar store
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
+- LLVM
+  - [Pairing LLVM JIT with PostgreSQL can speed up database performance](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-JIT-PostgreSQL&utm_source=postgresweekly&utm_medium=email)
  
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
@@ -552,6 +554,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
 - [Speeding up PostgreSQL restores](https://tech.gadventures.com/speeding-up-postgres-restores-de575149d17a#.55p72yhf7)
 - [Recovering PostgreSQL database from disk level corruption](http://www.pateldenish.com/2016/09/recovering-corrupted-postgres-database.html?utm_source=postgresweekly&utm_medium=email)
+- [pg_healer: repairing PostgreSQL problems automatically](https://www.endpoint.com/blog/2016/09/19/pghealer-repairing-postgres-problems?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 
 ## Replication
@@ -592,6 +595,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
   * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
+  * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Upsert
