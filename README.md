@@ -169,6 +169,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_strom](https://github.com/kaigai/pg_strom) - FDW module of PostgreSQL using GPU for Asynchronous Super-Parallel Query Execution
 * [pg_sulog](https://github.com/nuko-yokohama/pg_sulog) - Superuser logging/blocking
 * [pg_terminator](https://gitlab.com/depesz/pg_terminator) - Tool for automatically canceling or terminating offending connections
+* [pg_themis](https://github.com/cossacklabs/pg_themis?utm_source=postgresweekly&utm_medium=email) - Encrypting / Decrypting data using the Themis library
 * [pg_track_settings](https://github.com/rjuju/pg_track_settings) - Keep track of configuration changes
 * [pg_track_slow_queries](https://github.com/julmon/pg_track_slow_queries) - Slow query tracking
 * [pg_trgm_pro](https://github.com/postgrespro/pg_trgm_pro) - Text similarity measurement and index searching based on trigrams
@@ -434,6 +435,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL 11 highlight - Covering Indexes](https://paquier.xyz/postgresql-2/postgres-11-covering-indexes/)
 - Combined Index
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
+  - [The Multi-Column Index of the mysteries](https://thebuild.com/blog/2016/12/30/the-multi-column-index-of-the-mysteries/)
 - Partial index
   - [Unique partial indexes with PostgreSQL](https://medium.com/little-programming-joys/unique-partial-indexes-with-postgresql-86e137905c12)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
@@ -461,6 +463,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Introducing pg_auto_failover: Open source extension for automated failover and high-availability in PostgreSQL](https://cloudblogs.microsoft.com/opensource/2019/05/06/introducing-pg_auto_failover-postgresql-open-source-extension-automated-failover-high-availability/)
 - [Introduction to PostgreSQL automatic failover](https://pgstef.github.io/2018/02/07/introduction_to_postgresql_automatic_failover.html)
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
+- [An introduction to stolon: cloud native PostgreSQL high availability](https://sgotti.dev/post/stolon-introduction/?utm_source=postgresweekly&utm_medium=email)
 
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
@@ -506,6 +509,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL technical performance presentations](http://momjian.us/main/presentations/performance.html)
 - [PostgreSQL Scalability: Towards millions TPS](http://akorotkov.github.io/blog/2016/05/09/scalability-towards-millions-tps/?utm_source=postgresweekly&utm_medium=email)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
+- Benchmark
+  - [Tuning PostgreSQL with pgbench](https://blog.codeship.com/tuning-postgresql-with-pgbench/?utm_source=postgresweekly&utm_medium=email)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
@@ -580,6 +585,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
 - [What hot_standby_feedback in PostgreSQL really does](https://www.cybertec-postgresql.com/en/what-hot_standby_feedback-in-postgresql-really-does/)
+- [Postgres 10 highlight - Quorum set of synchronous standbys](https://paquier.xyz/postgresql-2/postgres-10-quorum-sync/?utm_source=postgresweekly&utm_medium=email)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
