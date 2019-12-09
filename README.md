@@ -376,6 +376,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
 - [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
 
+## Customer
+- [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
+- [Re: Why we lost Uber as a user](https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com?utm_source=postgresweekly&utm_medium=email)
+
 ## Datatypes
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
 * Date / Timestamp
@@ -500,6 +504,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
   - [Migrations and long transactions in PostgreSQL](https://www.fin.com/posts/migrations-and-long-transactions-in-postgres/)
   - [Understanding deadlocks in MySQL & PostgreSQL](https://severalnines.com/database-blog/understanding-deadlocks-mysql-postgresql)
+  - [Don’t LOCK tables. Just don’t](https://thebuild.com/blog/2018/08/28/dont-lock-tables-just-dont/)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
@@ -550,6 +555,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
+- [What hot_standby_feedback in PostgreSQL really does](https://www.cybertec-postgresql.com/en/what-hot_standby_feedback-in-postgresql-really-does/)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
@@ -635,6 +641,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## I/O
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
+- [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
@@ -650,8 +657,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## OS
 - Linux
+  - [Tune linux kernel parameters for PostgreSQL optimization](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/)
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
+  - [PostgreSQL vs. Linux kernel versions](https://www.2ndquadrant.com/en/blog/postgresql-vs-kernel-versions/?utm_source=postgresweekly&utm_medium=email)
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
 
 ## Limits
