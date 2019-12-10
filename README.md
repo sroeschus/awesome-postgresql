@@ -99,6 +99,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_crasher](https://github.com/davidcrawford/pg_crasher) - Crash database backend
 * [pg_cron](https://github.com/citusdata/pg_cron) - Run periodic jobs
 * [pg_cryogen](https://github.com/adjust/pg_cryogen) - Compressed append-only pluggable storage
+* [pg_cuckoo](https://github.com/kryonix/pg_cuckoo) - Use PostgreSQL's planner hook to open a side entrance through which we can pass plan trees for immediate execution
 * [pg_dbms_stats](https://github.com/ossc-db/pg_dbms_stats) - Create execution plans using frozen statistics
 * [pg_dirtyread](https://github.com/df7cb/pg_dirtyread) - Read dead but unvacuumed tuples
 * [pg_dropbuffers](https://github.com/rjuju/pg_dropbuffers) - Drop buffers from shared_buffers without needing to restart the cluster
