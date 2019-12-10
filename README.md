@@ -335,6 +335,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
 * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
 * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
+* [nminoru](https://github.com/nminoru/misc/tree/master/postgresql) - Extension examples
 * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
 * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
 * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
@@ -353,7 +354,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Zedstore - compressed in-core columnar storage](https://www.postgresql.org/message-id/flat/CALfoeiuF-m5jg51mJUPm5GN8u396o5sA2AF5N97vTRAEDYac7w%40mail.gmail.com)
 
 # Documentation / Blogs
-[Postgres documentation](https://www.postgresql.org/docs/12/index.html)
+- [PostgreSQL documentation](https://www.postgresql.org/docs/12/index.html)
+- [PostgreSQL internals (japanese)](http://www.nminoru.jp/~nminoru/postgresql/)
 
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
@@ -387,6 +389,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Constraints
 - [Protect your data with PostgreSQL constraints](http://nathanmlong.com/2016/01/protect-your-data-with-postgresql-constraints/?utm_source=postgresweekly&utm_medium=email)
 - [Deferrable SQL Constraints in depth](https://begriffs.com/posts/2017-08-27-deferrable-sql-constraints.html?utm_source=postgresweekly&utm_medium=email)
+- [Adding a NOT NULL CONSTRAINT on PG Faster with Minimal Locking](https://medium.com/doctolib/adding-a-not-null-constraint-on-pg-faster-with-minimal-locking-38b2c00c4d1c)
 
 ## Customer
 - [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
@@ -724,6 +727,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Autovacuum tuning basics](https://www.2ndquadrant.com/en/blog/autovacuum-tuning-basics/?utm_source=postgresweekly&utm_medium=email)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
 - [Autovaccum wrap around protection in PostgreSQL](https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/)
+- [Visualizing & Tuning PostgreSQL Autovacuum](https://pganalyze.com/blog/visualizing-and-tuning-postgres-autovacuum)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
 - [PostgreSQL Bloatbusters](https://blog.dataegret.com/2018/03/postgresql-bloatbusters.html)
@@ -746,6 +750,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
+- [pg_hexedit: Rich hex editor annotations for Postgres relfiles](https://pgeoghegan.blogspot.com/2017/11/pghexedit-rich-hex-editor-annotations.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 
