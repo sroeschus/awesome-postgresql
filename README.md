@@ -378,6 +378,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL configuration for humans](https://www.slideshare.net/profyclub_ru/postgresql-configuration-for-humans-alvaro-hernandez-ongres)
 
 ## Connection pool
+- [Tracking and Managing Your PostgreSQL Connections](http://www.craigkerstiens.com/2017/09/18/postgres-connection-management/?utm_source=postgresweekly&utm_medium=email)
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
@@ -436,6 +437,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
 - Hash index
   - [Hash Indexes on PostgreSQL](http://blog.andrebarbosa.co/hash-indexes-on-postgres/?utm_source=postgresweekly&utm_medium=email)
+  - [PostgreSQL's Hash Indexes are now cool](http://rhaas.blogspot.com/2017/09/postgresqls-hash-indexes-are-now-cool.html?utm_source=postgresweekly&utm_medium=email)
 - "Like"
   - [PgSQL Indexes and "LIKE"](http://blog.cleverelephant.ca/2016/08/pgsql-text-pattern-ops.html?utm_source=postgresweekly&utm_medium=email)
 - Covering Index
@@ -469,6 +471,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Transactions aren’t fully isolated](https://malisper.me/postgres-transactions-arent-fully-isolated/?utm_source=postgresweekly&utm_medium=email)
 - [Practical Guide to SQL Transaction Isolation](https://begriffs.com/posts/2017-08-01-practical-guide-sql-isolation.html?utm_source=postgresweekly&utm_medium=email)
 - [How PostgreSQL makes Transactions Atomic](https://brandur.org/postgres-atomicity?utm_source=postgresweekly&utm_medium=email)
+- [Handling Contention with PostgreSQL](https://medium.com/learning-with-diagrams/learning-w-diagrams-handling-contention-with-postgresql-109798b8ad54)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -643,6 +646,7 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
     * [PostgreSQL Window Magic](http://momjian.us/main/writings/pgsql/window.pdf?utm_source=postgresweekly&utm_medium=email)
+    * [Advanced SQL - window functions](https://mjk.space/advanced-sql-window-functions/)
   * Join
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
@@ -654,6 +658,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
   * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
   * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
+  * [Using xmin in queries](https://momjian.us/main/blogs/pgblog/2017.html#October_4_2017)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Update
@@ -753,6 +758,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [What's new in PostgreSQL 9.5](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.5?utm_source=postgresweekly&utm_medium=email)
 - [Postgres 9.5: three little things](https://www.endpoint.com/blog/2016/01/28/postgres-95-three-little-things?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 10 New features with examples](https://h50146.www5.hpe.com/products/software/oe/linux/mainstream/support/lcc/pdf/PostgreSQL_10_New_Features_en_20170522-1.pdf?utm_source=postgresweekly&utm_medium=email)
+- [Whats New in Postgres 10: Monitoring Improvements](https://pganalyze.com/blog/whats-new-in-postgres-10-monitoring-improvements)
 - [Major Features: PostgreSQL 12](http://momjian.us/main/writings/pgsql/features.pdf?utm_source=postgresweekly&utm_medium=email)
 
 ## OS
@@ -769,3 +775,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
+
+## Conferences
+- [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
