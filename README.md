@@ -325,10 +325,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [zHeap](https://github.com/EnterpriseDB/zheap)
 
 # Development
-* [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
-* [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
+* Editor
+  * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
+  * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
 * Extensions
   * [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
   * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
