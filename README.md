@@ -399,6 +399,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Array
   - [PostgreSQL, the good parts: Arrays](http://blog.ryankelly.us/2016/08/21/postgres-the-good-parts-arrays.html?utm_source=postgresweekly&utm_medium=email)
   - [Array of LIKEs](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
+  - [Removing duplicates in a PostgreSQL array](https://medium.com/marmolabs/removing-duplicates-in-a-postgresql-array-c972e4ed3bf0)
 - Date / Timestamp
   - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
@@ -465,6 +466,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [idle_in_transaction_session_timeout: Terminating idle transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/idle_in_transaction_session_timeout-terminating-idle-transactions-in-postgresql/)
 - [PostgreSQL and per-connection write consistency settings](https://www.compose.com/articles/postgresql-and-per-connection-write-consistency-settings/?utm_source=cooper&utm_medium=banner&utm_campaign=postgresweekly)
 - [PostgreSQL Transactions aren’t fully isolated](https://malisper.me/postgres-transactions-arent-fully-isolated/?utm_source=postgresweekly&utm_medium=email)
+- [Practical Guide to SQL Transaction Isolation](https://begriffs.com/posts/2017-08-01-practical-guide-sql-isolation.html?utm_source=postgresweekly&utm_medium=email)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -633,6 +635,9 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
     * [PostgreSQL Window Magic](http://momjian.us/main/writings/pgsql/window.pdf?utm_source=postgresweekly&utm_medium=email)
+  * Join
+    * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
+    * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
@@ -642,6 +647,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
+* Update
+  * [What is SKIP LOCKED for in PostgreSQL 9.5?](https://www.2ndquadrant.com/en/blog/what-is-select-skip-locked-for-in-postgresql-9-5/?utm_source=postgresweekly&utm_medium=email)
 * Upsert
   * [UPSERT on Postgres 9.5](http://blog.andrebarbosa.co/upsert-on-postgres-9-5/?utm_source=postgresweekly&utm_medium=email)
   * [Upsert Records with PostgreSQL 9.5](https://hashrocket.com/blog/posts/upsert-records-with-postgresql-9-5?utm_source=postgresweekly&utm_medium=email)
@@ -657,6 +664,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
+- [Customizing my PostgreSQL Shell](https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/?utm_source=postgresweekly&utm_medium=email)
 
 ## Testing
 - [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
@@ -680,6 +688,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
 - [Securing PostgreSQL](https://thebuild.com/presentations/pgconfeu-2016-securing-postgresql.pdf?utm_source=postgresweekly&utm_medium=email)
 - [One-time passwords with Google Authenticator PAM (and friends)](https://theplateisbad.blogspot.com/2016/12/one-time-passwords-with-google.html?utm_source=postgresweekly&utm_medium=email)
+- [A Penetration Tester’s Guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
 
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
@@ -709,6 +718,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Implement an early warning system for transaction ID wraparound in Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/implement-an-early-warning-system-for-transaction-id-wraparound-in-amazon-rds-for-postgresql/?adbsc=social_20161031_67402216&adbid=793131047848321024&adbpl=tw&adbpr=66780587&utm_source=postgresweekly&utm_medium=email)
 - [When autovacuum does not vacuum](https://www.2ndquadrant.com/en/blog/when-autovacuum-does-not-vacuum/?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL Index bloat under a microscope](https://pgeoghegan.blogspot.com/2017/07/postgresql-index-bloat-microscope.html?utm_source=postgresweekly&utm_medium=email)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
