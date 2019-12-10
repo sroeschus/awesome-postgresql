@@ -327,22 +327,27 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Development
 * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
 * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
-* [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
-* [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
-* [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
-* [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
-* [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
-* [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
-* [nminoru](https://github.com/nminoru/misc/tree/master/postgresql) - Extension examples
-* [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
-* [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
-* [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
-* [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
-* [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
-* [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
-* [PostgreSQL: how to add new keyword to SQL grammar](https://shaplov.livejournal.com/903924.html?utm_source=postgresweekly&utm_medium=email)
+* Extensions
+  * [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
+  * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
+  * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
+  * [pg_plugins](https://github.com/michaelpq/pg_plugins) - Templates for plugins
+  * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
+  * [nminoru](https://github.com/nminoru/misc/tree/master/postgresql) - Extension examples
+  * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
+* Debugging
+  * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
+  * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
+* Internals
+  * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
+  * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
+* Hooks
+  * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
+  * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
+* New keyword
+  * [PostgreSQL: how to add new keyword to SQL grammar](https://shaplov.livejournal.com/903924.html?utm_source=postgresweekly&utm_medium=email)
 * [Bug Squashing with SQLsmith](https://share.credativ.com/~ase/sqlsmith-talk.pdf?utm_source=postgresweekly&utm_medium=email)
 
 # Patches
