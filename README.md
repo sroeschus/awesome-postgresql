@@ -385,6 +385,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Constraints
 - [Protect your data with PostgreSQL constraints](http://nathanmlong.com/2016/01/protect-your-data-with-postgresql-constraints/?utm_source=postgresweekly&utm_medium=email)
+- [Deferrable SQL Constraints in depth](https://begriffs.com/posts/2017-08-27-deferrable-sql-constraints.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Customer
 - [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
@@ -467,6 +468,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL and per-connection write consistency settings](https://www.compose.com/articles/postgresql-and-per-connection-write-consistency-settings/?utm_source=cooper&utm_medium=banner&utm_campaign=postgresweekly)
 - [PostgreSQL Transactions aren’t fully isolated](https://malisper.me/postgres-transactions-arent-fully-isolated/?utm_source=postgresweekly&utm_medium=email)
 - [Practical Guide to SQL Transaction Isolation](https://begriffs.com/posts/2017-08-01-practical-guide-sql-isolation.html?utm_source=postgresweekly&utm_medium=email)
+- [How PostgreSQL makes Transactions Atomic](https://brandur.org/postgres-atomicity?utm_source=postgresweekly&utm_medium=email)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -588,6 +590,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Diagnose High-Latency I/O Operations Using SystemTap](https://db-blog.web.cern.ch/blog/luca-canali/2015-07-diagnose-high-latency-io-operations-using-systemtap)
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
+  
 ## Recovery
 - [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
@@ -595,6 +598,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Speeding up PostgreSQL restores](https://tech.gadventures.com/speeding-up-postgres-restores-de575149d17a#.55p72yhf7)
 - [Recovering PostgreSQL database from disk level corruption](http://www.pateldenish.com/2016/09/recovering-corrupted-postgres-database.html?utm_source=postgresweekly&utm_medium=email)
 - [pg_healer: repairing PostgreSQL problems automatically](https://www.endpoint.com/blog/2016/09/19/pghealer-repairing-postgres-problems?utm_source=postgresweekly&utm_medium=email)
+- [Introducing WAL-G by Citus: Faster disaster recovery for PostgreSQL](https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 
 ## Replication
@@ -638,6 +642,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * Join
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
+    * [Understanding tricky Joins and Multi-Table Updates in PostgreSQL (Using Boolean Algebra!)](https://build.affinity.co/understanding-tricky-joins-and-multi-table-updates-in-postgresql-using-boolean-algebra-7b329606ca45)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
@@ -709,6 +714,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
 - [Autovacuum tuning basics](https://www.2ndquadrant.com/en/blog/autovacuum-tuning-basics/?utm_source=postgresweekly&utm_medium=email)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
+- [Autovaccum wrap around protection in PostgreSQL](https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
 - [PostgreSQL Bloatbusters](https://blog.dataegret.com/2018/03/postgresql-bloatbusters.html)
