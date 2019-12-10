@@ -391,6 +391,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Re: Why we lost Uber as a user](https://www.postgresql.org/message-id/5797D5A1.5030009%40agliodbs.com?utm_source=postgresweekly&utm_medium=email)
 - [Thoughts on Uber’s list of PostgreSQL limitations](https://www.2ndquadrant.com/en/blog/thoughts-on-ubers-list-of-postgres-limitations/?utm_source=postgresweekly&utm_medium=email)
 - [Why Uber Engineering Switched from Postgres to MySQL](https://eng.uber.com/mysql-migration/?utm_source=postgresweekly&utm_medium=email)
+- [A PostgreSQL response to Uber](https://thebuild.com/presentations/uber-perconalive-2017.pdf?utm_source=postgresweekly&utm_medium=email)
 
 ## Datatypes
 - [Tour de (PostgreSQL) data types](https://andreas.scherbaum.la/writings/Tour_de_Data_Types_-_FOSDEM_2017.pdf?utm_source=postgresweekly&utm_medium=email)
@@ -463,6 +464,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
 - [idle_in_transaction_session_timeout: Terminating idle transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/idle_in_transaction_session_timeout-terminating-idle-transactions-in-postgresql/)
 - [PostgreSQL and per-connection write consistency settings](https://www.compose.com/articles/postgresql-and-per-connection-write-consistency-settings/?utm_source=cooper&utm_medium=banner&utm_campaign=postgresweekly)
+- [PostgreSQL Transactions aren’t fully isolated](https://malisper.me/postgres-transactions-arent-fully-isolated/?utm_source=postgresweekly&utm_medium=email)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -481,6 +483,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
+- [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
@@ -626,8 +629,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 * select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
-  * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
-  * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
+  * Window functions
+    * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
+    * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
+    * [PostgreSQL Window Magic](http://momjian.us/main/writings/pgsql/window.pdf?utm_source=postgresweekly&utm_medium=email)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
@@ -714,6 +719,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 
 ## Foreign Data Wrapper
@@ -724,6 +730,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Version news
 - [What's new in PostgreSQL 9.5](https://wiki.postgresql.org/wiki/What%27s_new_in_PostgreSQL_9.5?utm_source=postgresweekly&utm_medium=email)
 - [Postgres 9.5: three little things](https://www.endpoint.com/blog/2016/01/28/postgres-95-three-little-things?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL 10 New features with examples](https://h50146.www5.hpe.com/products/software/oe/linux/mainstream/support/lcc/pdf/PostgreSQL_10_New_Features_en_20170522-1.pdf?utm_source=postgresweekly&utm_medium=email)
+- [Major Features: PostgreSQL 12](http://momjian.us/main/writings/pgsql/features.pdf?utm_source=postgresweekly&utm_medium=email)
 
 ## OS
 - Linux
