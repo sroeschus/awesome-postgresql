@@ -515,6 +515,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 - [Built-in Sharding for PostgreSQL](http://rhaas.blogspot.com/2018/05/built-in-sharding-for-postgresql.html)
+- [Five sharding data models and which is right](https://www.citusdata.com/blog/2017/08/28/five-data-models-for-sharding/?utm_source=postgresweekly&utm_medium=email)
 
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
@@ -529,6 +530,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Benchmark
   - [Tuning PostgreSQL with pgbench](https://blog.codeship.com/tuning-postgresql-with-pgbench/?utm_source=postgresweekly&utm_medium=email)
+  - [PostgreSQL load testing with pgreplay](https://www.commandprompt.com/blog/postgres-load-testing-pgreplay/?utm_source=postgresweekly&utm_medium=email)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
@@ -537,11 +539,13 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Announcing pgmetrics](https://www.opsdash.com/blog/announcing-pgmetrics.html)
   - [pgio / pg_hint_plan / pg_sentinel demo](https://www.youtube.com/watch?v=tMNviAclMKo&feature=youtu.be)
   - [pg_sampletolog: An extension to log a sample of statements](https://blog.anayrat.info/en/2019/01/28/pg_sampletolog-an-extension-to-log-a-sample-of-statements/)
+  - [Debugging complex PostgreSQL queries with pgdebug](https://korban.net/posts/postgres/2017-09-18-debugging-complex-postgres-queries-with-pgdebug/?utm_source=postgresweekly&utm_medium=email)
 - Memory
   - [Architecture and Tuning of Memory in PostgreSQL Databases](https://severalnines.com/database-blog/architecture-and-tuning-memory-postgresql-databases)
   - [Understanding caching in PostgreSQL - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/?utm_source=postgresweekly&utm_medium=email)
   - [Caching in PostgreSQL](https://raghavt.blogspot.com/2012/04/caching-in-postgresql.html)
   - [Locking PostgreSQL shared memory to physical RAM](https://theplateisbad.blogspot.com/2016/11/locking-postgresql-shared-memory-to.html?utm_source=postgresweekly&utm_medium=email)
+  - [Is Your Postgres Query Starved for Memory?](https://dzone.com/articles/is-your-postgres-query-starved-for-memory?utm_source=postgresweekly&utm_medium=email)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -725,6 +729,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Implement an early warning system for transaction ID wraparound in Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/implement-an-early-warning-system-for-transaction-id-wraparound-in-amazon-rds-for-postgresql/?adbsc=social_20161031_67402216&adbid=793131047848321024&adbpl=tw&adbpr=66780587&utm_source=postgresweekly&utm_medium=email)
 - [When autovacuum does not vacuum](https://www.2ndquadrant.com/en/blog/when-autovacuum-does-not-vacuum/?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL Index bloat under a microscope](https://pgeoghegan.blogspot.com/2017/07/postgresql-index-bloat-microscope.html?utm_source=postgresweekly&utm_medium=email)
+- [Anatomy of a VACUUM](https://richyen.com/postgres/2017/08/24/anatomy_of_vacuum.html?utm_source=postgresweekly&utm_medium=email)
+- [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
