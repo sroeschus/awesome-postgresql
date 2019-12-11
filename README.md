@@ -364,6 +364,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL documentation](https://www.postgresql.org/docs/12/index.html)
 - [PostgreSQL internals (japanese)](http://www.nminoru.jp/~nminoru/postgresql/)
 
+## Administration
+- [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
+
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
 - [Life of a SQL query](https://numeracy.co/blog/life-of-a-sql-query)
@@ -377,6 +380,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
 - LLVM
   - [Pairing LLVM JIT with PostgreSQL can speed up database performance](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-JIT-PostgreSQL&utm_source=postgresweekly&utm_medium=email)
+  - [PostgreSQL 11 and Just In Time Compilation of Queries](https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/)
  
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
@@ -438,6 +442,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
   - [Principles and Applications of the Index Types Supported by PostgreSQL](https://medium.com/@Alibaba_Cloud/principles-and-applications-of-the-index-types-supported-by-postgresql-481f59bab67d)
   - [Database Indexing in PostgreSQL](https://severalnines.com/blog/postgresql-database-indexing-overview)
+  - [Indexes in PostgreSQL](https://www.slideshare.net/LouiseGrandjonc/indexes-in-postgres)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
   - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
@@ -461,6 +466,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [The Multi-Column Index of the mysteries](https://thebuild.com/blog/2016/12/30/the-multi-column-index-of-the-mysteries/)
 - Partial index
   - [Unique partial indexes with PostgreSQL](https://medium.com/little-programming-joys/unique-partial-indexes-with-postgresql-86e137905c12)
+- Parallel
+  - [PostgreSQL: Parallel create index for better performance](https://www.cybertec-postgresql.com/en/postgresql-parallel-create-index-for-better-performance/)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
 - [How to index your database](https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#1)
@@ -515,6 +522,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 9.6: Parallel Sequential Scan](https://www.2ndquadrant.com/en/blog/postgresql96-parallel-sequential-scan/?utm_source=postgresweekly&utm_medium=email)
 - [Parallel Hash for PostgreSQL](https://write-skew.blogspot.com/2018/01/parallel-hash-for-postgresql.html)
 - [PostgreSQL 9.6: Parallel queries](https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html?utm_source=postgresweekly&utm_medium=email)
+- [Parallelism in PostgreSQL 11](https://speakerdeck.com/macdice/parallelism-in-postgresql-11)
 - [Parallel Query v2](http://rhaas.blogspot.com/2017/03/parallel-query-v2.html?utm_source=postgresweekly&utm_medium=email)
 
 ## Distributed Processing
@@ -550,6 +558,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Benchmark
   - [Tuning PostgreSQL with pgbench](https://blog.codeship.com/tuning-postgresql-with-pgbench/?utm_source=postgresweekly&utm_medium=email)
   - [PostgreSQL load testing with pgreplay](https://www.commandprompt.com/blog/postgres-load-testing-pgreplay/?utm_source=postgresweekly&utm_medium=email)
+- Configuration
+  - [Tuning PostgreSQL Database Parameters to Optimize Performance](https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
@@ -616,6 +626,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   
 ## Recovery
 - [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL backup and recovery orchestration](https://www.zimmi.cz/posts/2018/postgresql-backup-and-recovery-orchestration-wal-archiving/)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
 - [Recovery use cases for Logical Replication in PostgreSQL 10](https://medium.com/avitotech/recovery-use-cases-for-logical-replication-in-postgresql-10-a1e6bab03072)
 - [Speeding up PostgreSQL restores](https://tech.gadventures.com/speeding-up-postgres-restores-de575149d17a#.55p72yhf7)
@@ -633,6 +644,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pg_rewind and checkpoints: caution!](https://thebuild.com/blog/2018/07/18/pg_rewind-and-checkpoints-caution/)
 - [PostgreSQL Replication Monitoring](https://www.scalingpostgres.com/tutorials/postgresql-replication-monitoring/)
 - [PostgreSQL replication](https://thebuild.com//presentations/replication-perconalive-2018.pdf)
+- [Replication in PostgreSQL – Setting up Streaming](https://www.percona.com/blog/2018/09/07/setting-up-streaming-replication-postgresql/)
+- [PostgreSQL Streaming Replication](https://www.scalingpostgres.com/tutorials/postgresql-streaming-replication/)
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
@@ -770,6 +783,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Exploring SP-GiST and BRIN indexes visually using pg_hexedit](https://pgeoghegan.blogspot.com/2018/01/exploring-sp-gist-and-brin-indexes.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
+- [zheap: a storage engine to provide better control over bloat](http://amitkapila16.blogspot.com/2018/03/zheap-storage-engine-to-provide-better.html)
 
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
@@ -786,6 +800,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Upgrading from 11.5 to 12 gives you 1.9 months worth of fixes (180 of them)](https://why-upgrade.depesz.com/show?from=11.5&to=12)
 
 ## OS
+- [Why do we install as root?](https://pgsnake.blogspot.com/2018/09/why-do-we-install-as-root.html)
 - Linux
   - [Tune linux kernel parameters for PostgreSQL optimization](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/)
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
