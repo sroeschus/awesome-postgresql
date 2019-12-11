@@ -435,12 +435,15 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
   - [Index internals](https://www.pgcon.org/2016/schedule/attachments/434_Index-internals-PGCon2016.pdf)
   - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
+  - [Principles and Applications of the Index Types Supported by PostgreSQL](https://medium.com/@Alibaba_Cloud/principles-and-applications-of-the-index-types-supported-by-postgresql-481f59bab67d)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
   - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - BRIN Index
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
+- Btree index
+  - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
@@ -507,6 +510,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 - [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 9.6: Parallel Sequential Scan](https://www.2ndquadrant.com/en/blog/postgresql96-parallel-sequential-scan/?utm_source=postgresweekly&utm_medium=email)
+- [Parallel Hash for PostgreSQL](https://write-skew.blogspot.com/2018/01/parallel-hash-for-postgresql.html)
 - [PostgreSQL 9.6: Parallel queries](https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html?utm_source=postgresweekly&utm_medium=email)
 - [Parallel Query v2](http://rhaas.blogspot.com/2017/03/parallel-query-v2.html?utm_source=postgresweekly&utm_medium=email)
 
@@ -683,6 +687,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
 - [PG Phriday: Getting assertive](http://bonesmoses.org/2017/02/17/pg-phriday-getting-assertive/?utm_source=postgresweekly&utm_medium=email)
+- [Avoiding unnecessary stored procedure calls in PostgreSQL](https://www.cybertec-postgresql.com/en/avoiding-unnecessary-stored-procedure-calls-in-postgresql/)
 
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
@@ -716,6 +721,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
+- [Upgrading PostgreSQL from 9.6 to 10 with minimal downtime using pglogical](https://rosenfeld.herokuapp.com/en/articles/infrastructure/2017-11-10-upgrading-postgresql-from-9-6-to-10-with-minimal-downtime-using-pglogical)
 - [PostgreSQL 10 upgrade](https://bricklen.github.io/2018-03-27-Postgres-10-upgrade/)
 - [Upgrading PostgreSQL on AWS RDS with minimum or zero downtime](https://medium.com/preply-engineering/postgres-multimaster-34f2446d5e14)
 
@@ -757,6 +763,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
 - [pg_hexedit: Rich hex editor annotations for Postgres relfiles](https://pgeoghegan.blogspot.com/2017/11/pghexedit-rich-hex-editor-annotations.html)
+- [Exploring SP-GiST and BRIN indexes visually using pg_hexedit](https://pgeoghegan.blogspot.com/2018/01/exploring-sp-gist-and-brin-indexes.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 
@@ -770,6 +777,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres 9.5: three little things](https://www.endpoint.com/blog/2016/01/28/postgres-95-three-little-things?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL 10 New features with examples](https://h50146.www5.hpe.com/products/software/oe/linux/mainstream/support/lcc/pdf/PostgreSQL_10_New_Features_en_20170522-1.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Whats New in Postgres 10: Monitoring Improvements](https://pganalyze.com/blog/whats-new-in-postgres-10-monitoring-improvements)
+- [Postgres 10 highlight - Incompatible changes](https://paquier.xyz/postgresql-2/postgres-10-incompatible-changes/)
 - [Major Features: PostgreSQL 12](http://momjian.us/main/writings/pgsql/features.pdf?utm_source=postgresweekly&utm_medium=email)
 
 ## OS
