@@ -327,6 +327,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Development
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
+* [De-mystifying contributing to PostgreSQL](https://archive.fosdem.org/2018/schedule/event/de_mystifying_contributing_to_postgresql/)
 * Editor
   * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
   * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
@@ -436,6 +437,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Index internals](https://www.pgcon.org/2016/schedule/attachments/434_Index-internals-PGCon2016.pdf)
   - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
   - [Principles and Applications of the Index Types Supported by PostgreSQL](https://medium.com/@Alibaba_Cloud/principles-and-applications-of-the-index-types-supported-by-postgresql-481f59bab67d)
+  - [Database Indexing in PostgreSQL](https://severalnines.com/blog/postgresql-database-indexing-overview)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
   - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
@@ -502,6 +504,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
+- [PostgreSQL indexing: index scan versus bitmap scan versus sequential scan](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/)
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
 
 ## Parallel Processing
@@ -635,6 +638,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
 - [What hot_standby_feedback in PostgreSQL really does](https://www.cybertec-postgresql.com/en/what-hot_standby_feedback-in-postgresql-really-does/)
 - [Postgres 10 highlight - Quorum set of synchronous standbys](https://paquier.xyz/postgresql-2/postgres-10-quorum-sync/?utm_source=postgresweekly&utm_medium=email)
+- [PostgreSQL replication slots](https://www.opsdash.com/blog/postgresql-replication-slots.html)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
@@ -779,6 +783,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Whats New in Postgres 10: Monitoring Improvements](https://pganalyze.com/blog/whats-new-in-postgres-10-monitoring-improvements)
 - [Postgres 10 highlight - Incompatible changes](https://paquier.xyz/postgresql-2/postgres-10-incompatible-changes/)
 - [Major Features: PostgreSQL 12](http://momjian.us/main/writings/pgsql/features.pdf?utm_source=postgresweekly&utm_medium=email)
+- [Upgrading from 11.5 to 12 gives you 1.9 months worth of fixes (180 of them)](https://why-upgrade.depesz.com/show?from=11.5&to=12)
 
 ## OS
 - Linux
