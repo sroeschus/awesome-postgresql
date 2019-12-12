@@ -44,6 +44,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [emaj](https://github.com/dalibo/emaj) - Track updates on table sets with rollback capabilities
 * [first_last](https://gitlab.com/depesz/first_last) - Aggregates to return first or last values/rows
 * [fnvhash](https://github.com/amutu/fnvhash) - FNV hash function for PostgreSQL
+* [geco](https://github.com/parkag/geqo) - Genetic Query Optimizer isolated from PostgreSQL
 * [generic_scheduler](https://github.com/okbob/generic-scheduler) - Generic SQL statements scheduler without additional dependencies
 * [hashtypes](https://github.com/pandrewhk/hashtypes) - SHA1, MD5 and other data types for PostgreSQL
 * [hstore_ops](https://github.com/postgrespro/hstore_ops) - Better operator class for hstore
