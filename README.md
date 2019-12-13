@@ -490,6 +490,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [UUID vs BIGSERIAL for primary keys](https://thebuild.com/blog/2015/10/08/uuid-vs-bigserial-for-primary-keys/?utm_source=postgresweekly&utm_medium=email)
 - [FAQ: Using Sequences in PostgreSQL](http://www.neilconway.org/docs/sequences/?utm_source=postgresweekly&utm_medium=email)
 - [New features for Sequences: Gains and pitfalls](https://www.cybertec-postgresql.com/en/sequences-gains-and-pitfalls/)
+- [Sequence Caching: Oracle vs. PostgreSQL](https://seiler.us/2018-10-02-sequence-caching-oracle-vs-postgresql/)
 
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
@@ -523,6 +524,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
 - [PostgreSQL indexing: index scan versus bitmap scan versus sequential scan](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/)
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
+- [On rocks and sand](https://www.2ndquadrant.com/en/blog/on-rocks-and-sand/)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
@@ -695,6 +697,8 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
     * [PostgreSQL Window Magic](http://momjian.us/main/writings/pgsql/window.pdf?utm_source=postgresweekly&utm_medium=email)
     * [Advanced SQL - window functions](https://mjk.space/advanced-sql-window-functions/)
+  * Union
+    * [Fun with SQL: Unions in PostgreSQL](https://www.citusdata.com/blog/2018/09/27/fun-with-sql-unions-in-postgres/)
   * Join
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
@@ -795,6 +799,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Anatomy of a VACUUM](https://richyen.com/postgres/2017/08/24/anatomy_of_vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
+- [Per-Table Autovacuum Tuning](https://www.keithf4.com/per-table-autovacuum-tuning/)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
@@ -808,6 +813,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pg_hexedit: Rich hex editor annotations for Postgres relfiles](https://pgeoghegan.blogspot.com/2017/11/pghexedit-rich-hex-editor-annotations.html)
 - [Exploring SP-GiST and BRIN indexes visually using pg_hexedit](https://pgeoghegan.blogspot.com/2018/01/exploring-sp-gist-and-brin-indexes.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
+- [Moving tablespaces](https://momjian.us/main/blogs/pgblog/2018.html#October_3_2018)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 - [zheap: a storage engine to provide better control over bloat](http://amitkapila16.blogspot.com/2018/03/zheap-storage-engine-to-provide-better.html)
 
