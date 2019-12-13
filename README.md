@@ -369,6 +369,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Administration
 - [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
 - [Ten Tips for Going Into Production With PostgreSQL](https://severalnines.com/database-blog/ten-tips-going-production-postgresql)
+- [Managing Multiple PostgreSQL Installations with pgenv](https://fluca1978.github.io/2018/08/30/pgenv.html)
 
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
@@ -468,6 +469,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PgSQL Indexes and "LIKE"](http://blog.cleverelephant.ca/2016/08/pgsql-text-pattern-ops.html?utm_source=postgresweekly&utm_medium=email)
 - Covering Index
   - [PostgreSQL 11 highlight - Covering Indexes](https://paquier.xyz/postgresql-2/postgres-11-covering-indexes/)
+  - [Why Covering Indexes are incredibly helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
 - Combined Index
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
   - [The Multi-Column Index of the mysteries](https://thebuild.com/blog/2016/12/30/the-multi-column-index-of-the-mysteries/)
@@ -565,6 +567,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Benchmark
   - [Tuning PostgreSQL with pgbench](https://blog.codeship.com/tuning-postgresql-with-pgbench/?utm_source=postgresweekly&utm_medium=email)
+  - [How to benchmark PostgreSQL Performance using Sysbench](https://severalnines.com/database-blog/how-benchmark-postgresql-performance-using-sysbench)
   - [PostgreSQL load testing with pgreplay](https://www.commandprompt.com/blog/postgres-load-testing-pgreplay/?utm_source=postgresweekly&utm_medium=email)
 - Configuration
   - [Tuning PostgreSQL Database Parameters to Optimize Performance](https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/)
@@ -669,8 +672,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
+  * [Transactional data operations in PostgreSQL using Common Table Expressions](https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/)
   * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
   * [Using CTEs and Unions to Compute Running Totals](https://www.periscopedata.com/blog/using-ctes-and-unions-to-compute-running-totals)
+  * [Be careful with CTE in PostgreSQL](https://medium.com/@hakibenita/be-careful-with-cte-in-postgresql-fca5e24d2119)
 * Distinct
   * [The many faces of DISTINCT in PostgreSQL](https://medium.com/statuscode/the-many-faces-of-distinct-in-postgresql-c52490de5954)
 * Filter
@@ -752,6 +757,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Securing PostgreSQL](https://thebuild.com/presentations/pgconfeu-2016-securing-postgresql.pdf?utm_source=postgresweekly&utm_medium=email)
 - [One-time passwords with Google Authenticator PAM (and friends)](https://theplateisbad.blogspot.com/2016/12/one-time-passwords-with-google.html?utm_source=postgresweekly&utm_medium=email)
 - [A Penetration Tester’s Guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
+- [Cryptographically authenticated Rows](https://momjian.us/main/blogs/pgblog/2018.html#August_31_2018)
 
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
