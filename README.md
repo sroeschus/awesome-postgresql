@@ -364,6 +364,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 # Documentation / Blogs
 - [PostgreSQL documentation](https://www.postgresql.org/docs/12/index.html)
 - [PostgreSQL internals (japanese)](http://www.nminoru.jp/~nminoru/postgresql/)
+- [PostgreSQL internals (japanese)](https://www.postgresqlinternals.org/)
 
 ## Administration
 - [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
@@ -481,6 +482,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An Overview of the Serial Pseudo-Datatype for PostgreSQL](https://severalnines.com/database-blog/overview-serial-pseudo-datatype-postgresql)
 - [UUID vs BIGSERIAL for primary keys](https://thebuild.com/blog/2015/10/08/uuid-vs-bigserial-for-primary-keys/?utm_source=postgresweekly&utm_medium=email)
 - [FAQ: Using Sequences in PostgreSQL](http://www.neilconway.org/docs/sequences/?utm_source=postgresweekly&utm_medium=email)
+- [New features for Sequences: Gains and pitfalls](https://www.cybertec-postgresql.com/en/sequences-gains-and-pitfalls/)
 
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
@@ -670,6 +672,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Advanced SQL: Why first_value and last_value are no bugs](https://www.cybertec-postgresql.com/en/advanced-sql-why-first_value-and-last_value-are-no-bugs/)
 * generate_series
   * [Simple Monthly Reports in PostgreSQL Using generate_series](https://rob.conery.io/2018/08/01/simple-monthly-reports-in-postgresql-using-generate_series/)
+  * [Fun with SQL: generate_series in PostgreSQL](https://www.citusdata.com/blog/2018/03/14/fun-with-sql-generate-sql/)
 * select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
@@ -770,6 +773,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Index bloat under a microscope](https://pgeoghegan.blogspot.com/2017/07/postgresql-index-bloat-microscope.html?utm_source=postgresweekly&utm_medium=email)
 - [Anatomy of a VACUUM](https://richyen.com/postgres/2017/08/24/anatomy_of_vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
+- [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
@@ -816,5 +820,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
 
-## Conferences
+## Conferences/ Videos
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
+- [PG casts](https://www.pgcasts.com/)
