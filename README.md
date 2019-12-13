@@ -368,6 +368,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Administration
 - [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
+- [Ten Tips for Going Into Production With PostgreSQL](https://severalnines.com/database-blog/ten-tips-going-production-postgresql)
 
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
@@ -379,6 +380,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [GPU Accelerated SQL queries with PostgreSQL & PG-Strom](https://blog.openshift.com/gpu-accelerated-sql-queries-with-postgresql-pg-strom-in-openshift-3-10/)
   - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
 - Columnar store
+  - [A Poor Man's Column Oriented Database in PostgreSQL](https://www.brianlikespostgres.com/)
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
 - LLVM
   - [Pairing LLVM JIT with PostgreSQL can speed up database performance](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-JIT-PostgreSQL&utm_source=postgresweekly&utm_medium=email)
@@ -398,6 +400,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
 - [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
+- [A Guide to using pgBouncer for PostgreSQL](https://severalnines.com/blog/guide-using-pgbouncer)
 
 ## Constraints
 - [Protect your data with PostgreSQL constraints](http://nathanmlong.com/2016/01/protect-your-data-with-postgresql-constraints/?utm_source=postgresweekly&utm_medium=email)
@@ -422,6 +425,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
   - [PostgreSQL Date Functions (and 7 ways to use them in business analysis)](https://mode.com/blog/postgres-sql-date-functions?utm_source=postgresweekly&utm_medium=email)
+- Enum
+  - [PostgreSQL Data Types: Enum](https://tapoueh.org/blog/2018/05/postgresql-data-types-enum/)
 - Timezone
   - [Actually Understanding Timezones in PostgreSQL](http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
@@ -627,7 +632,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
   
-## Recovery
+## Backup / Recovery
+- [Backup PostgreSQL Using pg_dump and pg_dumpall](https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall)
 - [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL backup and recovery orchestration](https://www.zimmi.cz/posts/2018/postgresql-backup-and-recovery-orchestration-wal-archiving/)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
@@ -637,6 +643,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pg_healer: repairing PostgreSQL problems automatically](https://www.endpoint.com/blog/2016/09/19/pghealer-repairing-postgres-problems?utm_source=postgresweekly&utm_medium=email)
 - [Introducing WAL-G by Citus: Faster disaster recovery for PostgreSQL](https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
+- [Verifying PostgreSQL backups made easier with new open-source tool](https://cloudplatform.googleblog.com/2018/07/verifying-postgresql-backups-made-easier-with-new-open-source-tool.html)
 
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
@@ -664,16 +671,18 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
   * [Using CTEs and Unions to Compute Running Totals](https://www.periscopedata.com/blog/using-ctes-and-unions-to-compute-running-totals)
-* distinct
+* Distinct
   * [The many faces of DISTINCT in PostgreSQL](https://medium.com/statuscode/the-many-faces-of-distinct-in-postgresql-c52490de5954)
-* filter
+* Filter
   * [The FILTER clause in Postgres 9.4](https://medium.com/little-programming-joys/the-filter-clause-in-postgres-9-4-3dd327d3c852)
-* first_value / last_value
+* First_value / Last_value
   * [Advanced SQL: Why first_value and last_value are no bugs](https://www.cybertec-postgresql.com/en/advanced-sql-why-first_value-and-last_value-are-no-bugs/)
-* generate_series
+* Generate_series
   * [Simple Monthly Reports in PostgreSQL Using generate_series](https://rob.conery.io/2018/08/01/simple-monthly-reports-in-postgresql-using-generate_series/)
   * [Fun with SQL: generate_series in PostgreSQL](https://www.citusdata.com/blog/2018/03/14/fun-with-sql-generate-sql/)
-* select
+* Rules
+  * [An example of PostgreSQL rules: updating pg_settings](https://fluca1978.github.io/2018/08/13/PostgreSQL-pgsettings-rules.html)
+* Select
   * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
   * Window functions
@@ -685,14 +694,19 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
     * [Understanding tricky Joins and Multi-Table Updates in PostgreSQL (Using Boolean Algebra!)](https://build.affinity.co/understanding-tricky-joins-and-multi-table-updates-in-postgresql-using-boolean-algebra-7b329606ca45)
+  * Histogram
+    * [How to do histograms in PostgreSQL](https://blog.faraday.io/how-to-do-histograms-in-postgresql/)
+  * Duplicate rows
+    * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
+    * [Search and destroy duplicate rows in PostgreSQL](https://blog.theodo.com/2018/01/search-destroy-duplicate-rows-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
-  * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
   * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
   * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
   * [Using xmin in queries](https://momjian.us/main/blogs/pgblog/2017.html#October_4_2017)
+  * [Selecting all columns except one in PostgreSQL](https://blog.jooq.org/2018/05/14/selecting-all-columns-except-one-in-postgresql/)
 * Regular expressions
   * [Using regexps in PostgreSQL](https://lerner.co.il/2016/03/01/regexps-in-postgresql/?utm_source=postgresweekly&utm_medium=email)
 * Update
@@ -757,6 +771,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
+- [Tuning PostgreSQL Autovacuum for Scale](https://blog.gojekengineering.com/postgres-autovacuum-tuning-394bb99fe2c0)
 - [Autovacuum tuning basics](https://www.2ndquadrant.com/en/blog/autovacuum-tuning-basics/?utm_source=postgresweekly&utm_medium=email)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
 - [Autovaccum wrap around protection in PostgreSQL](https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/)
@@ -809,6 +824,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Linux
   - [Tune linux kernel parameters for PostgreSQL optimization](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/)
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
+  - [Linux cgroups for PostgreSQL](https://www.cybertec-postgresql.com/en/linux-cgroups-for-postgresql/)
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
   - [PostgreSQL vs. Linux kernel versions](https://www.2ndquadrant.com/en/blog/postgresql-vs-kernel-versions/?utm_source=postgresweekly&utm_medium=email)
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
