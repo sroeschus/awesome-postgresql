@@ -330,6 +330,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
 * [De-mystifying contributing to PostgreSQL](https://archive.fosdem.org/2018/schedule/event/de_mystifying_contributing_to_postgresql/)
 * [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
+* [Development information](https://wiki.postgresql.org/wiki/Development_information)
 * [Developer FAQ](https://wiki.postgresql.org/wiki/Developer_FAQ)
 * Editor
   * [Configuring vim for postgres development](https://wiki.postgresql.org/wiki/Configuring_vim_for_postgres_development)
@@ -338,6 +339,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Git
   * [Committing with git](https://wiki.postgresql.org/wiki/Committing_with_Git)
 * Extensions
+  * [Extensions wiki](https://wiki.postgresql.org/wiki/Extensions)
   * [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
   * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
   * [PostgreSQL: Simple C extension development for a novice user (and performance advantages)](https://www.percona.com/blog/2019/07/31/postgresql-simple-c-extension-development-for-a-novice-user/)
@@ -351,10 +353,13 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
   * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
   * [Getting a stack trace of a running PostgreSQL backend on Linux/BSD](https://wiki.postgresql.org/wiki/Getting_a_stack_trace_of_a_running_PostgreSQL_backend_on_Linux/BSD)
+  * [Debugging the PostgreSQL grammar (Bison)](https://wiki.postgresql.org/wiki/Debugging_the_PostgreSQL_grammar_(Bison))
   * [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
 * Internals
   * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
   * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
+  * [FullTransactionId](https://wiki.postgresql.org/wiki/FullTransactionId)
+  * [CustomScanInterface](https://wiki.postgresql.org/wiki/CustomScanInterface)
 * Hooks
   * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
   * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
@@ -644,6 +649,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Checksum
   - [Postgres checksum performance impact](https://www.endpoint.com/blog/2015/12/31/postgres-checksum-performance-impact?utm_source=postgresweekly&utm_medium=email)
 - Dynamic tracing
+  - [DTrace wiki](https://wiki.postgresql.org/wiki/DTrace)
   - [PostgreSQL and SystemTap](https://simply.name/postgresql-and-systemtap.html)
   - [SystemTap for PostgreSQL Toolkit](https://bdrouvot.wordpress.com/2017/11/01/systemtap-for-postgresql-toolkit/)
   - [Dynamic tracing with Postgres](https://paquier.xyz/postgresql-2/postgres-dynamic-tracing/)
@@ -861,6 +867,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Linux
   - [Tune linux kernel parameters for PostgreSQL optimization](https://www.percona.com/blog/2018/08/29/tune-linux-kernel-parameters-for-postgresql-optimization/)
   - [How to adjust Linux Out-Of-Memory killer settings for PostgreSQL](https://www.percona.com/blog/2019/08/02/out-of-memory-killer-or-savior/)
+  - [Latest evolution of Linux IO stack, explained for database people](https://www.postgresql.eu/events/fosdem2019/sessions/session/2346/slides/159/fosdem_linux_io.pdf)
   - [Linux cgroups for PostgreSQL](https://www.cybertec-postgresql.com/en/linux-cgroups-for-postgresql/)
   - [Manage linux control groups in PostgreSQL with pg_cgroups](https://www.cybertec-postgresql.com/en/pg_cgroups-linux-control-groups-in-postgresql/)
   - [PostgreSQL vs. Linux kernel versions](https://www.2ndquadrant.com/en/blog/postgresql-vs-kernel-versions/?utm_source=postgresweekly&utm_medium=email)
