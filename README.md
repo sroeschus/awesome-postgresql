@@ -329,9 +329,13 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
 * [De-mystifying contributing to PostgreSQL](https://archive.fosdem.org/2018/schedule/event/de_mystifying_contributing_to_postgresql/)
+* [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
 * Editor
+  * [Configuring vim for postgres development](https://wiki.postgresql.org/wiki/Configuring_vim_for_postgres_development)
   * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
   * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
+* Git
+  * [Committing with git](https://wiki.postgresql.org/wiki/Committing_with_Git)
 * Extensions
   * [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
   * [Writing extensions is fun](https://www.percona.com/blog/2019/04/05/writing-postgresql-extensions-is-fun-c-language/) - Step-by-step guide to developing extensions
@@ -718,6 +722,7 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [Understanding tricky Joins and Multi-Table Updates in PostgreSQL (Using Boolean Algebra!)](https://build.affinity.co/understanding-tricky-joins-and-multi-table-updates-in-postgresql-using-boolean-algebra-7b329606ca45)
   * Histogram
     * [How to do histograms in PostgreSQL](https://blog.faraday.io/how-to-do-histograms-in-postgresql/)
+    * [Aggregate Histogram](https://wiki.postgresql.org/wiki/Aggregate_Histogram)
   * Duplicate rows
     * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
     * [Search and destroy duplicate rows in PostgreSQL](https://blog.theodo.com/2018/01/search-destroy-duplicate-rows-postgresql/)
