@@ -340,10 +340,13 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [postgresql-extension-example](https://github.com/pkorobeinikov/postgresql-extension-example) - Extension examples
   * [nminoru](https://github.com/nminoru/misc/tree/master/postgresql) - Extension examples
   * [pgxn-utils](https://github.com/guedes/pgxn-utils) - Tools to create extensions
+* Makefile
+  * [Using Makefiles to build PostgreSQL](https://andreas.scherbaum.la/blog/archives/964-Using-Makefiles-to-build-PostgreSQL.html)
 * Debugging
   * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
   * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
   * [Getting a stack trace of a running PostgreSQL backend on Linux/BSD](https://wiki.postgresql.org/wiki/Getting_a_stack_trace_of_a_running_PostgreSQL_backend_on_Linux/BSD)
+  * [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
 * Internals
   * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
   * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
@@ -387,6 +390,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - LLVM
   - [Pairing LLVM JIT with PostgreSQL can speed up database performance](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-JIT-PostgreSQL&utm_source=postgresweekly&utm_medium=email)
   - [PostgreSQL 11 and Just In Time Compilation of Queries](https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/)
+  - [New in Postgres 11: Monitoring JIT performance, Auto Prewarm & Stored Procedures](https://pganalyze.com/blog/postgres11-jit-compilation-auto-prewarm-sql-stored-procedures)
  
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
@@ -506,6 +510,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Practical Guide to SQL Transaction Isolation](https://begriffs.com/posts/2017-08-01-practical-guide-sql-isolation.html?utm_source=postgresweekly&utm_medium=email)
 - [How PostgreSQL makes Transactions Atomic](https://brandur.org/postgres-atomicity?utm_source=postgresweekly&utm_medium=email)
 - [Handling Contention with PostgreSQL](https://medium.com/learning-with-diagrams/learning-w-diagrams-handling-contention-with-postgresql-109798b8ad54)
+- [Be prepared for prepared transactions](https://www.cybertec-postgresql.com/en/prepared-transactions/)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
@@ -673,6 +678,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [What hot_standby_feedback in PostgreSQL really does](https://www.cybertec-postgresql.com/en/what-hot_standby_feedback-in-postgresql-really-does/)
 - [Postgres 10 highlight - Quorum set of synchronous standbys](https://paquier.xyz/postgresql-2/postgres-10-quorum-sync/?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL replication slots](https://www.opsdash.com/blog/postgresql-replication-slots.html)
+- [PostgreSQL Streaming Physical Replication With Slots](https://www.percona.com/blog/2018/11/30/postgresql-streaming-physical-replication-with-slots/)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
@@ -706,6 +712,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * Union
     * [Fun with SQL: Unions in PostgreSQL](https://www.citusdata.com/blog/2018/09/27/fun-with-sql-unions-in-postgres/)
   * Join
+    * [PostgreSQL: implicit versus explicit joins](https://www.cybertec-postgresql.com/en/postgressql-implicit-vs-explicit-joins/)
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
     * [Understanding tricky Joins and Multi-Table Updates in PostgreSQL (Using Boolean Algebra!)](https://build.affinity.co/understanding-tricky-joins-and-multi-table-updates-in-postgresql-using-boolean-algebra-7b329606ca45)
@@ -769,6 +776,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [One-time passwords with Google Authenticator PAM (and friends)](https://theplateisbad.blogspot.com/2016/12/one-time-passwords-with-google.html?utm_source=postgresweekly&utm_medium=email)
 - [A Penetration Tester’s Guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
 - [Cryptographically authenticated Rows](https://momjian.us/main/blogs/pgblog/2018.html#August_31_2018)
+- [Preventing SQL Injections](https://tapoueh.org/blog/2018/11/preventing-sql-injections/)
+- [8 Anonymization Strategies with PostgreSQL](https://blog.taadeem.net///english/2019/01/03/8_anonymization_strategies_with_postgres)
 
 ## Upgrade
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
@@ -776,9 +785,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Upgrading PostgreSQL from 9.6 to 10 with minimal downtime using pglogical](https://rosenfeld.herokuapp.com/en/articles/infrastructure/2017-11-10-upgrading-postgresql-from-9-6-to-10-with-minimal-downtime-using-pglogical)
 - [PostgreSQL 10 upgrade](https://bricklen.github.io/2018-03-27-Postgres-10-upgrade/)
 - [Upgrading PostgreSQL on AWS RDS with minimum or zero downtime](https://medium.com/preply-engineering/postgres-multimaster-34f2446d5e14)
+- [How to Upgrade PostgreSQL10 to PostgreSQL11 With Zero Downtime](https://severalnines.com/database-blog/how-upgrade-postgresql10-postgresql11-zero-downtime)
 
 ## Migration
 - [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
+- [Migrating Oracle Autonomous Transactions to PostgreSQL](https://aws.amazon.com/blogs/database/migrating-oracle-autonomous-transactions-to-postgresql/)
 
 ## MVCC
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
@@ -807,6 +818,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
 - [Per-Table Autovacuum Tuning](https://www.keithf4.com/per-table-autovacuum-tuning/)
+- [Zombies!! Dealing with a Case of Stuck TransactionIDs](https://richyen.com/replication/postgres/2019/01/08/zombie_transactions.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
@@ -848,6 +860,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL vs. Linux kernel versions](https://www.2ndquadrant.com/en/blog/postgresql-vs-kernel-versions/?utm_source=postgresweekly&utm_medium=email)
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
   - [Improving Linux system performance with I/O scheduler tuning](https://blog.codeship.com/linux-io-scheduler-tuning/?utm_source=postgresweekly&utm_medium=email)
+  - [Running a database on EC2? Your clock could be slowing you down](https://heap.io/blog/engineering/clocksource-aws-ec2-vdso)
 
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
