@@ -343,6 +343,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Debugging
   * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
   * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
+  * [Getting a stack trace of a running PostgreSQL backend on Linux/BSD](https://wiki.postgresql.org/wiki/Getting_a_stack_trace_of_a_running_PostgreSQL_backend_on_Linux/BSD)
 * Internals
   * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
   * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
@@ -397,6 +398,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Connection pool
 - [Tracking and Managing Your PostgreSQL Connections](http://www.craigkerstiens.com/2017/09/18/postgres-connection-management/?utm_source=postgresweekly&utm_medium=email)
+- [How to Manage Connections Efficiently in Postgres, or Any Database](https://brandur.org/postgres-connections)
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
@@ -588,6 +590,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Caching in PostgreSQL](https://raghavt.blogspot.com/2012/04/caching-in-postgresql.html)
   - [Locking PostgreSQL shared memory to physical RAM](https://theplateisbad.blogspot.com/2016/11/locking-postgresql-shared-memory-to.html?utm_source=postgresweekly&utm_medium=email)
   - [Is Your Postgres Query Starved for Memory?](https://dzone.com/articles/is-your-postgres-query-starved-for-memory?utm_source=postgresweekly&utm_medium=email)
+  - [Autoprewarm: a new functionality in pg_prewarm](https://postgresrocks.enterprisedb.com/t5/Postgres-Gems/Autoprewarm-a-new-functionality-in-pg-prewarm/ba-p/1908?_ga=2.180339172.1388954721.1537932578-1636716584.1528749863)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -615,6 +618,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Waits
   - [Troubleshooting waits in PostgreSQL](http://amitkapila16.blogspot.com/2016/03/troubleshooting-waits-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
   - [Monitoring wait events in PostgreSQL 9.6](http://akorotkov.github.io/blog/2016/03/25/wait_monitoring_9_6/?utm_source=postgresweekly&utm_medium=email)
+  - [Wait interface in PostgreSQL](https://simply.name/pg-stat-wait.html)
 - Trigger
   - [Are trigger really that slow in PostgreSQL?](https://www.cybertec-postgresql.com/en/are-triggers-really-that-slow-in-postgres/)
 - Statistics
@@ -636,9 +640,11 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Diagnose High-Latency I/O Operations Using SystemTap](https://db-blog.web.cern.ch/blog/luca-canali/2015-07-diagnose-high-latency-io-operations-using-systemtap)
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
+  - [PostgreSQL session level trace](https://dbmsandbeyond.wordpress.com/2015/04/16/postgresql-session-level-trace/)
   
 ## Backup / Recovery
 - [Backup PostgreSQL Using pg_dump and pg_dumpall](https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall)
+- [Managing PostgreSQL backup and replication for very large databases](https://medium.com/leboncoin-engineering-blog/managing-postgresql-backup-and-replication-for-very-large-databases-61fb36e815a0)
 - [How To Back Up, Restore, and Migrate PostgreSQL Databases with Barman on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-postgresql-databases-with-barman-on-centos-7?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL backup and recovery orchestration](https://www.zimmi.cz/posts/2018/postgresql-backup-and-recovery-orchestration-wal-archiving/)
 - [pg_wal is too big, what is going on](https://blog.dataegret.com/2018/04/pgwal-is-too-big-whats-going-on.html)
@@ -755,6 +761,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pgAudit: Auditing database operations part 1](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-1)
 - [pgAudit: Auditing database operations part 2](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-2?utm_source=postgresweekly&utm_medium=email)
 - [Install PostgreSQL 9.6 with transparent data encyption](https://www.cybertec-postgresql.com/en/install-postgresql-9-6-with-transparent-data-encryption/)
+- [Track PostgreSQL Row Changes Using Public/Private Key Signing](https://www.percona.com/blog/2018/10/12/track-postgresql-row-changes-using-public-private-key-signing/)
 - [Using the CIS PostgreSQL Benchmark to Enhance Your Security](https://info.crunchydata.com/blog/using-the-cis-postgresql-benchmark-to-enhance-your-security)
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
