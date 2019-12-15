@@ -330,6 +330,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
 * [De-mystifying contributing to PostgreSQL](https://archive.fosdem.org/2018/schedule/event/de_mystifying_contributing_to_postgresql/)
 * [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
+* [Developer FAQ](https://wiki.postgresql.org/wiki/Developer_FAQ)
 * Editor
   * [Configuring vim for postgres development](https://wiki.postgresql.org/wiki/Configuring_vim_for_postgres_development)
   * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
