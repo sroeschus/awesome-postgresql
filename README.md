@@ -338,6 +338,9 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
 * Git
   * [Committing with git](https://wiki.postgresql.org/wiki/Committing_with_Git)
+* Patch
+  * [Reviewing a patch](https://wiki.postgresql.org/wiki/Reviewing_a_Patch/es)
+  * [PostgreSQL 12 Open Items](https://wiki.postgresql.org/wiki/PostgreSQL_12_Open_Items)
 * Extensions
   * [Extensions wiki](https://wiki.postgresql.org/wiki/Extensions)
   * [Writing Postgres Extensions - the Basics](http://big-elephants.com/2015-10/writing-postgres-extensions-part-i/?utm_source=postgresweekly&utm_medium=email)
@@ -411,6 +414,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL configuration for humans](https://www.slideshare.net/profyclub_ru/postgresql-configuration-for-humans-alvaro-hernandez-ongres)
 
 ## Connection pool
+- [Number Of database connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections)
 - [Tracking and Managing Your PostgreSQL Connections](http://www.craigkerstiens.com/2017/09/18/postgres-connection-management/?utm_source=postgresweekly&utm_medium=email)
 - [How to Manage Connections Efficiently in Postgres, or Any Database](https://brandur.org/postgres-connections)
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
@@ -542,9 +546,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL indexing: index scan versus bitmap scan versus sequential scan](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/)
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
 - [On rocks and sand](https://www.2ndquadrant.com/en/blog/on-rocks-and-sand/)
+- [Optimizer hints discussion](https://wiki.postgresql.org/wiki/OptimizerHintsDiscussion)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
+- [Parallel Query](https://wiki.postgresql.org/wiki/Parallel_Query)
 - [PostgreSQL 10 Parallel Queries and Performance](https://blog.rustprooflabs.com/2018/02/pg10_parallel_queries)
 - [Parallel queries in PostgreSQL](https://www.percona.com/blog/2019/02/21/parallel-queries-in-postgresql/)
 - [PostgreSQL 9.6 with parallel query vs. TPC-H](http://rhaas.blogspot.com/2016/04/postgresql-96-with-parallel-query-vs.html?utm_source=postgresweekly&utm_medium=email)
@@ -585,6 +591,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Scalability: Towards millions TPS](http://akorotkov.github.io/blog/2016/05/09/scalability-towards-millions-tps/?utm_source=postgresweekly&utm_medium=email)
 - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Benchmark
+  - [pgbench](https://wiki.postgresql.org/wiki/Pgbench)
+  - [Testing for performance regression with pgBench 9.0](https://wiki.postgresql.org/wiki/Pgbenchtesting)
+  - [pgbench shell command](https://wiki.postgresql.org/wiki/Pgbench_shell_command)
   - [Tuning PostgreSQL with pgbench](https://blog.codeship.com/tuning-postgresql-with-pgbench/?utm_source=postgresweekly&utm_medium=email)
   - [How to benchmark PostgreSQL Performance using Sysbench](https://severalnines.com/database-blog/how-benchmark-postgresql-performance-using-sysbench)
   - [PostgreSQL load testing with pgreplay](https://www.commandprompt.com/blog/postgres-load-testing-pgreplay/?utm_source=postgresweekly&utm_medium=email)
@@ -808,6 +817,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
 - [Different approaches for MVCC used in well known databases](http://amitkapila16.blogspot.com/2015/03/different-approaches-for-mvcc-used-in.html)
 - [PostgreSQL concurrency with MVCC](https://devcenter.heroku.com/articles/postgresql-concurrency)
+- [MVCC violations](https://wiki.postgresql.org/wiki/MVCC_violations)
 
 ## Vacuum
 - [Tuning Autovacuum in PostgreSQL and Autovacuum Internals](https://www.percona.com/blog/2018/08/10/tuning-autovacuum-in-postgresql-and-autovacuum-internals/)
