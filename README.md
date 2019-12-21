@@ -329,6 +329,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Postgres bugs](https://granicus.if.org/pgbugs/) - List of current and past bugs
 * [Development wiki](https://wiki.postgresql.org/wiki/Developer_and_Contributor_Resources) - Development information
 * [De-mystifying contributing to PostgreSQL](https://archive.fosdem.org/2018/schedule/event/de_mystifying_contributing_to_postgresql/)
+* [So, you want to be a developer?](https://wiki.postgresql.org/wiki/So,_you_want_to_be_a_developer%3F)
 * [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
 * [Development information](https://wiki.postgresql.org/wiki/Development_information)
 * [Developer FAQ](https://wiki.postgresql.org/wiki/Developer_FAQ)
@@ -337,8 +338,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
   * [emacs-config](https://www.postgresql.org/message-id/1342042526.2712.21.camel@vanquo.pezone.net) - Emacs settings for PostgreSQL development
 * Git
+  * [Working with git](https://wiki.postgresql.org/wiki/Working_with_git)
   * [Committing with git](https://wiki.postgresql.org/wiki/Committing_with_Git)
 * Patch
+  * [Submitting a patch](https://wiki.postgresql.org/wiki/Submitting_a_Patch)
   * [Reviewing a patch](https://wiki.postgresql.org/wiki/Reviewing_a_Patch/es)
   * [PostgreSQL 12 Open Items](https://wiki.postgresql.org/wiki/PostgreSQL_12_Open_Items)
 * Extensions
@@ -366,6 +369,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Hooks
   * [psql-hooks](https://github.com/AmatanHead/psql-hooks) - Unofficial documentation of hooks
   * [Hooks-in-PostgreSQL](https://github.com/gleu/Hooks-in-PostgreSQL) - Talk about PostgreSQL hooks
+  * [PostgreSQL extension points](https://wiki.postgresql.org/wiki/PostgresServerExtensionPoints)
 * New keyword
   * [PostgreSQL: how to add new keyword to SQL grammar](https://shaplov.livejournal.com/903924.html?utm_source=postgresweekly&utm_medium=email)
 * [Bug Squashing with SQLsmith](https://share.credativ.com/~ase/sqlsmith-talk.pdf?utm_source=postgresweekly&utm_medium=email)
@@ -666,6 +670,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
   - [PostgreSQL session level trace](https://dbmsandbeyond.wordpress.com/2015/04/16/postgresql-session-level-trace/)
+  - [Hooks and trace points](https://wiki.postgresql.org/wiki/Todo:HooksAndTracePoints)
   
 ## Backup / Recovery
 - [Backup PostgreSQL Using pg_dump and pg_dumpall](https://severalnines.com/database-blog/backup-postgresql-using-pgdump-and-pgdumpall)
@@ -680,6 +685,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Introducing WAL-G by Citus: Faster disaster recovery for PostgreSQL](https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 - [Verifying PostgreSQL backups made easier with new open-source tool](https://cloudplatform.googleblog.com/2018/07/verifying-postgresql-backups-made-easier-with-new-open-source-tool.html)
+
+## Reorganization
+- [Using pg_repack to rebuild PostgreSQL database objects online](https://www.percona.com/blog/2019/02/04/pg_repack-rebuild-postgresql-database-objects-online/)
 
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
@@ -742,6 +750,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   * Duplicate rows
     * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
     * [Search and destroy duplicate rows in PostgreSQL](https://blog.theodo.com/2018/01/search-destroy-duplicate-rows-postgresql/)
+  * As Of
+    * [Implementing as of queries in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-as-of-queries-in-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
@@ -848,6 +858,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
+- [Reliable writes](https://wiki.postgresql.org/wiki/Reliable_Writes)
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
