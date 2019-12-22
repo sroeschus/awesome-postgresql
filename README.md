@@ -471,6 +471,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Index
 - General
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
+  - [Indexes in PostgreSQL — 2](https://habr.com/ru/company/postgrespro/blog/442546/)
   - [Index internals](https://www.pgcon.org/2016/schedule/attachments/434_Index-internals-PGCon2016.pdf)
   - [Postgres index types](https://thoughtbot.com/blog/postgres-index-types?utm_source=postgresweekly&utm_medium=email)
   - [Principles and Applications of the Index Types Supported by PostgreSQL](https://medium.com/@Alibaba_Cloud/principles-and-applications-of-the-index-types-supported-by-postgresql-481f59bab67d)
@@ -485,10 +486,12 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://info.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage)
 - Btree index
   - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
+  - [Indexes in PostgreSQL — 4 (Btree)](https://habr.com/en/company/postgrespro/blog/443284/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
 - Hash index
+  - [Indexes in PostgreSQL — 3 (Hash)](https://habr.com/en/company/postgrespro/blog/442776/)
   - [Hash Indexes on PostgreSQL](http://blog.andrebarbosa.co/hash-indexes-on-postgres/?utm_source=postgresweekly&utm_medium=email)
   - [PostgreSQL's Hash Indexes are now cool](http://rhaas.blogspot.com/2017/09/postgresqls-hash-indexes-are-now-cool.html?utm_source=postgresweekly&utm_medium=email)
 - "Like"
@@ -645,7 +648,10 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
   - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
+  - [Speeding up group by in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/)
   - [PostrgreSQL: Improving sort performance](https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/)
+- Foreign Data Wrapper (FDW)
+  - [Foreign data wrapper for PostgreSQL: Performance tuning](https://www.cybertec-postgresql.com/en/foreign-data-wrapper-for-postgresql-performance-tuning/)
 - Stored Procedures
   - [Improving performance with stored procedures — a pgbench example](https://medium.com/@FranckPachot/improving-performance-with-stored-procedures-a-pgbench-example-249a1f6b9f6c)
 - Waits
@@ -787,6 +793,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
 - [Customizing my PostgreSQL Shell](https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/?utm_source=postgresweekly&utm_medium=email)
+- [Using \watch in psql](https://postgresweekly.com/issues/297)
 
 ## Testing
 - [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
@@ -817,6 +824,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [8 Anonymization Strategies with PostgreSQL](https://blog.taadeem.net///english/2019/01/03/8_anonymization_strategies_with_postgres)
 
 ## Upgrade
+- [PostgreSQL Upgrade using pg_dumpall](https://www.percona.com/blog/2019/03/18/postgresql-upgrade-using-pg_dumpall/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part I)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud/)
 - [Near-Zero Downtime Automated Upgrades of PostgreSQL Clusters in Cloud (Part II)](https://www.2ndquadrant.com/en/blog/near-zero-downtime-automated-upgrades-postgresql-clusters-cloud-part-ii/)
 - [Upgrading PostgreSQL from 9.6 to 10 with minimal downtime using pglogical](https://rosenfeld.herokuapp.com/en/articles/infrastructure/2017-11-10-upgrading-postgresql-from-9-6-to-10-with-minimal-downtime-using-pglogical)
@@ -909,6 +917,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
+- [Benchmarking Managed PostgreSQL Cloud Solutions: Part Two - Amazon RDS](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-two-amazon-rds)
 
 ## Conferences/ Videos
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
