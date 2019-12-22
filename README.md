@@ -514,6 +514,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Unique partial indexes with PostgreSQL](https://medium.com/little-programming-joys/unique-partial-indexes-with-postgresql-86e137905c12)
 - Parallel
   - [PostgreSQL: Parallel create index for better performance](https://www.cybertec-postgresql.com/en/postgresql-parallel-create-index-for-better-performance/)
+- Reindex
+  - [Postgres 12 highlight - REINDEX CONCURRENTLY](https://paquier.xyz/postgresql-2/postgres-12-reindex-concurrently/)
 - [Hypothetical Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
 - [Automatic index recommendations in PostgreSQL using pg_qualstats and hypopg](https://www.percona.com/blog/2019/07/22/automatic-index-recommendations-in-postgresql-using-pg_qualstats-and-hypopg/)
 - [How to index your database](https://www.xaprb.com/slides/index-postgresql-database-postgresconf-2018/#1)
@@ -537,6 +539,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL locks: 2. String locks](https://habr.com/en/company/postgrespro/blog/463819/)
 - [Locks in PostgreSQL: 3. Locks other objects](https://habr.com/en/company/postgrespro/blog/465263/)
 - [Locks in PostgreSQL: 4. Locks in memory](https://habr.com/en/company/postgrespro/blog/466199/)
+- [PostgreSQL locking, Part 1: Row Locks](https://www.percona.com/blog/2018/10/16/postgresql-locking-part-1-row-locks/)
+- [PostgreSQL locking, part 2: heavyweight locks](https://www.percona.com/blog/2018/10/24/postgresql-locking-part-2-heavyweight-locks/)
 
 ## WAL
 - [WAL in PostgreSQL: 1. Buffer cache](https://habr.com/en/company/postgrespro/blog/458186/)
@@ -694,6 +698,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Introduction to pg_stat_activity](https://blog.dataegret.com/2015/11/introduction-to-pgstatactivity.html)
 - Checksum
   - [Postgres checksum performance impact](https://www.endpoint.com/blog/2015/12/31/postgres-checksum-performance-impact?utm_source=postgresweekly&utm_medium=email)
+- Monitoring
+  - [Log all statements from a sample of transactions](https://www.depesz.com/2019/04/18/waiting-for-postgresql-12-log-all-statements-from-a-sample-of-transactions/)
 - Dynamic tracing
   - [DTrace wiki](https://wiki.postgresql.org/wiki/DTrace)
   - [PostgreSQL and SystemTap](https://simply.name/postgresql-and-systemtap.html)
@@ -717,6 +723,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pg_healer: repairing PostgreSQL problems automatically](https://www.endpoint.com/blog/2016/09/19/pghealer-repairing-postgres-problems?utm_source=postgresweekly&utm_medium=email)
 - [Introducing WAL-G by Citus: Faster disaster recovery for PostgreSQL](https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
+- [Postgres 12 highlight - pg_checksums](https://paquier.xyz/postgresql-2/postgres-12-pg-checksums/)
 - [Verifying PostgreSQL backups made easier with new open-source tool](https://cloudplatform.googleblog.com/2018/07/verifying-postgresql-backups-made-easier-with-new-open-source-tool.html)
 
 ## Reorganization
@@ -919,6 +926,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Exploring SP-GiST and BRIN indexes visually using pg_hexedit](https://pgeoghegan.blogspot.com/2018/01/exploring-sp-gist-and-brin-indexes.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Moving tablespaces](https://momjian.us/main/blogs/pgblog/2018.html#October_3_2018)
+- [Optimizing storage of small tables in PostgreSQL 12](https://www.2ndquadrant.com/en/blog/optimizing-storage-small-tables-postgresql-12/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 - [zheap: a storage engine to provide better control over bloat](http://amitkapila16.blogspot.com/2018/03/zheap-storage-engine-to-provide-better.html)
 
