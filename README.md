@@ -491,10 +491,16 @@ List of links with a focus on free and open source software for PostgreSQL.
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
+- GIST
+  - [Indexes in PostgreSQL — 5 (GiST)](https://habr.com/en/company/postgrespro/blog/444742/)
 - Hash index
   - [Indexes in PostgreSQL — 3 (Hash)](https://habr.com/en/company/postgrespro/blog/442776/)
   - [Hash Indexes on PostgreSQL](http://blog.andrebarbosa.co/hash-indexes-on-postgres/?utm_source=postgresweekly&utm_medium=email)
   - [PostgreSQL's Hash Indexes are now cool](http://rhaas.blogspot.com/2017/09/postgresqls-hash-indexes-are-now-cool.html?utm_source=postgresweekly&utm_medium=email)
+- RUM
+  - [Indexes in PostgreSQL — 8 (RUM)](https://habr.com/en/company/postgrespro/blog/452116/)
+- SP-Gist
+  - [Indexes in PostgreSQL — 6 (SP-GiST)](https://habr.com/en/company/postgrespro/blog/446624/)
 - "Like"
   - [PgSQL Indexes and "LIKE"](http://blog.cleverelephant.ca/2016/08/pgsql-text-pattern-ops.html?utm_source=postgresweekly&utm_medium=email)
 - Covering Index
@@ -769,6 +775,9 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [PostgreSQL’s lateral Join](https://medium.com/kkempin/postgresqls-lateral-join-bfd6bd0199df)
     * [Postgres Natural joins squash unneeded columns](https://til.hashrocket.com/posts/tyz0whhvc9-postgres-natural-joins-squash-unneeded-columns?utm_source=postgresweekly&utm_medium=email)
     * [Understanding tricky Joins and Multi-Table Updates in PostgreSQL (Using Boolean Algebra!)](https://build.affinity.co/understanding-tricky-joins-and-multi-table-updates-in-postgresql-using-boolean-algebra-7b329606ca45)
+  * Recursive Queries
+    * [And again about recursive queries](https://habr.com/en/company/postgrespro/blog/318398/)
+    * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
   * Histogram
     * [How to do histograms in PostgreSQL](https://blog.faraday.io/how-to-do-histograms-in-postgresql/)
     * [Aggregate Histogram](https://wiki.postgresql.org/wiki/Aggregate_Histogram)
@@ -781,7 +790,6 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
-  * [Simplifying recursive SQL queries](https://haughtcodeworks.com/blog/software-development/recursive-sql-queries-using-ctes/)
   * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
   * [Using xmin in queries](https://momjian.us/main/blogs/pgblog/2017.html#October_4_2017)
   * [Selecting all columns except one in PostgreSQL](https://blog.jooq.org/2018/05/14/selecting-all-columns-except-one-in-postgresql/)
@@ -853,6 +861,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
 - [MVCC in PostgreSQL-2. Forks, files, pages](https://habr.com/en/company/postgrespro/blog/469087/)
+- [MVCC-3. Row versions](https://habr.com/en/company/postgrespro/blog/445820/)
+- [MVCC-4. Data snapshots](https://habr.com/en/company/postgrespro/blog/446652/)
+- [MVCC-5. In-page cleaning and HOT](https://habr.com/en/company/postgrespro/blog/449704/)
+- [MVCC-6. Cleaning](https://habr.com/en/company/postgrespro/blog/452320/)
 - [MVCC-7. Auto cleaning](https://habr.com/en/company/postgrespro/blog/452762/)
 - [MVCC in PostgreSQL-8. Freezing](https://habr.com/en/company/postgrespro/blog/455590/)
 - [Different approaches for MVCC used in well known databases](http://amitkapila16.blogspot.com/2015/03/different-approaches-for-mvcc-used-in.html)
