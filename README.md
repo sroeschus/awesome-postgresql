@@ -333,6 +333,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Hacking PostgreSQL](https://www.postgresql.eu/events/pgconfeu2018/sessions/session/2058/slides/96/hackingpg-present.pdf)
 * [Development information](https://wiki.postgresql.org/wiki/Development_information)
 * [Developer FAQ](https://wiki.postgresql.org/wiki/Developer_FAQ)
+* Environment
+  * [Developing on many versions of PostgreSQL at once](https://www.2ndquadrant.com/en/blog/developing-on-many-versions-of-postgresql-at-once/)
 * Editor
   * [Configuring vim for postgres development](https://wiki.postgresql.org/wiki/Configuring_vim_for_postgres_development)
   * [vipsql](https://github.com/martingms/vipsql) - Vim frontend for interacting with psql
@@ -458,6 +460,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Timezone
   - [Actually Understanding Timezones in PostgreSQL](http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
+- [New In PostgreSQL 12: Generated Columns](https://pgdash.io/blog/postgres-12-generated-columns.html)
   
 ## ETL
 - [Fastest way to load data into PostgreSQL using python](https://hakibenita.com/fast-load-data-python-postgresql)
@@ -534,6 +537,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [FAQ: Using Sequences in PostgreSQL](http://www.neilconway.org/docs/sequences/?utm_source=postgresweekly&utm_medium=email)
 - [New features for Sequences: Gains and pitfalls](https://www.cybertec-postgresql.com/en/sequences-gains-and-pitfalls/)
 - [Sequence Caching: Oracle vs. PostgreSQL](https://seiler.us/2018-10-02-sequence-caching-oracle-vs-postgresql/)
+
+## Trigger
+- [A faster lightweight trigger function in C for PostgreSQL](https://www.percona.com/blog/2019/08/15/faster-lightweight-trigger-function-in-c-for-postgresql/)
 
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
@@ -615,6 +621,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 11: Partitioning Evolution from Postgres 9.6 to 11](https://www.2ndquadrant.com/en/blog/partitioning-evolution-postgresql-11/)
 - [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
 - [Getting time zones right when setting up PostgreSQL monthly partitioning](https://blog.ondevice.io/2016/11/postgres-partitioning/)
+- [PostgreSQL 12: Partitioning is now faster](https://www.2ndquadrant.com/en/blog/postgresql-12-partitioning/)
 
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
@@ -763,6 +770,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Development
   * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
   * [PostgreSQL Tips: Documenting the Database](https://www.compose.com/articles/postgresql-tips-documenting-the-database/)
+* Alter Table
+  * [How to run short ALTER TABLE without long locking concurrent queries](https://www.depesz.com/2019/09/26/how-to-run-short-alter-table-without-long-locking-concurrent-queries/)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Transactional data operations in PostgreSQL using Common Table Expressions](https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/)
@@ -786,6 +795,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * Count
     * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
     * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
+    * [What’s Faster? COUNT(*) or COUNT(1)?](https://blog.jooq.org/2019/09/19/whats-faster-count-or-count1/)
   * Distinct
     * [SELECT DISTINCT ON in PostgreSQL](https://www.geekytidbits.com/postgres-distinct-on/)
   * Window functions
@@ -793,6 +803,7 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
     * [PostgreSQL Window Magic](http://momjian.us/main/writings/pgsql/window.pdf?utm_source=postgresweekly&utm_medium=email)
     * [Advanced SQL - window functions](https://mjk.space/advanced-sql-window-functions/)
+    * [Advanced SQL - window frames](https://mjk.space/advances-sql-window-frames/)
   * Union
     * [Fun with SQL: Unions in PostgreSQL](https://www.citusdata.com/blog/2018/09/27/fun-with-sql-unions-in-postgres/)
   * Join
@@ -920,6 +931,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Zombies!! Dealing with a Case of Stuck TransactionIDs](https://richyen.com/replication/postgres/2019/01/08/zombie_transactions.html)
 - [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
 - [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
+- [PG Phriday: Postgres 12 Revs up Vacuum](https://www.2ndquadrant.com/en/blog/pg-phriday-postgres-12-revs-up-vacuum/)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
