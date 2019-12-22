@@ -524,6 +524,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Concurrency
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
 
+## Locks
+- [Locks in PostgreSQL: 1. Relationship Locks](https://habr.com/en/company/postgrespro/blog/462877/)
+- [PostgreSQL locks: 2. String locks](https://habr.com/en/company/postgrespro/blog/463819/)
+- [Locks in PostgreSQL: 3. Locks other objects](https://habr.com/en/company/postgrespro/blog/465263/)
+- [Locks in PostgreSQL: 4. Locks in memory](https://habr.com/en/company/postgrespro/blog/466199/)
+
 ## Transaction
 - [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
 - [How to implement autonomous transactions in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-autonomous-transactions-in-postgres/)
@@ -839,6 +845,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## MVCC
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
+- [MVCC in PostgreSQL-2. Forks, files, pages](https://habr.com/en/company/postgrespro/blog/469087/)
 - [Different approaches for MVCC used in well known databases](http://amitkapila16.blogspot.com/2015/03/different-approaches-for-mvcc-used-in.html)
 - [PostgreSQL concurrency with MVCC](https://devcenter.heroku.com/articles/postgresql-concurrency)
 - [MVCC violations](https://wiki.postgresql.org/wiki/MVCC_violations)
