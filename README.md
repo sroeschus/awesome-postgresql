@@ -470,6 +470,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL and heap-only-tuples updates - part 3](https://blog.anayrat.info/en/2018/11/26/postgresql-and-heap-only-tuples-updates-part-3/)
 - [Postgresql block internals](https://fritshoogland.wordpress.com/2017/07/01/postgresql-block-internals/)
 
+## Materialized Views
+- [Autmatically updating materialized views](http://pgsqlpgpool.blogspot.com/2019/08/automatically-updating-materialized.html)
+
 ## Index
 - General
   - [Indexes in PostgreSQL — 1](https://habr.com/en/company/postgrespro/blog/441962/)
@@ -577,6 +580,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [SortSupport: Sorting in Postgres at Speed](https://brandur.org/sortsupport)
+- [Doubling the Sorting Speed of Postgres Network Types with Abbreviated Keys](https://brandur.org/sortsupport-inet)
 - [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
 - [PostgreSQL indexing: index scan versus bitmap scan versus sequential scan](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/)
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
@@ -752,6 +756,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres 10 highlight - Quorum set of synchronous standbys](https://paquier.xyz/postgresql-2/postgres-10-quorum-sync/?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL replication slots](https://www.opsdash.com/blog/postgresql-replication-slots.html)
 - [PostgreSQL Streaming Physical Replication With Slots](https://www.percona.com/blog/2018/11/30/postgresql-streaming-physical-replication-with-slots/)
+- [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
@@ -928,6 +933,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
 - [pg_hexedit: Rich hex editor annotations for Postgres relfiles](https://pgeoghegan.blogspot.com/2017/11/pghexedit-rich-hex-editor-annotations.html)
+- [Using pgstattuple to look at dead rows and free space](https://postgresweekly.com/issues/317)
 - [Exploring SP-GiST and BRIN indexes visually using pg_hexedit](https://pgeoghegan.blogspot.com/2018/01/exploring-sp-gist-and-brin-indexes.html)
 - [PostgreSQL and tablespaces, it's not so scary](https://www.cybertec-postgresql.com/en/postgresql-tablespaces-its-not-so-scary/)
 - [Moving tablespaces](https://momjian.us/main/blogs/pgblog/2018.html#October_3_2018)
