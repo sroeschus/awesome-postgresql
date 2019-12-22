@@ -413,6 +413,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Authentication
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
 - [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
+- [How to set up scram-sha-256 authentication in PostgreSQL](http://hacksoclock.blogspot.com/2018/10/how-to-set-up-scram-sha-256.html)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 
 ## Configuration
@@ -600,6 +601,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 11 Partitioning Improvements](https://pgdash.io/blog/partition-postgres-11.html)
 - [Partitioning Improvements in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/slides-partitioning-pg-11/)
 - [Partition Elimination in PostgreSQL 11](https://www.2ndquadrant.com/en/blog/partition-elimination-postgresql-11/)
+- [PostgreSQL 11: Partitioning Evolution from Postgres 9.6 to 11](https://www.2ndquadrant.com/en/blog/partitioning-evolution-postgresql-11/)
 - [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
 - [Getting time zones right when setting up PostgreSQL monthly partitioning](https://blog.ondevice.io/2016/11/postgres-partitioning/)
 
@@ -607,6 +609,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
 - [Built-in Sharding for PostgreSQL](http://rhaas.blogspot.com/2018/05/built-in-sharding-for-postgresql.html)
 - [Five sharding data models and which is right](https://www.citusdata.com/blog/2017/08/28/five-data-models-for-sharding/?utm_source=postgresweekly&utm_medium=email)
+- [Sharding Your Data With PostgreSQL 11](https://pgdash.io/blog/postgres-11-sharding.html)
 
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
@@ -743,6 +746,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
 * Development
   * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
+  * [PostgreSQL Tips: Documenting the Database](https://www.compose.com/articles/postgresql-tips-documenting-the-database/)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Transactional data operations in PostgreSQL using Common Table Expressions](https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/)
@@ -761,8 +765,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Rules
   * [An example of PostgreSQL rules: updating pg_settings](https://fluca1978.github.io/2018/08/13/PostgreSQL-pgsettings-rules.html)
 * Select
-  * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
   * [Selecting a 'sample' of a table's rows](https://postgresweekly.com/issues/300)
+  * Count
+    * [Count(*) made fast](https://www.cybertec-postgresql.com/en/postgresql-count-made-fast/)
+    * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
+  * Distinct
+    * [SELECT DISTINCT ON in PostgreSQL](https://www.geekytidbits.com/postgres-distinct-on/)
   * Window functions
     * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
@@ -790,7 +798,6 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [PostgreSQL 11’s Support for SQL Standard GROUPS and EXCLUDE Window Function Clauses](https://blog.jooq.org/2018/07/05/postgresql-11s-support-for-sql-standard-groups-and-exclude-window-function-clauses/)
   * [Custom aggregates in PostgreSQL](https://hashrocket.com/blog/posts/custom-aggregates-in-postgresql?utm_source=postgresweekly&utm_medium=email)
   * [Metrics Maven: Calculating a moving average in PostgreSQL](https://www.compose.com/articles/metrics-maven-calculating-a-moving-average-in-postgresql/?utm_source=cooper&utm_medium=postgresql-newsletter&utm_campaign=postgres-moving-average)
-  * [Faster PostgreSQL counting](https://www.citusdata.com/blog/2016/10/12/count-performance/?utm_source=postgresweekly&utm_medium=email)
   * [Using xmin in queries](https://momjian.us/main/blogs/pgblog/2017.html#October_4_2017)
   * [Selecting all columns except one in PostgreSQL](https://blog.jooq.org/2018/05/14/selecting-all-columns-except-one-in-postgresql/)
 * Regular expressions
@@ -807,6 +814,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## PGSQL
 - [Tech preview: PostgreSQL 11 – create procedure](https://www.cybertec-postgresql.com/en/tech-preview-postgresql-11-create-procedure/)
+- [PG Phriday: Studying Stored Procedures in Postgres 11](https://www.2ndquadrant.com/en/blog/pg-phriday-stored-procedures-postgres-11/)
 - [PG Phriday: Getting assertive](http://bonesmoses.org/2017/02/17/pg-phriday-getting-assertive/?utm_source=postgresweekly&utm_medium=email)
 - [Avoiding unnecessary stored procedure calls in PostgreSQL](https://www.cybertec-postgresql.com/en/avoiding-unnecessary-stored-procedure-calls-in-postgresql/)
 
@@ -893,6 +901,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
 - [Per-Table Autovacuum Tuning](https://www.keithf4.com/per-table-autovacuum-tuning/)
 - [Zombies!! Dealing with a Case of Stuck TransactionIDs](https://richyen.com/replication/postgres/2019/01/08/zombie_transactions.html)
+- [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
+- [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
