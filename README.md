@@ -482,6 +482,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - BRIN Index
+  - [Indexes in PostgreSQL — 9 (BRIN)](https://habr.com/en/company/postgrespro/blog/452900/)
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
   - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://info.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage)
 - Btree index
@@ -529,6 +530,12 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL locks: 2. String locks](https://habr.com/en/company/postgrespro/blog/463819/)
 - [Locks in PostgreSQL: 3. Locks other objects](https://habr.com/en/company/postgrespro/blog/465263/)
 - [Locks in PostgreSQL: 4. Locks in memory](https://habr.com/en/company/postgrespro/blog/466199/)
+
+## WAL
+- [WAL in PostgreSQL: 1. Buffer cache](https://habr.com/en/company/postgrespro/blog/458186/)
+- [WAL in PostgreSQL: 2. Prerecord log](https://habr.com/en/company/postgrespro/blog/459250/)
+- [WAL in PostgreSQL: 3. Checkpoint](https://habr.com/en/company/postgrespro/blog/460423/)
+- [WAL in PostgreSQL: 4. Log setup](https://habr.com/en/company/postgrespro/blog/461523/)
 
 ## Transaction
 - [SERIALIZABLE in PostgreSQL 11... and beyond](https://write-skew.blogspot.com/2018/05/serializable-in-postgresql-11-and-beyond.html)
@@ -846,6 +853,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
 - [MVCC in PostgreSQL-2. Forks, files, pages](https://habr.com/en/company/postgrespro/blog/469087/)
+- [MVCC-7. Auto cleaning](https://habr.com/en/company/postgrespro/blog/452762/)
+- [MVCC in PostgreSQL-8. Freezing](https://habr.com/en/company/postgrespro/blog/455590/)
 - [Different approaches for MVCC used in well known databases](http://amitkapila16.blogspot.com/2015/03/different-approaches-for-mvcc-used-in.html)
 - [PostgreSQL concurrency with MVCC](https://devcenter.heroku.com/articles/postgresql-concurrency)
 - [MVCC violations](https://wiki.postgresql.org/wiki/MVCC_violations)
