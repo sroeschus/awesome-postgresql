@@ -405,6 +405,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Columnar store
   - [A Poor Man's Column Oriented Database in PostgreSQL](https://www.brianlikespostgres.com/)
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
+  - [Zedstore - compressed in-core columnar storage](https://www.postgresql.org/message-id/flat/CALfoeiuF-m5jg51mJUPm5GN8u396o5sA2AF5N97vTRAEDYac7w%40mail.gmail.com)
 - LLVM
   - [Pairing LLVM JIT with PostgreSQL can speed up database performance](https://www.phoronix.com/scan.php?page=news_item&px=LLVM-JIT-PostgreSQL&utm_source=postgresweekly&utm_medium=email)
   - [PostgreSQL 11 and Just In Time Compilation of Queries](https://www.citusdata.com/blog/2018/09/11/postgresql-11-just-in-time/)
@@ -581,6 +582,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
 - [On rocks and sand](https://www.2ndquadrant.com/en/blog/on-rocks-and-sand/)
 - [Optimizer hints discussion](https://wiki.postgresql.org/wiki/OptimizerHintsDiscussion)
+- [PostgreSQL V12 new feature: Optimizer support for functions](https://www.cybertec-postgresql.com/en/optimizer-support-functions/)
+- [How PostgreSQL V12 handles prepared plans](https://www.cybertec-postgresql.com/en/tech-preview-how-postgresql-12-handles-prepared-plans/)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
@@ -662,6 +665,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Understanding deadlocks in MySQL & PostgreSQL](https://severalnines.com/database-blog/understanding-deadlocks-mysql-postgresql)
   - [Don’t LOCK tables. Just don’t](https://thebuild.com/blog/2018/08/28/dont-lock-tables-just-dont/)
   - [How do PostgreSQL advisory locks work](https://vladmihalcea.com/how-do-postgresql-advisory-locks-work/?utm_source=postgresweekly&utm_medium=email/)
+  - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
@@ -764,6 +768,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [The many faces of DISTINCT in PostgreSQL](https://medium.com/statuscode/the-many-faces-of-distinct-in-postgresql-c52490de5954)
 * Filter
   * [The FILTER clause in Postgres 9.4](https://medium.com/little-programming-joys/the-filter-clause-in-postgres-9-4-3dd327d3c852)
+  * [Using FILTER to turn entity/value tables into rows of entities](https://postgresweekly.com/issues/302)
 * First_value / Last_value
   * [Advanced SQL: Why first_value and last_value are no bugs](https://www.cybertec-postgresql.com/en/advanced-sql-why-first_value-and-last_value-are-no-bugs/)
 * Generate_series
