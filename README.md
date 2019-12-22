@@ -667,6 +667,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How much maintenance_work_mem do I need?](http://rhaas.blogspot.com/2019/01/how-much-maintenanceworkmem-do-i-need.html)
   - [Is Your Postgres Query Starved for Memory?](https://dzone.com/articles/is-your-postgres-query-starved-for-memory?utm_source=postgresweekly&utm_medium=email)
   - [Autoprewarm: a new functionality in pg_prewarm](https://postgresrocks.enterprisedb.com/t5/Postgres-Gems/Autoprewarm-a-new-functionality-in-pg-prewarm/ba-p/1908?_ga=2.180339172.1388954721.1537932578-1636716584.1528749863)
+  - [Prewarming PostgreSQL I/O caches](https://www.cybertec-postgresql.com/en/prewarming-postgresql-i-o-caches/)
 - Locks
   - [Lock monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
   - [PostgreSQL rocks, except when it blocks: Understanding locks](https://www.citusdata.com/blog/2018/02/15/when-postgresql-blocks/)
@@ -756,6 +757,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL replication](https://thebuild.com//presentations/replication-perconalive-2018.pdf)
 - [Replication in PostgreSQL – Setting up Streaming](https://www.percona.com/blog/2018/09/07/setting-up-streaming-replication-postgresql/)
 - [PostgreSQL Streaming Replication](https://www.scalingpostgres.com/tutorials/postgresql-streaming-replication/)
+- [How to Set Up Streaming Replication in PostgreSQL 12](https://www.percona.com/blog/2019/10/11/how-to-set-up-streaming-replication-in-postgresql-12/)
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
@@ -851,6 +853,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
 - [Customizing my PostgreSQL Shell](https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/?utm_source=postgresweekly&utm_medium=email)
 - [Using \watch in psql](https://postgresweekly.com/issues/297)
+- [Shortcuts / variables for your queries in psql](https://postgresweekly.com/issues/326)
 
 ## Testing
 - [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
@@ -913,6 +916,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Autovacuum tuning basics](https://www.2ndquadrant.com/en/blog/autovacuum-tuning-basics/?utm_source=postgresweekly&utm_medium=email)
 - [Autovacuum slides from PgCon 2018 Ottawa](https://blog.dataegret.com/2018/06/autovacuum-slides-from-pgcon-2018-ottawa.html)
 - [Autovaccum wrap around protection in PostgreSQL](https://www.cybertec-postgresql.com/en/autovacuum-wraparound-protection-in-postgresql/)
+- [What is autovaccum doing to my temporary tables?](https://www.cybertec-postgresql.com/en/what-is-autovacuum-doing-to-my-temporary-tables/)
 - [Visualizing & Tuning PostgreSQL Autovacuum](https://pganalyze.com/blog/visualizing-and-tuning-postgres-autovacuum)
 - [Managing Freezing in PostgreSQL	](https://www.2ndquadrant.com/en/blog/managing-freezing/)
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
