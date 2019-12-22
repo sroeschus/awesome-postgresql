@@ -390,6 +390,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Administration
 - [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
 - [Ten Tips for Going Into Production With PostgreSQL](https://severalnines.com/database-blog/ten-tips-going-production-postgresql)
+- [7 Things To Watch Out For In Your PostgreSQL Deployment](https://pgdash.io/blog/postgres-things-to-monitor.html)
 - [Managing Multiple PostgreSQL Installations with pgenv](https://fluca1978.github.io/2018/08/30/pgenv.html)
 
 ## Architecture
@@ -481,6 +482,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Indexes in PostgreSQL — 10 (Bloom)](https://habr.com/en/company/postgrespro/blog/452968/)
 - BRIN Index
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
+  - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://info.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage)
 - Btree index
   - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
 - GIN index
@@ -546,6 +548,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
+- [SortSupport: Sorting in Postgres at Speed](https://brandur.org/sortsupport)
 - [Disabling JOIN re-ordering by Postgres planner](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
 - [PostgreSQL indexing: index scan versus bitmap scan versus sequential scan](https://www.cybertec-postgresql.com/en/postgresql-indexing-index-scan-vs-bitmap-scan-vs-sequential-scan-basics/)
 - [Speeding up PostgreSQL Index Scans with Index-Only Scans](https://malisper.me/speeding-up-postgres-index-scans-with-index-only-scans/?utm_source=postgresweekly&utm_medium=email)
@@ -603,6 +606,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL load testing with pgreplay](https://www.commandprompt.com/blog/postgres-load-testing-pgreplay/?utm_source=postgresweekly&utm_medium=email)
 - Configuration
   - [Tuning PostgreSQL Database Parameters to Optimize Performance](https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/)
+  - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
@@ -617,6 +621,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Understanding caching in PostgreSQL - An in-depth guide](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/?utm_source=postgresweekly&utm_medium=email)
   - [Caching in PostgreSQL](https://raghavt.blogspot.com/2012/04/caching-in-postgresql.html)
   - [Locking PostgreSQL shared memory to physical RAM](https://theplateisbad.blogspot.com/2016/11/locking-postgresql-shared-memory-to.html?utm_source=postgresweekly&utm_medium=email)
+  - [How much maintenance_work_mem do I need?](http://rhaas.blogspot.com/2019/01/how-much-maintenanceworkmem-do-i-need.html)
   - [Is Your Postgres Query Starved for Memory?](https://dzone.com/articles/is-your-postgres-query-starved-for-memory?utm_source=postgresweekly&utm_medium=email)
   - [Autoprewarm: a new functionality in pg_prewarm](https://postgresrocks.enterprisedb.com/t5/Postgres-Gems/Autoprewarm-a-new-functionality-in-pg-prewarm/ba-p/1908?_ga=2.180339172.1388954721.1537932578-1636716584.1528749863)
 - Locks
@@ -688,6 +693,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Reorganization
 - [Using pg_repack to rebuild PostgreSQL database objects online](https://www.percona.com/blog/2019/02/04/pg_repack-rebuild-postgresql-database-objects-online/)
+- [How much space your tables (and indexes!) are taking up](https://postgresweekly.com/issues/294)
 
 ## Replication
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
@@ -856,6 +862,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## I/O
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
+- [PostgreSQL fsync Failure Fixed – Minor Versions Released Feb 14, 2019](https://www.percona.com/blog/2019/02/22/postgresql-fsync-failure-fixed-minor-versions-released-feb-14-2019/)
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
 - [Reliable writes](https://wiki.postgresql.org/wiki/Reliable_Writes)
@@ -901,6 +908,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Cloud
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
+- [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
 
 ## Conferences/ Videos
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
