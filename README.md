@@ -318,6 +318,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
 * [C++ port of postgres](https://github.com/jarulraj/postgresql-cpp)
 * [ecpg-readahead](https://github.com/zboszor/ecpg-readahead) - PostgreSQL ECPG client-side cursor caching
+* [gpdb](https://github.com/greenplum-db/gpdb) - Greenplum database
 * [hippo-postgresql](https://github.com/DataSystemsLab/hippo-postgresql) - Hippo is a fast, yet scalable, sparse database indexing approach
 * [postgrespro](https://github.com/postgrespro/postgrespro) - Postgres Professional fork of PostgreSQL
 * [postgresql.builtin_pool](https://github.com/postgrespro/postgresql.builtin_pool) - PostgreSQL with built-in connection pooling
@@ -361,6 +362,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Using Makefiles to build PostgreSQL](https://andreas.scherbaum.la/blog/archives/964-Using-Makefiles-to-build-PostgreSQL.html)
 * Debugging
   * [gdbpg](https://github.com/tvondra/gdbpg) - GDB command(s) making debugging somewhat easier
+  * [Making debugging with GDB a bit easier](https://blog.pgaddict.com/posts/making-debugging-with-gdb-a-bit-easier)
   * [Trace Query Processing Internals with Debugger](https://www.highgo.ca/2019/10/03/trace-query-processing-internals-with-debugger/) - Example debugging session to trace a query
   * [Getting a stack trace of a running PostgreSQL backend on Linux/BSD](https://wiki.postgresql.org/wiki/Getting_a_stack_trace_of_a_running_PostgreSQL_backend_on_Linux/BSD)
   * [Debugging the PostgreSQL grammar (Bison)](https://wiki.postgresql.org/wiki/Debugging_the_PostgreSQL_grammar_(Bison))
@@ -603,6 +605,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Optimizer hints discussion](https://wiki.postgresql.org/wiki/OptimizerHintsDiscussion)
 - [PostgreSQL V12 new feature: Optimizer support for functions](https://www.cybertec-postgresql.com/en/optimizer-support-functions/)
 - [How PostgreSQL V12 handles prepared plans](https://www.cybertec-postgresql.com/en/tech-preview-how-postgresql-12-handles-prepared-plans/)
+- [10 Cool SQL Optimisations That do not Depend on the Cost Model](https://blog.jooq.org/2017/09/28/10-cool-sql-optimisations-that-do-not-depend-on-the-cost-model/)
 
 ## Parallel Processing
 - [Parallelism in PostgreSQL](https://www.percona.com/blog/2019/07/30/parallelism-in-postgresql/)
@@ -736,6 +739,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [How Long Does It Take to …](https://developers.redhat.com/blog/2013/05/20/how-long-does-it-take-to/)
   - [Adding User Space Probing to an Application (heapsort example)](https://sourceware.org/systemtap/wiki/AddingUserSpaceProbingToApps)
   - [PostgreSQL session level trace](https://dbmsandbeyond.wordpress.com/2015/04/16/postgresql-session-level-trace/)
+  - [Tracking traces in PostgreSQL](https://www.loxodata.com/post/systemtap/)
   - [Hooks and trace points](https://wiki.postgresql.org/wiki/Todo:HooksAndTracePoints)
   
 ## Backup / Recovery
@@ -958,6 +962,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
 - [Reliable writes](https://wiki.postgresql.org/wiki/Reliable_Writes)
+- [PostgreSQL reads each 8k block - no larger blocks are used - even on sequential scans](https://grokbase.com/t/postgresql/pgsql-general/099v4kvj3x/postgresql-reads-each-8k-block-no-larger-blocks-are-used-even-on-sequential-scans)
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
