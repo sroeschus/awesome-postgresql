@@ -476,6 +476,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgresql block internals](https://fritshoogland.wordpress.com/2017/07/01/postgresql-block-internals/)
 
 ## Materialized Views
+- [Materialized views with PostgreSQL for beginners](https://medium.com/jobteaser-dev-team/materialized-views-with-postgresql-for-beginners-9809483db35f)
 - [Autmatically updating materialized views](http://pgsqlpgpool.blogspot.com/2019/08/automatically-updating-materialized.html)
 
 ## Index
@@ -544,6 +545,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [A faster lightweight trigger function in C for PostgreSQL](https://www.percona.com/blog/2019/08/15/faster-lightweight-trigger-function-in-c-for-postgresql/)
 
 ## Concurrency
+- [Modeling for Concurrency](https://tapoueh.org/blog/2018/07/modeling-for-concurrency/)
 - [Batch Updates and Concurrency](https://tapoueh.org/blog/2018/07/batch-updates-and-concurrency/)
 
 ## Locks
