@@ -293,6 +293,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_reloaded](https://github.com/zikani03/pg_reloaded) - Restore databases periodically
 * [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
+* [pg_statsinfo](http://pgstatsinfo.sourceforge.net/documents/statsinfo3.2/pg_statsinfo.html) - Monitoring tool to record activities and statistics of PostgreSQL server
 * [pg_stealback](https://github.com/stalkerg/pg_stealback) - Backup and recovery manager for PostgreSQL
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
@@ -438,6 +439,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Protect your data with PostgreSQL constraints](http://nathanmlong.com/2016/01/protect-your-data-with-postgresql-constraints/?utm_source=postgresweekly&utm_medium=email)
 - [Deferrable SQL Constraints in depth](https://begriffs.com/posts/2017-08-27-deferrable-sql-constraints.html?utm_source=postgresweekly&utm_medium=email)
 - [Adding a NOT NULL CONSTRAINT on PG Faster with Minimal Locking](https://medium.com/doctolib/adding-a-not-null-constraint-on-pg-faster-with-minimal-locking-38b2c00c4d1c)
+
+## Privileges
+- [Altering Default Privileges For Fun and Profit](https://seiler.us/2018-06-05-alter-default-privs/)
 
 ## Customer
 - [On Uber's Choice of Databases](https://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases?utm_source=postgresweekly&utm_medium=email)
@@ -611,6 +615,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 9.6: Parallel queries](https://blog.rebased.pl/2017/04/24/postgresql-9-6-parallel-queries.html?utm_source=postgresweekly&utm_medium=email)
 - [Parallelism in PostgreSQL 11](https://speakerdeck.com/macdice/parallelism-in-postgresql-11)
 - [Parallel Query v2](http://rhaas.blogspot.com/2017/03/parallel-query-v2.html?utm_source=postgresweekly&utm_medium=email)
+- [Using force_parallel_mode correctly](http://rhaas.blogspot.com/2018/06/using-forceparallelmode-correctly.html)
 
 ## Distributed Processing
 - [High performance distributed DML in Citus](https://www.citusdata.com/blog/2018/07/25/high-performance-distributed-dml/)
@@ -999,6 +1004,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions: Part Two - Amazon RDS](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-two-amazon-rds)
+- [How Redshift differs from PostgreSQL](https://www.stitchdata.com/blog/how-redshift-differs-from-postgresql/)
 
 ## Conferences/ Videos
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
