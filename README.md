@@ -548,6 +548,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [FAQ: Using Sequences in PostgreSQL](http://www.neilconway.org/docs/sequences/?utm_source=postgresweekly&utm_medium=email)
 - [New features for Sequences: Gains and pitfalls](https://www.cybertec-postgresql.com/en/sequences-gains-and-pitfalls/)
 - [Sequence Caching: Oracle vs. PostgreSQL](https://seiler.us/2018-10-02-sequence-caching-oracle-vs-postgresql/)
+- [Sequential UUID Generators](https://www.2ndquadrant.com/en/blog/sequential-uuid-generators/)
 
 ## Trigger
 - [A faster lightweight trigger function in C for PostgreSQL](https://www.percona.com/blog/2019/08/15/faster-lightweight-trigger-function-in-c-for-postgresql/)
@@ -875,6 +876,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Using \watch in psql](https://postgresweekly.com/issues/297)
 - [Shortcuts / variables for your queries in psql](https://postgresweekly.com/issues/326)
 - [.psqlrc config](https://gist.github.com/verfriemelt-dot-org/2e0136d62cbfeb7ce67f14b0731512b0)
+- [Yet another psql color prompt](https://simply.name/yet-another-psql-color-prompt.html)
 
 ## Testing
 - [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
@@ -943,6 +945,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Monitoring PostgreSQL VACUUM processes](https://www.datadoghq.com/blog/postgresql-vacuum-monitoring/)
 - [PostgreSQL Bloatbusters](https://blog.dataegret.com/2018/03/postgresql-bloatbusters.html)
 - [PostgreSQL Vacuuming: An introduction for busy devs](http://okigiveup.net/postgresql-vacuuming-an-introduction-for-busy-devs/?utm_source=postgresweekly&utm_medium=email)
+- [Dealing with significant Postgres database bloat — what are your options?](https://medium.com/compass-true-north/dealing-with-significant-postgres-database-bloat-what-are-your-options-a6c1814a03a5)
 - [Postgres adores a Vacuum](https://begriffs.com/posts/2016-04-19-postgres-adores-vacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
