@@ -367,6 +367,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Getting a stack trace of a running PostgreSQL backend on Linux/BSD](https://wiki.postgresql.org/wiki/Getting_a_stack_trace_of_a_running_PostgreSQL_backend_on_Linux/BSD)
   * [Debugging the PostgreSQL grammar (Bison)](https://wiki.postgresql.org/wiki/Debugging_the_PostgreSQL_grammar_(Bison))
   * [pt-pmp](https://www.percona.com/doc/percona-toolkit/LATEST/pt-pmp.html)
+  * [Greenplum troubleshooting using gdb](http://www.openkb.info/2014/07/greenplum-troubleshooting-using-gdb.html)
 * Internals
   * [PostgreSQL internals through pictures](http://momjian.us/main/writings/pgsql/internalpics.pdf)
   * [A quick look at PostgreSQL source code](http://www.zerobugsandprogramfaster.net/essays/3.html?utm_source=postgresweekly&utm_medium=email)
@@ -505,6 +506,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Btree index
   - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
   - [Indexes in PostgreSQL — 4 (Btree)](https://habr.com/en/company/postgrespro/blog/443284/)
+  - [Btree index improvements in PostgreSQL 12](https://www.cybertec-postgresql.com/en/b-tree-index-improvements-in-postgresql-v12/)
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
@@ -787,6 +789,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * Development
   * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
   * [PostgreSQL Tips: Documenting the Database](https://www.compose.com/articles/postgresql-tips-documenting-the-database/)
+  * [12 Common Mistakes and Missed Optimization Opportunities in SQL](https://hakibenita.com/sql-dos-and-donts)
 * Alter Table
   * [How to run short ALTER TABLE without long locking concurrent queries](https://www.depesz.com/2019/09/26/how-to-run-short-alter-table-without-long-locking-concurrent-queries/)
 * Case
@@ -871,6 +874,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Customizing my PostgreSQL Shell](https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/?utm_source=postgresweekly&utm_medium=email)
 - [Using \watch in psql](https://postgresweekly.com/issues/297)
 - [Shortcuts / variables for your queries in psql](https://postgresweekly.com/issues/326)
+- [.psqlrc config](https://gist.github.com/verfriemelt-dot-org/2e0136d62cbfeb7ce67f14b0731512b0)
 
 ## Testing
 - [How PostgreSQL is tested](https://blog.pgconf.us/2017/02/how-postgresql-is-tested.html?utm_source=postgresweekly&utm_medium=email)
@@ -974,6 +978,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Optimizing storage of small tables in PostgreSQL 12](https://www.2ndquadrant.com/en/blog/optimizing-storage-small-tables-postgresql-12/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
 - [zheap: a storage engine to provide better control over bloat](http://amitkapila16.blogspot.com/2018/03/zheap-storage-engine-to-provide-better.html)
+- [zheap: less bloat, fewer writes, and just plain smaller](https://www.pgcon.org/2018/schedule/attachments/501_zheap-a-new-storage-format-postgresql-5.pdf)
 
 ## Foreign Data Wrapper
 - [A Tour of Foreign Data Wrappers](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)
