@@ -300,6 +300,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [piretry](https://dalibo.github.io/pitrery/) - Set of bash scripts to manage Point In Time Recovery (PITR) backups
 * [postgresqltuner](https://github.com/jfcoz/postgresqltuner) - Script to analyse your database configuration, and give tuning advice
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
+* [postgres-checkup](https://gitlab.com/postgres-ai/postgres-checkup/) - PostgreSQL Health Check and SQL Performance Analysis
 * [PostgeSQL Anonmyizer](https://gitlab.com/dalibo/postgresql_anonymizer) - Anonymization & Data Masking
 * [postgreSQL-Query-Lock-Explainer](https://github.com/AdmTal/PostgreSQL-Query-Lock-Explainer) - Query lock explainer
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
@@ -406,6 +407,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Bringing GPU's to bear on bog standard relational databases](https://www.nextplatform.com/2018/02/26/bringing-gpus-bear-bog-standard-relational-databases/)
 - Columnar store
   - [A Poor Man's Column Oriented Database in PostgreSQL](https://www.brianlikespostgres.com/)
+  - [Building columnar compression in a row-oriented database](https://blog.timescale.com/blog/building-columnar-compression-in-a-row-oriented-database/)
   - [In-memory Column Store](https://www.youtube.com/watch?v=ahMo3kd9_hM) - Fujitsu Columnar and in-memory solution
   - [Zedstore - compressed in-core columnar storage](https://www.postgresql.org/message-id/flat/CALfoeiuF-m5jg51mJUPm5GN8u396o5sA2AF5N97vTRAEDYac7w%40mail.gmail.com)
 - LLVM
@@ -575,6 +577,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Introduction to PostgreSQL automatic failover](https://pgstef.github.io/2018/02/07/introduction_to_postgresql_automatic_failover.html)
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 - [An introduction to stolon: cloud native PostgreSQL high availability](https://sgotti.dev/post/stolon-introduction/?utm_source=postgresweekly&utm_medium=email)
+- [Seamless Application Failover using libpq Features in PostgreSQL](https://www.percona.com/blog/2019/10/23/seamless-application-failover-using-libpq-features-in-postgresql/)
 
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
@@ -689,6 +692,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/)
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
   - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
+  - [Making Mystery-Solving Easier with auto_explain](https://richyen.com/postgres/2019/11/06/auto_explain.html)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
   - [Speeding up group by in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/)
   - [PostrgreSQL: Improving sort performance](https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/)
@@ -774,6 +778,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [PostgreSQL Tips: Documenting the Database](https://www.compose.com/articles/postgresql-tips-documenting-the-database/)
 * Alter Table
   * [How to run short ALTER TABLE without long locking concurrent queries](https://www.depesz.com/2019/09/26/how-to-run-short-alter-table-without-long-locking-concurrent-queries/)
+* Case
+  * [Postgres CASE Statement Basics By Example](https://blog.panoply.io/postgres-case-statement-basics-by-example)
 * CTE
   * [Fun with SQL: Common Table Expressions for more readable queries](https://www.citusdata.com/blog/2018/08/09/fun-with-sql-common-table-expressions/)
   * [Transactional data operations in PostgreSQL using Common Table Expressions](https://rob.conery.io/2018/08/13/transactional-data-operations-in-postgresql-using-common-table-expressions/)
