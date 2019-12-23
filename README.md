@@ -872,6 +872,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
 - [psql Tips and Tricks](https://pgdash.io/blog/postgres-psql-tips-tricks.html)
+- [Gettting by with just psql](https://www.postgresql.eu/events/pgconfeu2017/sessions/session/1592/slides/11/Getting%20By%20With%20Just%20psql.pdf)
 - [Customizing my PostgreSQL Shell](https://www.citusdata.com/blog/2017/07/16/customizing-my-postgres-shell-using-psqlrc/?utm_source=postgresweekly&utm_medium=email)
 - [Using \watch in psql](https://postgresweekly.com/issues/297)
 - [Shortcuts / variables for your queries in psql](https://postgresweekly.com/issues/326)
