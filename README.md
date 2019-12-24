@@ -244,6 +244,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg-tpch](https://github.com/sshtmc/pg-tpch) - PostgreSQL-compatible benchmark TPC-H, with some wrapper scripts
 * [pg_ash_scripts](https://github.com/pgsentinel/pg_ash_scripts) - Scripts for active session history
 * [pg_insights](https://github.com/lob/pg_insights) - SQL for monitoring Postgres database health
+* [pg_statsinfo](http://pgstatsinfo.sourceforge.net/documents/statsinfo3.2/pg_statsinfo.html) - Monitoring tool to record activities and statistics of PostgreSQL server
 * [pg_view](https://github.com/zalando/pg_view) - Detailed, real-time view of your database and system metrics
 * [pg_ycsb](https://github.com/postgrespro/pg_ycsb) - YCSB-like benchmark for pgbench
 * [postgresql-metrics](https://github.com/spotify/postgresql-metrics) - Tool that extracts and provides metrics
@@ -293,7 +294,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pg_reloaded](https://github.com/zikani03/pg_reloaded) - Restore databases periodically
 * [pg_reorg](https://github.com/ossc-db/pg_reorg) - Reorganize tables without keeping locks
 * [pg_rman](https://github.com/ossc-db/pg_rman) - Backup and restore management tool
-* [pg_statsinfo](http://pgstatsinfo.sourceforge.net/documents/statsinfo3.2/pg_statsinfo.html) - Monitoring tool to record activities and statistics of PostgreSQL server
 * [pg_stealback](https://github.com/stalkerg/pg_stealback) - Backup and recovery manager for PostgreSQL
 * [pg_tail](https://github.com/aaparmeggiani/pg_tail) - tail -f your tables
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling
