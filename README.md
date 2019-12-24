@@ -982,6 +982,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Moving tablespaces](https://momjian.us/main/blogs/pgblog/2018.html#October_3_2018)
 - [Optimizing storage of small tables in PostgreSQL 12](https://www.2ndquadrant.com/en/blog/optimizing-storage-small-tables-postgresql-12/)
 - [Pluggable storage discussion](https://www.postgresql.org/message-id/flat/20160812231527.GA690404%40alvherre.pgsql#20160812231527.GA690404@alvherre.pgsql)
+- [Pluggable Table Storage in PostgreSQL](https://anarazel.de/talks/2019-06-25-pgvision-pluggable-table-storage/pluggable.pdf)
 - [zheap: a storage engine to provide better control over bloat](http://amitkapila16.blogspot.com/2018/03/zheap-storage-engine-to-provide-better.html)
 - [zheap: less bloat, fewer writes, and just plain smaller](https://www.pgcon.org/2018/schedule/attachments/501_zheap-a-new-storage-format-postgresql-5.pdf)
 
