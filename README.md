@@ -966,6 +966,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## I/O
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
+- [PostgreSQL visits LSFMM](https://lwn.net/Articles/752952/)
 - [PostgreSQL fsync Failure Fixed – Minor Versions Released Feb 14, 2019](https://www.percona.com/blog/2019/02/22/postgresql-fsync-failure-fixed-minor-versions-released-feb-14-2019/)
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
