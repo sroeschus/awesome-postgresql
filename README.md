@@ -971,6 +971,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
 - [Reliable writes](https://wiki.postgresql.org/wiki/Reliable_Writes)
 - [PostgreSQL reads each 8k block - no larger blocks are used - even on sequential scans](https://grokbase.com/t/postgresql/pgsql-general/099v4kvj3x/postgresql-reads-each-8k-block-no-larger-blocks-are-used-even-on-sequential-scans)
+- [PostgreSQL's IO subsystem: Problems, Workarounds, Solutions](https://anarazel.de/talks/2019-09-13-pgopen-orlando-io/io.pdf)
 
 ## Storage
 - [Introduction to PostgreSQL physical storage](http://rachbelaid.com/introduction-to-postgres-physical-storage/?utm_source=postgresweekly&utm_medium=email)
