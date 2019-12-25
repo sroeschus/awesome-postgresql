@@ -20,6 +20,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 # Builtin-Extensions
 * [pstattuple](https://www.postgresql.org/docs/11/pgstattuple.html) - Obtain tuple-level statistics
+* [unaccent](https://www.postgresql.org/docs/11/unaccent.html) - Text search dictionary that removes accents (diacritic signs) from lexemes
 
 # Extensions
 * [pgxn](https://pgxn.org/) - PostgreSQL extension network
