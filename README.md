@@ -582,6 +582,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How PostgreSQL makes Transactions Atomic](https://brandur.org/postgres-atomicity?utm_source=postgresweekly&utm_medium=email)
 - [Handling Contention with PostgreSQL](https://medium.com/learning-with-diagrams/learning-w-diagrams-handling-contention-with-postgresql-109798b8ad54)
 - [Be prepared for prepared transactions](https://www.cybertec-postgresql.com/en/prepared-transactions/)
+- [Now, I can get timestamp of created table and committed rows in PostgreSQL](http://rajeshmadiwale.blogspot.com/2019/04/wow-what-now-i-can-get-timestamp-of.html)
 
 ## HA
 - [Top PG Clustering High Availability (HA) Solutions for PostgreSQL](https://severalnines.com/database-blog/top-pg-clustering-high-availability-ha-solutions-postgresql)
