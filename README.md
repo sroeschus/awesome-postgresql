@@ -1015,6 +1015,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Diagnostic of an unexpected slowdown](https://rjuju.github.io/postgresql/2018/07/03/diagnostic-of-unexpected-slowdown.html)
   - [Improving Linux system performance with I/O scheduler tuning](https://blog.codeship.com/linux-io-scheduler-tuning/?utm_source=postgresweekly&utm_medium=email)
   - [Running a database on EC2? Your clock could be slowing you down](https://heap.io/blog/engineering/clocksource-aws-ec2-vdso)
+  - [Two frequently used system calls are ~77% slower on AWS EC2](https://blog.packagecloud.io/eng/2017/03/08/system-calls-are-much-slower-on-ec2/)
 
 ## Limits
 - [PostgreSQL maximum table sizes](https://www.2ndquadrant.com/en/blog/postgresql-maximum-table-size/)
