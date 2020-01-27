@@ -760,6 +760,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Introducing WAL-G by Citus: Faster disaster recovery for PostgreSQL](https://www.citusdata.com/blog/2017/08/18/introducing-wal-g-faster-restores-for-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [That Google Checksum Tool](https://thebuild.com/blog/2018/07/17/that-google-checksum-tool/)
 - [Postgres 12 highlight - pg_checksums](https://paquier.xyz/postgresql-2/postgres-12-pg-checksums/)
+- [Statistics on checkums errors](https://rjuju.github.io/postgresql/2019/04/18/new-in-pg12-statistics-checksums-errors.html)
 - [Verifying PostgreSQL backups made easier with new open-source tool](https://cloudplatform.googleblog.com/2018/07/verifying-postgresql-backups-made-easier-with-new-open-source-tool.html)
 
 ## Reorganization
@@ -803,6 +804,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   * [Fun with SQL: Recursive CTEs in PostgreSQL](https://www.citusdata.com/blog/2018/05/15/fun-with-sql-recursive-ctes/)
   * [Using CTEs and Unions to Compute Running Totals](https://www.periscopedata.com/blog/using-ctes-and-unions-to-compute-running-totals)
   * [Be careful with CTE in PostgreSQL](https://medium.com/@hakibenita/be-careful-with-cte-in-postgresql-fca5e24d2119)
+* Declare cursor
+  * [Declare cursor in PostgreSQL or how to reduce memory consumption](https://www.cybertec-postgresql.com/en/declare-cursor-in-postgresql-or-how-to-reduce-memory-consumption/)
 * Distinct
   * [The many faces of DISTINCT in PostgreSQL](https://medium.com/statuscode/the-many-faces-of-distinct-in-postgresql-c52490de5954)
 * Filter
@@ -953,6 +956,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [VACUUM FULL doesn't mean "VACUUM, but better"](http://rhaas.blogspot.com/2014/03/vacuum-full-doesnt-mean-vacuum-but.html)
 - [Unclogging the VACUUM](https://thebuild.com/presentations/pgconfeu-2016-vax.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Implement an early warning system for transaction ID wraparound in Amazon RDS for PostgreSQL](https://aws.amazon.com/blogs/database/implement-an-early-warning-system-for-transaction-id-wraparound-in-amazon-rds-for-postgresql/?adbsc=social_20161031_67402216&adbid=793131047848321024&adbpl=tw&adbpr=66780587&utm_source=postgresweekly&utm_medium=email)
+- [Around the World in Two Billion Transactions](https://www.2ndquadrant.com/en/blog/around-world-two-billion-transactions/)
 - [When autovacuum does not vacuum](https://www.2ndquadrant.com/en/blog/when-autovacuum-does-not-vacuum/?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL Index bloat under a microscope](https://pgeoghegan.blogspot.com/2017/07/postgresql-index-bloat-microscope.html?utm_source=postgresweekly&utm_medium=email)
 - [Anatomy of a VACUUM](https://richyen.com/postgres/2017/08/24/anatomy_of_vacuum.html?utm_source=postgresweekly&utm_medium=email)
