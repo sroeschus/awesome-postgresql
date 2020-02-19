@@ -496,6 +496,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Principles and Applications of the Index Types Supported by PostgreSQL](https://medium.com/@Alibaba_Cloud/principles-and-applications-of-the-index-types-supported-by-postgresql-481f59bab67d)
   - [Database Indexing in PostgreSQL](https://severalnines.com/blog/postgresql-database-indexing-overview)
   - [Indexes in PostgreSQL](https://www.slideshare.net/LouiseGrandjonc/indexes-in-postgres)
+  - [A Close Look at the Index Include Clause](https://use-the-index-luke.com/blog/2019-04/include-columns-in-btree-indexes)
 - Bloom Index
   - [Bloom Indexes in PostgreSQL](https://www.percona.com/blog/2019/06/14/bloom-indexes-in-postgresql/)
   - [Waiting for 9.6 – bloom index contrib module](https://www.depesz.com/2016/04/11/waiting-for-9-6-bloom-index-contrib-module/?utm_source=postgresweekly&utm_medium=email)
@@ -707,6 +708,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/)
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
   - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
+  - [Add SETTINGS option to EXPLAIN, to print modified settings](https://www.depesz.com/2019/04/30/waiting-for-postgresql-12-add-settings-option-to-explain-to-print-modified-settings/)
   - [Making Mystery-Solving Easier with auto_explain](https://richyen.com/postgres/2019/11/06/auto_explain.html)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
   - [Speeding up group by in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/)
@@ -963,6 +965,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
 - [Per-Table Autovacuum Tuning](https://www.keithf4.com/per-table-autovacuum-tuning/)
+- [Waiting for PostgreSQL 12 – Allow VACUUM to be run with index cleanup disabled](https://www.depesz.com/2019/05/01/waiting-for-postgresql-12-allow-vacuum-to-be-run-with-index-cleanup-disabled/)
 - [Zombies!! Dealing with a Case of Stuck TransactionIDs](https://richyen.com/replication/postgres/2019/01/08/zombie_transactions.html)
 - [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
 - [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
