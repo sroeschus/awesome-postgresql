@@ -228,6 +228,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [libpg_query](https://github.com/lfittl/libpg_query) - C library for accessing the PostgreSQL parser outside of the server environment
 * [plantuner](https://github.com/postgrespro/plantuner) - Enable planner hints
 * [pg_parallizator](https://github.com/postgrespro/pg_parallizator) - Building indexes in parallel.
+* [tokio_postgres](https://docs.rs/tokio-postgres/0.5.2/tokio_postgres/) - An asynchronous, pipelined, PostgreSQL client
 
 # Monitoring / Performance
 * [benchmarksql](https://github.com/petergeoghegan/benchmarksql) - TPCC
