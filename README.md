@@ -405,6 +405,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Architecture
 - [Backend Flowchart](https://www.postgresql.org/developer/backend/)
 - [Life of a SQL query](https://numeracy.co/blog/life-of-a-sql-query)
+- [Exploring Postgres Tips and Tricks](https://momjian.us/main/writings/pgsql/tips.pdf)
 
 ## Analytics
 - [A Billion Taxi Rides in PostgreSQL](https://tech.marksblogg.com/billion-nyc-taxi-rides-postgresql.html?utm_source=postgresweekly&utm_medium=email)
@@ -468,6 +469,8 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL Date Functions (and 7 ways to use them in business analysis)](https://mode.com/blog/postgres-sql-date-functions?utm_source=postgresweekly&utm_medium=email)
 - Enum
   - [PostgreSQL Data Types: Enum](https://tapoueh.org/blog/2018/05/postgresql-data-types-enum/)
+- Strings
+  - [Beautiful things, strings](https://www.2ndquadrant.com/en/blog/beautiful-things-strings/)
 - Timezone
   - [Actually Understanding Timezones in PostgreSQL](http://blog.untrod.com/2016/08/actually-understanding-timezones-in-postgresql.html?utm_source=postgresweekly&utm_medium=email)
 - [Using the ltree datatype in PostgreSQL](http://leapfrogonline.io/articles/2015-05-21-postgres-ltree/?utm_source=postgresweekly&utm_medium=email)
@@ -772,6 +775,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres 12 highlight - pg_checksums](https://paquier.xyz/postgresql-2/postgres-12-pg-checksums/)
 - [Statistics on checkums errors](https://rjuju.github.io/postgresql/2019/04/18/new-in-pg12-statistics-checksums-errors.html)
 - [Verifying PostgreSQL backups made easier with new open-source tool](https://cloudplatform.googleblog.com/2018/07/verifying-postgresql-backups-made-easier-with-new-open-source-tool.html)
+- [PostgreSQL Incremental Backup and Point-In-Time Recovery](https://pgdash.io/blog/postgres-incremental-backup-recovery.html)
 
 ## Reorganization
 - [Using pg_repack to rebuild PostgreSQL database objects online](https://www.percona.com/blog/2019/02/04/pg_repack-rebuild-postgresql-database-objects-online/)
@@ -781,6 +785,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Three Steps to pg_rewind Happiness](https://thebuild.com/blog/2018/08/09/three-steps-to-pg_rewind-happiness/)
 - [Converting from asynchronous to synchronous replication in PostgreSQL](https://severalnines.com/database-blog/converting-asynchronous-synchronous-replication-postgresql?utm_campaign=Vendor_Lockin_Campaign_NOV19&utm_content=pg_async_sync&utm_medium=Social_Media&utm_source=Twitter)
 - [An overview of logical replication](https://severalnines.com/database-blog/overview-logical-replication-postgresql)
+- [How to Optimize PostgreSQL Logical Replication](https://severalnines.com/database-blog/how-optimize-postgresql-logical-replication)
 - [PostgreSQL Replication with easy failback](https://www.scalingpostgres.com/tutorials/postgresql-replication-easy-failback/)
 - [PostgreSQL Replication failback with pg_rewind](https://www.scalingpostgres.com/tutorials/postgresql-replication-failback-pg-rewind/)
 - [pg_rewind and checkpoints: caution!](https://thebuild.com/blog/2018/07/18/pg_rewind-and-checkpoints-caution/)
@@ -1044,5 +1049,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How Redshift differs from PostgreSQL](https://www.stitchdata.com/blog/how-redshift-differs-from-postgresql/)
 
 ## Conferences/ Videos
+- [PGCon YouTube channel](https://www.youtube.com/channel/UCer4R0y7DrLsOXo-bI71O6A/videos)
+- [Percona Database Performance YouTube channel](https://www.youtube.com/user/PerconaMySQL/videos)
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
 - [PG casts](https://www.pgcasts.com/)
