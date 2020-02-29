@@ -490,6 +490,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Materialized Views
 - [Materialized views with PostgreSQL for beginners](https://medium.com/jobteaser-dev-team/materialized-views-with-postgresql-for-beginners-9809483db35f)
 - [Autmatically updating materialized views](http://pgsqlpgpool.blogspot.com/2019/08/automatically-updating-materialized.html)
+- [Rethinking the Database Materialized View as an Index](https://blog.timescale.com/blog/rethinking-the-database-materialized-view-as-an-index/)
 
 ## Index
 - General
