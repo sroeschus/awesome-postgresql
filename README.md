@@ -595,6 +595,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [An introduction to stolon: cloud native PostgreSQL high availability](https://sgotti.dev/post/stolon-introduction/?utm_source=postgresweekly&utm_medium=email)
 - [Seamless Application Failover using libpq Features in PostgreSQL](https://www.percona.com/blog/2019/10/23/seamless-application-failover-using-libpq-features-in-postgresql/)
 
+## Container
+- [Using Docker Hub PostgreSQL images](https://www.2ndquadrant.com/en/blog/using-docker-hub-postgresql-images/)
+- [Deploying Active-Active PostgreSQL on Kubernetes](https://info.crunchydata.com/blog/active-active-on-kubernetes)
+
 ## Query Planer
 - [Debugging the postgres query planer](https://gocardless.com/blog/debugging-the-postgres-query-planner/)
 - [An Overview of various auxiliary plan nodes in PostgreSQL](https://severalnines.com/database-blog/overview-various-auxiliary-plan-nodes-postgresql?utm_campaign=Cloud_DR_Campaign_OCT19&utm_content=pg_plan_nodes&utm_medium=Social_Media&utm_source=Twitter)
@@ -649,6 +653,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Built-in Sharding for PostgreSQL](http://rhaas.blogspot.com/2018/05/built-in-sharding-for-postgresql.html)
 - [Five sharding data models and which is right](https://www.citusdata.com/blog/2017/08/28/five-data-models-for-sharding/?utm_source=postgresweekly&utm_medium=email)
 - [Sharding Your Data With PostgreSQL 11](https://pgdash.io/blog/postgres-11-sharding.html)
+- [The Future of Postgres Sharding](https://momjian.us/main/writings/pgsql/sharding.pdf)
 
 ## Performance
 - [Performance Monitoring & Auditing PostgreSQL - Top Resources](https://severalnines.com/database-blog/performance-monitoring-auditing-postgresql-top-resources)
@@ -713,6 +718,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Add SETTINGS option to EXPLAIN, to print modified settings](https://www.depesz.com/2019/04/30/waiting-for-postgresql-12-add-settings-option-to-explain-to-print-modified-settings/)
   - [Making Mystery-Solving Easier with auto_explain](https://richyen.com/postgres/2019/11/06/auto_explain.html)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
+  - [A tale of Query Optimization](https://parallelthoughts.xyz/2019/05/a-tale-of-query-optimization/)
   - [Speeding up group by in PostgreSQL](https://www.cybertec-postgresql.com/en/speeding-up-group-by-in-postgresql/)
   - [PostrgreSQL: Improving sort performance](https://www.cybertec-postgresql.com/en/postgresql-improving-sort-performance/)
 - Foreign Data Wrapper (FDW)
@@ -852,6 +858,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   * Duplicate rows
     * [Finding duplicate rows](http://jakeyesbeck.com/2016/02/21/four-postgresql-tips/?utm_source=postgresweekly&utm_medium=email)
     * [Search and destroy duplicate rows in PostgreSQL](https://blog.theodo.com/2018/01/search-destroy-duplicate-rows-postgresql/)
+    * [Swoop de Dupe](https://www.2ndquadrant.com/en/blog/swoop-de-dupe/)
   * As Of
     * [Implementing as of queries in PostgreSQL](https://www.cybertec-postgresql.com/en/implementing-as-of-queries-in-postgresql/)
   * [Static and dynamic pivots](https://postgresql.verite.pro/blog/2018/06/19/crosstab-pivot.html)
@@ -972,6 +979,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
 - [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
 - [PG Phriday: Postgres 12 Revs up Vacuum](https://www.2ndquadrant.com/en/blog/pg-phriday-postgres-12-revs-up-vacuum/)
+- [Visualizing PostgreSQL Vacuum Progress](http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
