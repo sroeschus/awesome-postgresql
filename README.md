@@ -529,6 +529,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [PostgreSQL 11 highlight - Covering Indexes](https://paquier.xyz/postgresql-2/postgres-11-covering-indexes/)
   - [Why Covering Indexes are incredibly helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
 - Combined Index
+  - [Multi-column indexes](https://medium.com/pgmustard/multi-column-indexes-4d17bac764c5)
   - [Combined indexes vs. separate indexes in PostgreSQL](https://www.cybertec-postgresql.com/en/combined-indexes-vs-separate-indexes-in-postgresql/)
   - [The Multi-Column Index of the mysteries](https://thebuild.com/blog/2016/12/30/the-multi-column-index-of-the-mysteries/)
 - Partial index
