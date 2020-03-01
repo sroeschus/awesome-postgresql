@@ -467,6 +467,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Date / Timestamp
   - [Does anyone really know what time it is?](https://thebuild.com/blog/2018/08/07/does-anyone-really-know-what-time-it-is/)
   - [PostgreSQL Data Types: Date, Timestamp, and Time Zones](https://tapoueh.org/blog/2018/04/postgresql-data-types-date-timestamp-and-time-zones/)
+  - [Postgresql Interval, Date, Timestamp and Time Data Types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
   - [PostgreSQL Date Functions (and 7 ways to use them in business analysis)](https://mode.com/blog/postgres-sql-date-functions?utm_source=postgresweekly&utm_medium=email)
 - Enum
   - [PostgreSQL Data Types: Enum](https://tapoueh.org/blog/2018/05/postgresql-data-types-enum/)
@@ -518,6 +519,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - GIN index
   - [Indexes in PostgreSQL — 7 (GIN)](https://habr.com/en/company/postgrespro/blog/448746/)
   - [PostgreSQL's indexes - GIN](http://www.louisemeta.com/blog/indexes-gin/)
+  - [PostgreSQL's indexes - GIN algorithms](http://www.louisemeta.com/blog/indexes-gin-algorithms/)
 - GIST
   - [Indexes in PostgreSQL — 5 (GiST)](https://habr.com/en/company/postgrespro/blog/444742/)
 - Hash index
@@ -1052,6 +1054,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Conferences/ Videos
 - [PGCon YouTube channel](https://www.youtube.com/channel/UCer4R0y7DrLsOXo-bI71O6A/videos)
+- [PGConf.Russia 2019 YouTube channel](https://www.youtube.com/channel/UC6gJN4hEmnPHZ53HP2r7zhA/videos)
 - [Percona Database Performance YouTube channel](https://www.youtube.com/user/PerconaMySQL/videos)
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
 - [PG casts](https://www.pgcasts.com/)
