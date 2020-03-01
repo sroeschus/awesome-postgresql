@@ -305,6 +305,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [postgres_all_versions](https://github.com/bucardo/postgres_all_versions) - Release notes parser
 * [postgres-checkup](https://gitlab.com/postgres-ai/postgres-checkup/) - PostgreSQL Health Check and SQL Performance Analysis
 * [PostgeSQL Anonmyizer](https://gitlab.com/dalibo/postgresql_anonymizer) - Anonymization & Data Masking
+* [PostgreSQL Explain Graph](https://github.com/wmeitzen/postgresql-explain-graph) - Mac OSX Explain Graph application
 * [postgreSQL-Query-Lock-Explainer](https://github.com/AdmTal/PostgreSQL-Query-Lock-Explainer) - Query lock explainer
 * [pspg](https://github.com/okbob/pspg) - Unix pager designed to work with tables
 * [repmgr](https://repmgr.org/) - Replication manager
