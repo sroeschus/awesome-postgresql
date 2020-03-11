@@ -512,6 +512,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Indexes in PostgreSQL — 9 (BRIN)](https://habr.com/en/company/postgrespro/blog/452900/)
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
   - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://info.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage)
+  - [BRIN Index for PostgreSQL: Don’t Forget the Benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
 - Btree index
   - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
   - [Indexes in PostgreSQL — 4 (Btree)](https://habr.com/en/company/postgrespro/blog/443284/)
@@ -654,6 +655,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Declarative data partitioning in PostgreSQL10](https://docs.google.com/presentation/d/136DZZJeVYklEmjl3QoX_-C6NPyMlqmUDuljpO8G8bys/mobilepresent?slide=id.g3a3a36a1fe_0_574)
 - [Getting time zones right when setting up PostgreSQL monthly partitioning](https://blog.ondevice.io/2016/11/postgres-partitioning/)
 - [PostgreSQL 12: Partitioning is now faster](https://www.2ndquadrant.com/en/blog/postgresql-12-partitioning/)
+- [Partitioning enhancements in PostgreSQL 12](https://www.2ndquadrant.com/en/blog/partitioning-enhancements-in-postgresql-12/)
 
 ## Sharding
 - [An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/2019/05/24/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs/)
@@ -926,6 +928,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
 - [Securing PostgreSQL](https://thebuild.com/presentations/pgconfeu-2016-securing-postgresql.pdf?utm_source=postgresweekly&utm_medium=email)
+- [Per-User Encryption with Postgres](https://medium.com/swlh/per-user-encryption-with-postgres-1c76a3462245)
 - [One-time passwords with Google Authenticator PAM (and friends)](https://theplateisbad.blogspot.com/2016/12/one-time-passwords-with-google.html?utm_source=postgresweekly&utm_medium=email)
 - [A Penetration Tester’s Guide to PostgreSQL](https://medium.com/@cryptocracker99/a-penetration-testers-guide-to-postgresql-d78954921ee9)
 - [Cryptographically authenticated Rows](https://momjian.us/main/blogs/pgblog/2018.html#August_31_2018)
@@ -996,6 +999,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL's fsync() surprise](https://lwn.net/Articles/752063/)
 - [PostgreSQL visits LSFMM](https://lwn.net/Articles/752952/)
 - [PostgreSQL fsync Failure Fixed – Minor Versions Released Feb 14, 2019](https://www.percona.com/blog/2019/02/22/postgresql-fsync-failure-fixed-minor-versions-released-feb-14-2019/)
+- [The mysterious “BACKEND_FLUSH_AFTER” configuration setting](https://www.cybertec-postgresql.com/en/the-mysterious-backend_flush_after-configuration-setting/)
 - [Real world SSD wearout](https://blog.okmeter.io/real-world-ssd-wearout-a3396a35c663)
 - [On the impact of full-page writes](https://www.2ndquadrant.com/en/blog/on-the-impact-of-full-page-writes/?utm_source=postgresweekly&utm_medium=email)
 - [Reliable writes](https://wiki.postgresql.org/wiki/Reliable_Writes)
