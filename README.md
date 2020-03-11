@@ -914,6 +914,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Fulltext Search (FTS)
 - [Full Text Search Made (Almost) Right in PostgreSQL 11](http://akorotkov.github.io/blog/2018/05/21/fulltext-search-made-almost-right/)
 
+## Graph
+- [PostgreSQL Graph Search Practices - 10 Billion-Scale Graph with Millisecond Response](https://www.alibabacloud.com/blog/postgresql-graph-search-practices---10-billion-scale-graph-with-millisecond-response_595039)
+
 ## Logging
 - [Rules or triggers to log bulk updates?](https://www.cybertec-postgresql.com/en/rules-or-triggers-to-log-bulk-updates/)
 - [Analyzing PostgreSQL logs using pgBadger](https://blog.garage-coding.com/2016/07/16/analyzing-postgres-logs-with-pgbadger.html?utm_source=postgresweekly&utm_medium=email)
