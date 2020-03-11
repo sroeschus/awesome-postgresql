@@ -896,6 +896,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PG Phriday: Studying Stored Procedures in Postgres 11](https://www.2ndquadrant.com/en/blog/pg-phriday-stored-procedures-postgres-11/)
 - [PG Phriday: Getting assertive](http://bonesmoses.org/2017/02/17/pg-phriday-getting-assertive/?utm_source=postgresweekly&utm_medium=email)
 - [Avoiding unnecessary stored procedure calls in PostgreSQL](https://www.cybertec-postgresql.com/en/avoiding-unnecessary-stored-procedure-calls-in-postgresql/)
+- [Using plpgsql_check to Find Compilation Errors and Profile Functions](https://www.percona.com/blog/2019/07/30/using-plpgsql_check-to-find-compilation-errors-and-profile-functions/)
 
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
