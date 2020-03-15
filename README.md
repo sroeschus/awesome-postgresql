@@ -427,6 +427,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
 - [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
 - [How to set up scram-sha-256 authentication in PostgreSQL](http://hacksoclock.blogspot.com/2018/10/how-to-set-up-scram-sha-256.html)
+- [Rotating PostgreSQL Passwords with no downtime](https://www.jannikarndt.de/blog/2018/08/rotating_postgresql_passwords_with_no_downtime/)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 
 ## Configuration
@@ -513,6 +514,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [BRIN Index for PostgreSQL: Don’t forget the benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
   - [PostgreSQL BRIN Indexes: Big Data Performance With Minimal Storage](https://info.crunchydata.com/blog/postgresql-brin-indexes-big-data-performance-with-minimal-storage)
   - [BRIN Index for PostgreSQL: Don’t Forget the Benefits](https://www.percona.com/blog/2019/07/16/brin-index-for-postgresql-dont-forget-the-benefits/)
+  - [Create an BRIN Index at a Fraction of the Normal Size](https://www.alibabacloud.com/blog/create-an-brin-index-at-a-fraction-of-the-normal-size_595138)
 - Btree index
   - [Postgres Indexes Under the Hood](https://rcoh.me/posts/postgres-indexes-under-the-hood/)
   - [Indexes in PostgreSQL — 4 (Btree)](https://habr.com/en/company/postgrespro/blog/443284/)
@@ -602,6 +604,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 - [An introduction to stolon: cloud native PostgreSQL high availability](https://sgotti.dev/post/stolon-introduction/?utm_source=postgresweekly&utm_medium=email)
 - [Seamless Application Failover using libpq Features in PostgreSQL](https://www.percona.com/blog/2019/10/23/seamless-application-failover-using-libpq-features-in-postgresql/)
+- [Managing High Availability in PostgreSQL – Part III: Patroni](https://scalegrid.io/blog/managing-high-availability-in-postgresql-part-3/)
 
 ## Container
 - [Using Docker Hub PostgreSQL images](https://www.2ndquadrant.com/en/blog/using-docker-hub-postgresql-images/)
@@ -941,6 +944,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Cryptographically authenticated Rows](https://momjian.us/main/blogs/pgblog/2018.html#August_31_2018)
 - [Preventing SQL Injections](https://tapoueh.org/blog/2018/11/preventing-sql-injections/)
 - [8 Anonymization Strategies with PostgreSQL](https://blog.taadeem.net///english/2019/01/03/8_anonymization_strategies_with_postgres)
+- [PostgreSQL row level security, views and a lot of magic](https://www.cybertec-postgresql.com/en/postgresql-row-level-security-views-and-a-lot-of-magic/)
 
 ## Upgrade
 - [PostgreSQL Upgrade using pg_dumpall](https://www.percona.com/blog/2019/03/18/postgresql-upgrade-using-pg_dumpall/)
