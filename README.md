@@ -648,6 +648,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Queues in PostgeSQL](https://www.pgcon.org/2016/schedule/attachments/414_queues-pgcon-2016.pdf?utm_source=postgresweekly&utm_medium=email)
 - [Master-less distributed queue with PG Paxos](https://www.citusdata.com/blog/2016/04/13/masterless-distributed-queue/)
 - [Experimenting with scaling and full parallelism in PostgreSQL](https://www.cybertec-postgresql.com/en/experimenting-scaling-full-parallelism-postgresql/)
+- [Building a distributed time-series database on PostgreSQL](https://blog.timescale.com/blog/building-a-distributed-time-series-database-on-postgresql/)
 
 ## Partitioning
 - [PostgreSQL 10 Built-in Partitioning](https://www.keithf4.com/postgresql-10-built-in-partitioning/?utm_source=postgresweekly&utm_medium=email)
@@ -902,6 +903,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PG Phriday: Getting assertive](http://bonesmoses.org/2017/02/17/pg-phriday-getting-assertive/?utm_source=postgresweekly&utm_medium=email)
 - [Avoiding unnecessary stored procedure calls in PostgreSQL](https://www.cybertec-postgresql.com/en/avoiding-unnecessary-stored-procedure-calls-in-postgresql/)
 - [Using plpgsql_check to Find Compilation Errors and Profile Functions](https://www.percona.com/blog/2019/07/30/using-plpgsql_check-to-find-compilation-errors-and-profile-functions/)
+- [Why you need plpgsql_check (if you write procedures in PLpgSQL)](http://okbob.blogspot.com/2019/08/why-you-need-plpgsqlcheck-if-you-write.html)
 
 ## PSQL
 - [Tips for psql](https://mccalljt.io/blog/2016/07/psql-tips/?utm_source=postgresweekly&utm_medium=email)
