@@ -848,6 +848,8 @@ List of links with a focus on free and open source software for PostgreSQL.
     * [What’s Faster? COUNT(*) or COUNT(1)?](https://blog.jooq.org/2019/09/19/whats-faster-count-or-count1/)
   * Distinct
     * [SELECT DISTINCT ON in PostgreSQL](https://www.geekytidbits.com/postgres-distinct-on/)
+  * Group by
+    * [How to Get the First or Last Value in a Group Using Group By in SQL](https://hakibenita.com/sql-group-by-first-last-value)
   * Window functions
     * [Fun with SQL: Window functions in PostgreSQL](https://www.citusdata.com/blog/2018/06/01/fun-with-sql-window-functions-in-postgresql/)
     * [Window functions in action](https://www.endpoint.com/blog/2013/06/05/window-functions-in-action?utm_source=postgresweekly&utm_medium=email)
