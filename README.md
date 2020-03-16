@@ -424,6 +424,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [New in Postgres 11: Monitoring JIT performance, Auto Prewarm & Stored Procedures](https://pganalyze.com/blog/postgres11-jit-compilation-auto-prewarm-sql-stored-procedures)
  
 ## Authentication
+- [Postgres Connection Strings and psql](https://tapoueh.org/blog/2019/09/postgres-connection-strings-and-psql/)
 - [PostgreSQL administrator account with nologin (recover your postgres role)](https://fluca1978.github.io/2019/06/27/PostgreSQLSingleMode.html)
 - [How to upgrade your PostgreSQL passwords to SCRAM](https://info.crunchydata.com/blog/how-to-upgrade-postgresql-passwords-to-scram)
 - [How to set up scram-sha-256 authentication in PostgreSQL](http://hacksoclock.blogspot.com/2018/10/how-to-set-up-scram-sha-256.html)
@@ -956,6 +957,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL 10 upgrade](https://bricklen.github.io/2018-03-27-Postgres-10-upgrade/)
 - [Upgrading PostgreSQL on AWS RDS with minimum or zero downtime](https://medium.com/preply-engineering/postgres-multimaster-34f2446d5e14)
 - [How to Upgrade PostgreSQL10 to PostgreSQL11 With Zero Downtime](https://severalnines.com/database-blog/how-upgrade-postgresql10-postgresql11-zero-downtime)
+- [A primer on  PostgreSQL upgrade methods](https://www.cybertec-postgresql.com/en/a-primer-on-postgresql-upgrade-methods/)
 
 ## Migration
 - [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
@@ -1067,6 +1069,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions: Part Two - Amazon RDS](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-two-amazon-rds)
+- [Cloud Vendor Deep-Dive: PostgreSQL on Google Cloud Platform (GCP)](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-google-cloud-platform-gcp)
 - [How Redshift differs from PostgreSQL](https://www.stitchdata.com/blog/how-redshift-differs-from-postgresql/)
 
 ## Conferences/ Videos
