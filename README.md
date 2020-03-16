@@ -1083,3 +1083,4 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Percona Database Performance YouTube channel](https://www.youtube.com/user/PerconaMySQL/videos)
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
 - [PG casts](https://www.pgcasts.com/)
+- [Postgres Open](https://www.youtube.com/user/postgresopen/videos)
