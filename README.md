@@ -491,6 +491,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL and heap-only-tuples updates - part 3](https://blog.anayrat.info/en/2018/11/26/postgresql-and-heap-only-tuples-updates-part-3/)
 - [Postgresql block internals](https://fritshoogland.wordpress.com/2017/07/01/postgresql-block-internals/)
 
+## View
+- [Tracking view dependencies in PostgreSQL](https://www.cybertec-postgresql.com/en/tracking-view-dependencies-in-postgresql/)
 ## Materialized Views
 - [Materialized views with PostgreSQL for beginners](https://medium.com/jobteaser-dev-team/materialized-views-with-postgresql-for-beginners-9809483db35f)
 - [Autmatically updating materialized views](http://pgsqlpgpool.blogspot.com/2019/08/automatically-updating-materialized.html)
@@ -567,6 +569,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## Trigger
 - [A faster lightweight trigger function in C for PostgreSQL](https://www.percona.com/blog/2019/08/15/faster-lightweight-trigger-function-in-c-for-postgresql/)
+
+## Privilege
+- [Managing PostgreSQL users and roles](https://aws.amazon.com/blogs/database/managing-postgresql-users-and-roles/)
 
 ## Concurrency
 - [Modeling for Concurrency](https://tapoueh.org/blog/2018/07/modeling-for-concurrency/)
