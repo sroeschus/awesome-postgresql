@@ -819,6 +819,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL Streaming Physical Replication With Slots](https://www.percona.com/blog/2018/11/30/postgresql-streaming-physical-replication-with-slots/)
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 - [PostgreSQL: How are functions and stored procedures replicated?](https://www.cybertec-postgresql.com/en/postgresql-how-are-functions-and-stored-procedures-replicated/)
+- [Synchronous Replication is a Trap](http://rhaas.blogspot.com/2019/09/synchronous-replication-is-trap.html)
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
