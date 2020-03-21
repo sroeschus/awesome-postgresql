@@ -944,6 +944,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [pgAudit: Auditing database operations part 2](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-2?utm_source=postgresweekly&utm_medium=email)
 - [Install PostgreSQL 9.6 with transparent data encyption](https://www.cybertec-postgresql.com/en/install-postgresql-9-6-with-transparent-data-encryption/)
 - [Track PostgreSQL Row Changes Using Public/Private Key Signing](https://www.percona.com/blog/2018/10/12/track-postgresql-row-changes-using-public-private-key-signing/)
+- [The Transparent data encryption in PostgreSQL](https://www.highgo.ca/2019/09/30/the-transparent-data-encryption-in-postgresql/)
 - [Using the CIS PostgreSQL Benchmark to Enhance Your Security](https://info.crunchydata.com/blog/using-the-cis-postgresql-benchmark-to-enhance-your-security)
 - [How the CIS Benchmark for PostgreSQL 11 Works](https://info.crunchydata.com/blog/cis-11-benchmark)
 - [MitM-ing PostgreSQL](https://thusoy.com/2016/mitming-postgres?utm_source=postgresweekly&utm_medium=email)
