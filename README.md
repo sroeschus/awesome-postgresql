@@ -811,6 +811,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Replication in PostgreSQL – Setting up Streaming](https://www.percona.com/blog/2018/09/07/setting-up-streaming-replication-postgresql/)
 - [PostgreSQL Streaming Replication](https://www.scalingpostgres.com/tutorials/postgresql-streaming-replication/)
 - [How to Set Up Streaming Replication in PostgreSQL 12](https://www.percona.com/blog/2019/10/11/how-to-set-up-streaming-replication-in-postgresql-12/)
+- [Replication configuration changes in PostgreSQL 12](https://www.2ndquadrant.com/en/blog/replication-configuration-changes-in-postgresql-12/)
 - [PostgreSQL Streaming Replication - a deep dive](https://severalnines.com/database-blog/postgresql-streaming-replication-deep-dive)
 - [High availability and scalable reads in PostgreSQL](https://blog.timescale.com/blog/scalable-postgresql-high-availability-read-scalability-streaming-replication-fb95023e2af/)
 - [PostgreSQL Streaming Replication Cheatsheet](https://blog.dataegret.com/2016/01/postgresql-sreaming-replication.html?utm_source=postgresweekly&utm_medium=email?utm_source%3Dpostgresweekly&utm_medium=email)
@@ -821,6 +822,8 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Standby in production: scaling application in the second largest classified site in the world](https://medium.com/avitotech/standby-in-production-scaling-application-in-second-largest-classified-site-in-the-world-97a79a1929de)
 - [PostgreSQL: How are functions and stored procedures replicated?](https://www.cybertec-postgresql.com/en/postgresql-how-are-functions-and-stored-procedures-replicated/)
 - [Synchronous Replication is a Trap](http://rhaas.blogspot.com/2019/09/synchronous-replication-is-trap.html)
+
+
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
