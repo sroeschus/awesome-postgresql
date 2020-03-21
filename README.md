@@ -623,6 +623,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Postgres execution plans — Field glossary](https://medium.com/pgmustard/postgres-execution-plans-field-glossary-bc588340b0db)
 - [Bruce Momjian on the Postgres Query Planner](http://www.se-radio.net/2018/06/se-radio-episode-328-bruce-momjian-on-the-postgres-query-planner/)
 - [Planning queries involving foreign PostgreSQL tables](http://ashutoshpg.blogspot.com/2018/06/planning-queries-involving-foreign.html)
+- [How PostgreSQL estimates parallel queries](https://www.cybertec-postgresql.com/en/how-postgresql-estimates-parallel-queries/)
 - [PostgreSQL Extended Statistics](https://fluca1978.github.io/2018/06/28/PostgreSQLExtendedStatistics.html)
 - [All you need to know about sorting in PostgreSQL](https://madusudanan.com/blog/all-you-need-to-know-about-sorting-in-postgres/?utm_source=postgresweekly&utm_medium=email)
 - [SortSupport: Sorting in Postgres at Speed](https://brandur.org/sortsupport)
