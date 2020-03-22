@@ -431,6 +431,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Rotating PostgreSQL Passwords with no downtime](https://www.jannikarndt.de/blog/2018/08/rotating_postgresql_passwords_with_no_downtime/)
 - [pgBouncer and auth pass-thru](https://hunleyd.github.io/posts/pgBouncer-and-auth-pass-thru/)
 
+## Collation
+- [Nondeterministic collations](https://postgresql.verite.pro/blog/2019/10/14/nondeterministic-collations.html)
+
 ## Configuration
 - [PostgreSQL configuration for humans](https://www.slideshare.net/profyclub_ru/postgresql-configuration-for-humans-alvaro-hernandez-ongres)
 
@@ -974,6 +977,10 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Oracle to Postgres Conversion](https://wiki.postgresql.org/wiki/Oracle_to_Postgres_Conversion)
 - [Migrating Oracle Autonomous Transactions to PostgreSQL](https://aws.amazon.com/blogs/database/migrating-oracle-autonomous-transactions-to-postgresql/)
 
+## Buffer cache
+- [Prewarming PostgreSQL I/O caches](https://www.cybertec-postgresql.com/en/prewarming-postgresql-i-o-caches/)
+- [Tuning checkpoints](http://evol-monkey.blogspot.com/2019/10/tuning-checkpoints.html)
+
 ## MVCC
 - [MVCC and Vaccum](http://rhaas.blogspot.com/2017/12/mvcc-and-vacuum.html)
 - [MVCC in PostgreSQL-1. Isolation](https://habr.com/en/company/postgrespro/blog/467437/)
@@ -1018,6 +1025,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
 - [PG Phriday: Postgres 12 Revs up Vacuum](https://www.2ndquadrant.com/en/blog/pg-phriday-postgres-12-revs-up-vacuum/)
 - [Visualizing PostgreSQL Vacuum Progress](http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/)
+- [Managing xid wraparound without looking like a (mail) chimp](http://evol-monkey.blogspot.com/2019/02/managing-xid-wraparound-without-looking.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
 - [DO or UNDO - there is no VACUUM](http://rhaas.blogspot.com/2018/01/do-or-undo-there-is-no-vacuum.html)
 
@@ -1081,6 +1089,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions: Part Two - Amazon RDS](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-two-amazon-rds)
 - [Cloud Vendor Deep-Dive: PostgreSQL on Google Cloud Platform (GCP)](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-google-cloud-platform-gcp)
+- [PostgreSQL Trends: Most Popular Cloud Providers, Languages, VACUUM, Query Management Strategies & Deployment Types in Enterprise](https://medium.com/@kristi.anderson/postgresql-trends-most-popular-cloud-providers-languages-vacuum-query-management-strategies-6d730da1fe5)
+- [2019 Open Source Database Report: Top Databases, Public Cloud vs. On-Premise, Polyglot Persistence](https://medium.com/@kristi.anderson/2019-open-source-database-report-top-databases-public-cloud-vs-on-premise-polyglot-persistence-867f338f7ade)
+- [2019 PostgreSQL Trends Report: Private vs. Public Cloud, Migrations, Database Combinations & Top Reasons Used](https://medium.com/@kristi.anderson/2019-postgresql-trends-report-private-vs-15a75ecb4d36)
 - [How Redshift differs from PostgreSQL](https://www.stitchdata.com/blog/how-redshift-differs-from-postgresql/)
 
 ## Conferences/ Videos
