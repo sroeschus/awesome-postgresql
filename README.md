@@ -442,6 +442,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Tracking and Managing Your PostgreSQL Connections](http://www.craigkerstiens.com/2017/09/18/postgres-connection-management/?utm_source=postgresweekly&utm_medium=email)
 - [How to Manage Connections Efficiently in Postgres, or Any Database](https://brandur.org/postgres-connections)
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
+- [PostgreSQL Connection Pooling: Part 1 – Pros & Cons](https://scalegrid.io/blog/postgresql-connection-pooling-part-1-pros-and-cons/)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
 - [A guide to pgpool for PostgreSQL: Part one](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-one)
 - [A guide to pgpool for PostgreSQL: Part two](https://severalnines.com/database-blog/guide-pgpool-postgresql-part-two)
