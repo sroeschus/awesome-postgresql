@@ -702,6 +702,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - Configuration
   - [Tuning PostgreSQL Database Parameters to Optimize Performance](https://www.percona.com/blog/2018/08/31/tuning-postgresql-database-parameters-to-optimize-performance/)
   - [Vertically Scaling PostgreSQL](https://pgdash.io/blog/scaling-postgres.html)
+  - [PostgreSQL V12 Initial query performance impressions](https://www.cybertec-postgresql.com/en/postgresql-v12-initial-query-performance-impressions/)
 - Tools
   - [Profiling with perf](https://wiki.postgresql.org/wiki/Profiling_with_perf)
   - [pgCenter’s wait events profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
