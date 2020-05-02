@@ -74,6 +74,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [pgmedian](https://github.com/sveljko/pgmedian) - Median aggregate for PostgreSQL
 * [pgmemcache](https://github.com/ohmu/pgmemcache) - set of PostgreSQL user-defined functions that provide an interface to memcached
 * [pgora-osql](https://github.com/pgoracle/pgora-osql) - Procedural Language with Oracle PLSQL Compatibility
+* [pgq](https://github.com/pgq/pgq) - Generic Queue for PostgreSQL
 * [pgsampler](https://github.com/no0p/pgsampler) - Background worker for collecting status and performance metrics
 * [pgsql-gzip](https://github.com/pramsey/pgsql-gzip) - Gzip compress and decompress
 * [pgsentinel](https://github.com/pgsentinel/pgsentinel) - Active session history
@@ -437,10 +438,11 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Configuration
 - [PostgreSQL configuration for humans](https://www.slideshare.net/profyclub_ru/postgresql-configuration-for-humans-alvaro-hernandez-ongres)
 
-## Connection pool
+## Connections / Connection pool
 - [Number Of database connections](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections)
 - [Tracking and Managing Your PostgreSQL Connections](http://www.craigkerstiens.com/2017/09/18/postgres-connection-management/?utm_source=postgresweekly&utm_medium=email)
 - [How to Manage Connections Efficiently in Postgres, or Any Database](https://brandur.org/postgres-connections)
+- [Seamless Application Failover using libpq Features in PostgreSQL](https://www.percona.com/blog/2019/10/23/seamless-application-failover-using-libpq-features-in-postgresql/)
 - [The challenges of setting max_connections and why you should use a connection pooler](https://richyen.com/postgres/2019/06/25/pools_arent_just_for_cars.html)
 - [PostgreSQL Connection Pooling: Part 1 – Pros & Cons](https://scalegrid.io/blog/postgresql-connection-pooling-part-1-pros-and-cons/)
 - [Pgpool wiki](https://pgpool.net/mediawiki/index.php/Main_Page)
