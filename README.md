@@ -743,6 +743,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Explaining explain](https://wiki.postgresql.org/images/4/45/Explaining_EXPLAIN.pdf)
   - [Reading a PostgreSQL explain analyze query plan](https://thoughtbot.com/blog/reading-an-explain-analyze-query-plan?utm_source=postgresweekly&utm_medium=email)
   - [Add SETTINGS option to EXPLAIN, to print modified settings](https://www.depesz.com/2019/04/30/waiting-for-postgresql-12-add-settings-option-to-explain-to-print-modified-settings/)
+  - [PostgreSQL 12 Explain settings](https://fluca1978.github.io/2019/12/05/Explain_settings.html)
   - [Making Mystery-Solving Easier with auto_explain](https://richyen.com/postgres/2019/11/06/auto_explain.html)
   - [Finding and killing long running queries on PostgreSQL](https://medium.com/little-programming-joys/finding-and-killing-long-running-queries-on-postgres-7c4f0449e86d)
   - [A tale of Query Optimization](https://parallelthoughts.xyz/2019/05/a-tale-of-query-optimization/)
