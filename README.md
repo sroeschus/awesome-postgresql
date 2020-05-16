@@ -401,6 +401,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Administration
 - [Mastering PostgreSQL Administration](https://momjian.us/main/writings/pgsql/administration.pdf)
 - [Ten Tips for Going Into Production With PostgreSQL](https://severalnines.com/database-blog/ten-tips-going-production-postgresql)
+- [Tips and Tricks to kickstart PostgreSQL Year 2020](https://www.cybertec-postgresql.com/en/tips-and-tricks-to-kick-start-postgres-year-2020/)
 - [7 Things To Watch Out For In Your PostgreSQL Deployment](https://pgdash.io/blog/postgres-things-to-monitor.html)
 - [Managing Multiple PostgreSQL Installations with pgenv](https://fluca1978.github.io/2018/08/30/pgenv.html)
 
@@ -1096,6 +1097,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Cloud vendor deep-dive: PostgreSQL on AWS Aurora](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-aws-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions - Part One: Amazon Aurora](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-one-amazon-aurora)
 - [Benchmarking Managed PostgreSQL Cloud Solutions: Part Two - Amazon RDS](https://severalnines.com/database-blog/benchmarking-managed-postgresql-cloud-solutions-part-two-amazon-rds)
+- [RDS Pricing Has More Than Doubled](https://medium.com/@rbranson/rds-pricing-has-more-than-doubled-ef8c3b7e5218)
 - [Cloud Vendor Deep-Dive: PostgreSQL on Google Cloud Platform (GCP)](https://severalnines.com/database-blog/cloud-vendor-deep-dive-postgresql-google-cloud-platform-gcp)
 - [PostgreSQL Trends: Most Popular Cloud Providers, Languages, VACUUM, Query Management Strategies & Deployment Types in Enterprise](https://medium.com/@kristi.anderson/postgresql-trends-most-popular-cloud-providers-languages-vacuum-query-management-strategies-6d730da1fe5)
 - [2019 Open Source Database Report: Top Databases, Public Cloud vs. On-Premise, Polyglot Persistence](https://medium.com/@kristi.anderson/2019-open-source-database-report-top-databases-public-cloud-vs-on-premise-polyglot-persistence-867f338f7ade)
