@@ -469,6 +469,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 ## Datatypes
 - [Tour de (PostgreSQL) data types](https://andreas.scherbaum.la/writings/Tour_de_Data_Types_-_FOSDEM_2017.pdf?utm_source=postgresweekly&utm_medium=email)
 - [PostgreSQL interval, date, timestamp and time data types](https://www.2ndquadrant.com/en/blog/know-what-time-it-is/)
+- [Non relational dataypes](https://momjian.us/main/writings/pgsql/non-relational.pdf)
 - Array
   - [PostgreSQL, the good parts: Arrays](http://blog.ryankelly.us/2016/08/21/postgres-the-good-parts-arrays.html?utm_source=postgresweekly&utm_medium=email)
   - [Array of LIKEs](https://www.cybertec-postgresql.com/en/two-simple-postgres-tips-to-kick-start-year-2017/)
@@ -835,8 +836,6 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgreSQL: How are functions and stored procedures replicated?](https://www.cybertec-postgresql.com/en/postgresql-how-are-functions-and-stored-procedures-replicated/)
 - [Synchronous Replication is a Trap](http://rhaas.blogspot.com/2019/09/synchronous-replication-is-trap.html)
 
-
-
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
 * Development
@@ -971,6 +970,9 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Preventing SQL Injections](https://tapoueh.org/blog/2018/11/preventing-sql-injections/)
 - [8 Anonymization Strategies with PostgreSQL](https://blog.taadeem.net///english/2019/01/03/8_anonymization_strategies_with_postgres)
 - [PostgreSQL row level security, views and a lot of magic](https://www.cybertec-postgresql.com/en/postgresql-row-level-security-views-and-a-lot-of-magic/)
+- [Understanding Security Features in PostgreSQL – Part 1](https://www.highgo.ca/2020/01/22/understanding-security-features-in-postgresql-part-1/)
+- [Understanding Security Features in PostgreSQL – Part 2](https://www.highgo.ca/2020/01/22/understanding-security-features-in-postgresql-part-2/)
+- [Understanding Security Features in PostgreSQL – Part 3](https://www.highgo.ca/2020/01/22/understanding-security-features-in-postgresql-part-3/)
 
 ## Upgrade
 - [PostgreSQL Upgrade using pg_dumpall](https://www.percona.com/blog/2019/03/18/postgresql-upgrade-using-pg_dumpall/)
@@ -1033,6 +1035,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
 - [Freezing Your Tuples Off, Part 2](http://www.databasesoup.com/2012/10/freezing-your-tuples-off-part-2.html)
 - [PG Phriday: Postgres 12 Revs up Vacuum](https://www.2ndquadrant.com/en/blog/pg-phriday-postgres-12-revs-up-vacuum/)
+- [Waiting for PostgreSQL 13 – Allow vacuum command to process indexes in parallel](https://www.depesz.com/2020/01/21/waiting-for-postgresql-13-allow-vacuum-command-to-process-indexes-in-parallel/)
 - [Visualizing PostgreSQL Vacuum Progress](http://dtrace.org/blogs/dap/2019/05/22/visualizing-postgresql-vacuum-progress/)
 - [Managing xid wraparound without looking like a (mail) chimp](http://evol-monkey.blogspot.com/2019/02/managing-xid-wraparound-without-looking.html)
 - [The State of VACUUM](http://rhaas.blogspot.com/2018/01/the-state-of-vacuum.html)
