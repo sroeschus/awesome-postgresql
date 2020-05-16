@@ -731,6 +731,7 @@ List of links with a focus on free and open source software for PostgreSQL.
   - [Don’t LOCK tables. Just don’t](https://thebuild.com/blog/2018/08/28/dont-lock-tables-just-dont/)
   - [How do PostgreSQL advisory locks work](https://vladmihalcea.com/how-do-postgresql-advisory-locks-work/?utm_source=postgresweekly&utm_medium=email/)
   - [How to track long-waiting locks in your database](https://postgresweekly.com/issues/303)
+  - [PostgreSQL: you might need to increase MAX_LOCKS_PER_TRANSACTION](https://www.cybertec-postgresql.com/en/postgresql-you-might-need-to-increase-max_locks_per_transaction/)
 - Queries
   - [3 ways to detect slow queries in PostgreSQL](https://www.cybertec-postgresql.com/en/3-ways-to-detect-slow-queries-in-postgresql/)
   - [Automatically logging slow queries](https://postgresweekly.com/issues/301)
@@ -1108,3 +1109,4 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [PostgresOpen Silicon Valley 2017](https://www.youtube.com/playlist?list=PLN8NEqxwuywQgN4srHe7ccgOELhZsO4yM&utm_source=postgresweekly&utm_medium=email#pgopen2017)
 - [PG casts](https://www.pgcasts.com/)
 - [Postgres Open](https://www.youtube.com/user/postgresopen/videos)
+- [pgDAY Paris](https://www.youtube.com/channel/UCiOSEHQe91goxYNJDjj2rLw/videos)
