@@ -609,6 +609,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [How PostgreSQL makes Transactions Atomic](https://brandur.org/postgres-atomicity?utm_source=postgresweekly&utm_medium=email)
 - [Handling Contention with PostgreSQL](https://medium.com/learning-with-diagrams/learning-w-diagrams-handling-contention-with-postgresql-109798b8ad54)
 - [Be prepared for prepared transactions](https://www.cybertec-postgresql.com/en/prepared-transactions/)
+- [Understanding Prepared Transactions and Handling the Orphans](https://www.highgo.ca/2020/01/28/understanding-prepared-transactions-and-handling-the-orphans/)
 - [Now, I can get timestamp of created table and committed rows in PostgreSQL](http://rajeshmadiwale.blogspot.com/2019/04/wow-what-now-i-can-get-timestamp-of.html)
 
 ## HA
@@ -838,6 +839,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 
 ## SQL
 * [How PostgreSQL’s SQL dialect stays ahead of its competitors](https://modern-sql.com/slides/PG-stays-ahead-20180718.pdf)
+* [Don’t do these things in PostgreSQL](https://www.depesz.com/2020/01/28/dont-do-these-things-in-postgresql/)
 * Development
   * [PostgreSQL: A Set of Practices](https://kukuruku.co/post/postgresql-set-of-practices/)
   * [PostgreSQL Tips: Documenting the Database](https://www.compose.com/articles/postgresql-tips-documenting-the-database/)
@@ -1030,6 +1032,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [What tables will be vacuumed at the next autovacuum cycle?](https://richyen.com/postgres/2017/08/25/what_will_be_vacuumed_autovacuum.html?utm_source=postgresweekly&utm_medium=email)
 - [Three reasons why vaccum won't remove dead rows](https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/)
 - [Per-Table Autovacuum Tuning](https://www.keithf4.com/per-table-autovacuum-tuning/)
+- [Which tables should be auto vacuumed or auto analyzed?](https://www.depesz.com/2020/01/29/which-tables-should-be-auto-vacuumed-or-auto-analyzed/)
 - [Waiting for PostgreSQL 12 – Allow VACUUM to be run with index cleanup disabled](https://www.depesz.com/2019/05/01/waiting-for-postgresql-12-allow-vacuum-to-be-run-with-index-cleanup-disabled/)
 - [Zombies!! Dealing with a Case of Stuck TransactionIDs](https://richyen.com/replication/postgres/2019/01/08/zombie_transactions.html)
 - [Freezing Your Tuples Off, Part 1](http://www.databasesoup.com/2012/09/freezing-your-tuples-off-part-1.html)
