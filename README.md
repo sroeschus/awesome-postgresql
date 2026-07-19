@@ -954,6 +954,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 - [Logging transactions that dropped tables](https://blog.hagander.net/logging-transactions-that-dropped-tables-236/?utm_source=postgresweekly&utm_medium=email)
 
 ## Security
+- [Postgres AI Access Security Kit](https://datamcp.app/resources/postgres-ai-access-security-kit) - Annotated SQL template for least-privilege AI and agent access, including non-owner roles, explicit grants, default privileges, RLS checks, denial tests, and revocation.
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 1](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-1)
 - [PostgreSQL Deep Dive: PostgreSQL Defaults and Impact on Security - Part 2](https://info.crunchydata.com/blog/postgresql-defaults-and-impact-on-security-part-2)
 - [pgAudit: Auditing database operations part 1](https://info.crunchydata.com/blog/pgaudit-auditing-database-operations-part-1)
