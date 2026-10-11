@@ -317,6 +317,7 @@ List of links with a focus on free and open source software for PostgreSQL.
 * [wal-g](https://github.com/wal-g/wal-g) - Archival and restauration tool
 * [yoke](https://github.com/nanopack/yoke) - High-availability cluster with auto-failover and automated cluster recovery
 * [xlogdump](https://github.com/snaga/xlogdump) - A tool for extracting data from the PostgreSQL's write ahead logs
+* [OLake](https://github.com/datazip-inc/olake) - Open-source PostgreSQL to Apache Iceberg replication using logical replication (CDC), full refresh and incremental sync. Written in Go
 
 # Forks
 * [Agensgraph](https://github.com/bitnine-oss/agensgraph) - AgensGraph, a transactional graph database based on PostgreSQL
